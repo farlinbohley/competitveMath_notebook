@@ -1,0 +1,17 @@
+# AMC 10 Problem Scraper Requirements
+# Compatible with Python 3.8+
+
+# HTTP requests library
+requests==2.31.0
+
+# HTML parsing library
+beautifulsoup4==4.12.3
+
+# HTTP retry and connection pooling
+urllib3==2.2.1
+
+# Required by beautifulsoup4 for better HTML parsing
+lxml==5.1.0
+
+# Optional but recommended for better character encoding detection
+chardet==5.2.0
