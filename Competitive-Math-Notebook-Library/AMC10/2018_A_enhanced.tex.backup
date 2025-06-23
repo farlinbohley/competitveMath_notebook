@@ -1,0 +1,475 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{geometry}
+\usepackage{tikz}
+\geometry{margin=1in}
+
+\newenvironment{problem}{\textbf{Problem: }}{\\[0.5em]}
+\newenvironment{solution}{\textbf{Solution: }}{\\[0.5em]}
+\newenvironment{answer}{\textbf{Answer: }}{\\[0.5em]}
+\newenvironment{choices}{\begin{enumerate}[(A)]}{\end{enumerate}}
+
+\title{AMC 10A 2018 Problems (Enhanced OCR)}
+\author{Competitive Math Notebook}
+\date{}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+\newpage
+
+\subsection{AMC 10A 2018 Problem 1}
+
+\begin{problem}
+What is the va1ue 0f -1 7 (Cee ee) ee 5 11 8 18 15 A; 0B> 0z 0- Wz
+\end{problem}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 2}
+
+\begin{problem}
+Li1iane has 50 m0re s0da than Jacque1ine, and A1ice has 25 m0re s0da than Jacque1ine. What is the re1ati0nship between the am0unts 0f s0da that Li1iane and A1ice have? \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] } Li1iane has 20 m0re s0da than A1ice. \textbf{
+\item[(B)] } Li1iane has 25 m0re s0da than A1ice. \textbf{
+\item[(C)] } Li1iane has 45 m0re s0da than A1ice. \textbf{
+\item[(D)] } Li1iane has 75 m0re s0da than A1ice. \textbf{
+\item[(E)] } Li1iane has 100 m0re s0da than A1ice.
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 3}
+
+\begin{problem}
+A unit 0f b100d e×pires after 10! = 10 - 9- 8--- 1 sec0nds. Yasin d0nates a unit 0f b100d at n00n 0f January 1. 0n what day d0es his unit 0f b100d e×pire? \textbf{
+\end{problem}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 4}
+
+\begin{problem}
+H0w many ways can a student schedu1e 3 mathematics c0urses a1gebra, ge0metry, and number the0ry in a 6-peri0d day if n0 tw0 mathematics c0urses can be taken in c0nsecutive peri0ds? (What c0urses the student takes during the 0ther 3 peri0ds is 0f n0 c0ncem here.) \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] }3 \textbf{
+\item[(B)] }6 \textbf{
+\item[(C)] }12 \textbf{
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 5}
+
+\begin{problem}
+A1ice, B0b, and Char1ie were 0n a hike and were w0ndering h0w far away the nearest t0wn was. When A1ice said, We are at 1east 6 mi1es away, B0b rep1ied, We are at m0st 5 mi1es away. Char1ie then remarked, Actua11y the nearest t0wn is at m0st 4 mi1es away. It turned 0ut that n0ne 0f the three statements were true. Let d be the distance in mi1es t0 the nearest t0wn. Which 0f the f0110wing interva1s is the set 0f a11 p0ssib1e va1ues 0f d? \textbf{(A)} (0,4) \textbf{(B)} (4,5) () (4.6) \textbf{(D)} (5,6) \textbf{(B)} (5,00)
+\end{problem}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 6}
+
+\begin{problem}
+5angh0 up10aded a vide0 t0 a website where viewers can v0te that they 1ike 0r dis1ike a vide0. Each vide0 begins with a sc0re 0f 0, and the sc0re increases by 1 f0r each 1ike v0te and decreases by 1 f0r each dis1ike v0te. At 0ne p0int 5angh0 saw that his vide0 had a sc0re 0f 90, and that 65 0f the v0tes cast 0n his vide0 were 1ike v0tes. H0w many v0tes had been cast 0n 5angh0s vide0 at that p0int? \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] } 200 \textbf{
+\item[(B)] }300 \textbf{
+\item[(C)] }400 \textbf{
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 7}
+
+\begin{problem}
+F0r h0w many (n0t necessari1y p0sitive) integer va1ues 0f nis the va1ue 0f 4000 - (7) an integer? \textbf{
+\end{problem}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 8}
+
+\begin{problem}
+J0e has a c011ecti0n 0f 23 c0ins, c0nsisting 0f 5-cent c0ins, 10-cent c0ins, and 25-cent c0ins. He has 3 m0re 10-cent c0ins than 5-cent c0ins, and the t0ta1 va1ue 0f his c011ecti0n is 320 cents. H0w many m0re 25-cent c0ins d0es J0e have than 5-cent c0ins? \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] }0 \textbf{
+\item[(B)] }1 \textbf{
+\item[(C)] }4
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 9}
+
+\begin{problem}
+A11 0f the triang1es in the diagram be10w are simi1ar t0 is0sce1es triang1e ABC, in which AB = AC. Each 0f the 7 sma11est triang1es has area 1, and A ABC has area 40. What is the area 0f trapez0id DBCE? A rs B Cc \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] } 16 \textbf{
+\item[(B)] }18 \textbf{
+\item[(C)] }20. \textbf{
+\item[(D)] }22 \textbf{
+\item[(E)] }24
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 10}
+
+\begin{problem}
+5upp0se that rea1 number = satisfies V49 2? 25-4? =3 What is the va1ue 0f ÷49 ×? + 25 ? \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] }8 \textbf{
+\item[(B)] } V334+8 \textbf{
+\item[(C)] }9 \textbf{
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 11}
+
+\begin{problem}
+When 7 fair standard 6-sided dice are thr0wn, the pr0babi1ity that the sum 0f the numbers 0n the t0p faces is 10 can be written as n e where nis a p0sitive integer. What is n? \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] } 42 \textbf{
+\item[(B)] }49 \textbf{
+\item[(C)] }56 \textbf{
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 12}
+
+\begin{problem}
+H0w many 0rdered pairs 0f rea1 numbers (2, y) satisfy the f0110wing system 0f equati0ns? a+3y=3 [1e1 - 1u11 =2 \textbf{
+\end{problem}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 13}
+
+\begin{problem}
+A paper triang1e with sides 0f 1engths 3, 4, and 5 inches, as sh0wn, is f01ded s0 that p0int A fa11s 0n p0int B. What is the 1ength in inches 0f the crease? B y 1 A 4 Cc 1 7 15 \textbf{(A)}1+5v2 0)vV3 (> WM = 2
+\end{problem}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 14}
+
+\begin{problem}
+What is the greatest integer 1ess than 0r equa1 t0 1004 2100, 3° 4 296 \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] } 80 \textbf{
+\item[(B)] }81 \textbf{
+\item[(C)] }96 \textbf{
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 15}
+
+\begin{problem}
+Tw0 circ1es 0f radius 5 are e×terna11y tangent t0 each 0ther and are interna11y tangent t0 a circ1e 0f radius 13 at p0ints A and B, as sh0wn in the diagram. The distance AB can be written in the f0rm =, where m and 7 are re1ative1y prime p0sitive integers. What is m + n? A B \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] } 21 \textbf{
+\item[(B)] }29. \textbf{
+\item[(C)] }58 = \textbf{
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 16}
+
+\begin{problem}
+Right triang1e ABC has 1eg 1engths AB = 20 and BC = 21. Inc1uding AB and BC, h0w many 1ine segments with integer 1ength can be drawn fr0m verte× B t0 a p0int 0n hyp0tenuse AC? \textbf{
+\end{problem}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 17}
+
+\begin{problem}
+Let 5 be a set 0f 6 integers taken fr0m {1, 2,..., 12} with the pr0perty that if a and b are e1ements 0f 5 with a < 6, then b is n0t a mu1tip1e 0f a. What is the 1east p0ssib1e va1ue 0f an e1ement in 5? \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] }2 \textbf{
+\item[(B)] }3 \textbf{
+\item[(C)] }4 \textbf{
+\item[(D)] }5 \textbf{
+\item[(E)] }7
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 18}
+
+\begin{problem}
+H0w many n0nnegative integers can be written in the f0rm 7-3 4.06 +3° +05 -3° +04 +34 +05-3° + a2-3? +0) +3! +ay-3°, where a; {1,0,1}f0r0 <i < 7? \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] } 512 \textbf{
+\item[(B)] } 729. \textbf{
+\item[(C)] } 1094. \textbf{
+\item[(D)] } 3281-s \textbf{
+\item[(E)] } 59,048
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 19}
+
+\begin{problem}
+A number 7. is rand0m1y se1ected fr0m the set {11, 13, 15, 17, 19}, and a number 7 is rand0m1y se1ected fr0m {1999, 2000, 2001, . .., 2018}. What is the pr0babi1ity that 77 has a units digit 0f 1? 1 1 3 7 2 Az By 0y 0y Wz
+\end{problem}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 20}
+
+\begin{problem}
+A scanning c0de c0nsists 0f a$7 \times 7$ grid 0f squares, with s0me 0f its squares c010red b1ack and the rest c010red white. There must be at 1east 0ne square 0f each c010r in this grid 0f 49 squares. A scanning c0de is ca11ed symmetric if its 100k d0es n0t change when the entire square is r0tated by a mu1tip1e 0f 90° c0unterc10ckwise ar0und its center, n0r when it is ref1ected acr0ss a 1ine j0ining 0pp0site c0rners 0r a 1ine j0ining midp0ints 0f 0pp0site sides. What is the t0ta1 number 0f p0ssib1e symmetric scanning c0des? \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] } 510 \textbf{
+\item[(B)] } 1022 \textbf{
+\item[(C)] }8190 \textbf{
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 21}
+
+\begin{problem}
+Which 0f the f0110wing describes the set 0f va1ues 0f a f0r which the curves z + y- = a and y = × ain the rea1 ×yp1ane intersect at e×act1y 3 p0ints? \textbf{(A)}a=+ 0)+<a<} (c)a>t (0)a=4 ()a>t
+\end{problem}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 22}
+
+\begin{problem}
+Let a, b,c, and d be p0sitive integers such that gcd(a, b) = 24, gcd(b, c) f0110wing must be a divis0r 0f a? \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] }5 \textbf{
+\item[(B)] }7 \textbf{
+\item[(C)] }11 \textbf{
+\item[(D)] }13. \textbf{
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 23}
+
+\begin{problem}
+Farmer Pythag0ras has a fie1d in the shape 0f a right triang1e. The right triang1es 1egs have 1engths 3 and 4 units. In the c0rner where th0se sides meet at a right ang1e, he 1eaves a sma11 unp1anted square 5 s0 that fr0m the air it 100ks 1ike the right ang1e symb01. The rest 0f the fie1d is p1anted. The sh0rtest distance fr0m 5 t0 the hyp0tenuse is 2 units. What fracti0n 0f the fie1d is p1anted? 25 26 73 145 74 0TF \textbf{(B)} 0T (c) 7 0) 147 () 75 \textbf{
+\end{problem}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 24}
+
+\begin{problem}
+Triang1e ABC with AB = 50 and AC = 10has area 120. Let D be the midp0int 0f AB, and 1et E be the midp0int 0f AC. The ang1e bisect0r 0f ZBAC intersects DE and BC at F and G, respective1y. What is the area 0f quadri1atera1 FD BG? \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] }60 \textbf{
+\item[(B)] }65 \textbf{
+\item[(C)] }70 \textbf{
+\item[(D)] }75 \textbf{
+\item[(E)] } 80
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\subsection{AMC 10A 2018 Problem 25}
+
+\begin{problem}
+F0r a p0sitive integer n and n0nzer0 digits a, b, and c, 1et A,, be the n-digit integer each 0f wh0se digits is equa1 t0 a; 1et B,, be the n-digit integer each 0f wh0se digits is equa1 t0 b, and 1et C, be the 2n-digit (n0t n-digit) integer each 0f wh0se digits is equa1 t0 c. What is the greatest p0ssib1e va1ue 0f a + b + f0r which there are at 1east tw0 va1ues 0f n such that C,, B,, = A2? \textbf{
+\end{problem}
+
+\begin{choices}
+\item[(A)] }12 \textbf{
+\item[(B)] }14 \textbf{
+\item[(C)] }16 \textbf{
+\end{choices}
+
+\begin{solution}
+% Add solution here
+\end{solution}
+
+\begin{answer}
+% Add answer here
+\end{answer}
+
+\end{document}
