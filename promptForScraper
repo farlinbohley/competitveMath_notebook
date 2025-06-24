@@ -1,0 +1,132 @@
+Please create a Python script that scrapes past AMC 10A and AMC 10B problems from the Art of Problem Solving (AoPS) Wiki.
+Specifications:
+Source: The script should scrape problems from https://artofproblemsolving.com/wiki/. The URL for a specific problem is in the format https://artofproblemsolving.com/wiki/index.php/YYYY_AMC_10{A|B}_Problems/Problem_X, where YYYY is the year, {A|B} is the contest version, and X is the problem number.
+Scope: The scraper should be configurable to download problems for a given range of years and for both A and B versions of the test.
+Content to Scrape: For each problem, the script should extract:
+The problem text.
+The multiple-choice options.
+All provided solutions.
+a typical html code from the website looks like this @2024_AMC_10A_Problem_1.html 
+Output Format: The scraped data for each competition (e.g., 2023 AMC 10A) should be saved into a single structured json file . The file should be organized by problem number, clearly separating the problem statement, options, and different solutions.
+{
+  "1": {
+    "problem": "Text of the problem statement",
+    "options": {
+      "A": "First answer choice text",
+      "B": "Second answer choice text", 
+      "C": "Third answer choice text",
+      "D": "Fourth answer choice text",
+      "E": "Fifth answer choice text"
+    },
+    "solutions": [
+      {
+        "title": "Solution 1",
+        "content": "Detailed solution text with step-by-step explanation"
+      },
+      {
+        "title": "Solution 2", 
+        "content": "Alternative solution approach and explanation"
+      }
+    ]
+  },
+  "2": {
+    "problem": "Text of the second problem statement",
+    "options": {
+      "A": "First answer choice text",
+      "B": "Second answer choice text",
+      "C": "Third answer choice text", 
+      "D": "Fourth answer choice text",
+      "E": "Fifth answer choice text"
+    },
+    "solutions": [
+      {
+        "title": "Solution 1",
+        "content": "Solution explanation for problem 2"
+      }
+    ]
+  }
+}
+File Naming and Location: The output files should be named YYYY_AMC_10{A|B}.json (or .md) and saved in the Competitive-Math-Notebook-Library/AMC10/ directory to maintain consistency with your existing project structure.
+Dependencies: Please list all necessary Python libraries (e.g., requests, beautifulsoup4) in a requirements.txt file inside the scraperForProblems directory.
+Execution: The script should be runnable from the command line, with arguments to specify the year(s) and contest version(s) to scrape. For example: python scraper.py --years 2020-2023 --contests A B. is the prompt ready now
+
+
+Note: Based on the current implementation and the sample output files provided, the scraper is not currently extracting multiple-choice options from the problems. The "options" field in the JSON output is consistently empty across all scraped problems. This appears to be a limitation of the current scraping logic that focuses primarily on extracting the problem text and solutions.
+
+If multiple-choice options are required for your use case, the scraper would need to be enhanced to:
+1. Identify and parse the options section from the HTML structure
+2. Extract each option (typically labeled A, B, C, D, E)
+3. Handle various formatting patterns used across different years
+
+The current scraper successfully extracts problem statements and solutions, but does not capture the answer choices.
+
+## Update for Options Scraping
+
+Based on the analysis of the current implementation, the scraper successfully extracts problem statements and solutions but does not capture the multiple-choice options. The "options" field in all existing JSON files is consistently empty.
+
+### Required Enhancement
+
+The scraper needs to be enhanced to:
+
+1. **Extract Multiple-Choice Options**: Parse the HTML structure to identify and extract answer choices (typically labeled A, B, C, D, E) from each problem.
+
+2. **Update Existing Files**: The enhanced scraper should merge the newly scraped options into the already existing JSON files located at:
+   `/Users/Chris/competitveMath_notebook/scraperForProblems/Competitive-Math-Notebook-Library/AMC10/`
+
+3. **Preserve Existing Data**: When updating files, the scraper must preserve all existing problem statements and solutions, only adding the missing options data.
+
+### Implementation Notes
+
+The options extraction logic would need to:
+- Identify the options section in the HTML (often found between the problem statement and solutions)
+- Handle various formatting patterns used across different years and contests
+- Parse each option choice (A, B, C, D, E) with their corresponding text
+- Gracefully handle cases where options might not be present or formatted differently
+
+### Usage Example
+
+Once enhanced, the scraper could be run specifically to update existing files with options:
+## Raw HTML Extraction Prompt
+
+Based on your request, here's a focused prompt for creating a scraper to extract raw HTML first:
+
+### Task: Create a Raw HTML Scraper for AMC Problems
+
+**Objective**: Build a Python script that downloads and saves the raw HTML content from Art of Problem Solving (AoPS) AMC 10 problem pages for further analysis and processing.
+
+**Target URLs**: 
+- Pattern: `https://artofproblemsolving.com/wiki/index.php/YYYY_AMC_10{A|B}_Problems`
+- Example: `https://artofproblemsolving.com/wiki/index.php/2024_AMC_10A_Problems`
+
+**Requirements**:
+
+1. **HTML Download**: Create a script that fetches the complete HTML content from AoPS problem pages
+2. **File Organization**: Save raw HTML files with clear naming convention:
+   - Format: `YYYY_AMC_10{A|B}_Problems.html`
+   - Location: `scraperForProblems/raw_html/` directory
+3. **Year Range Support**: Allow specifying year ranges (e.g., 2020-2024)
+4. **Contest Type Support**: Support both A and B contests
+5. **Error Handling**: Robust error handling for network issues, missing pages, etc.
+6. **Rate Limiting**: Respectful scraping with delays between requests
+7. **Progress Tracking**: Show progress when downloading multiple years
+
+**Sample Usage**:
+You're a code assistant. The following is raw HTML content of an AMC problem page from the AoPS Wiki.
+
+Your task is to extract ONLY the multiple-choice options (A) through (E). Ignore everything else: problem statement, LaTeX, explanations, etc.
+
+Return the result as a JSON list like this:
+{
+  "options": [
+    "(A) 4",
+    "(B) 5",
+    "(C) 6",
+    "(D) 7",
+    "(E) 8"
+  ]
+}
+
+HTML content:
+```html
+<!-- Paste your file’s HTML content here -->
+ 

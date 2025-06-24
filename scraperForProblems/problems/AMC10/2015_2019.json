@@ -1,0 +1,3948 @@
+{
+  "2015_AMC_10A_Problems": {
+    "1": {
+      "problem": "What is the value of",
+      "options": {
+        "A": "}\\ -125",
+        "B": "}\\ -120",
+        "C": "}\\ \\frac{1}{5}",
+        "D": "}\\ \\frac{5}{24}",
+        "E": "}\\ 25"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_1"
+        }
+      ]
+    },
+    "2": {
+      "problem": "A box contains a collection of triangular and square tiles. There are tiles in the box, containing edges total. How many square tiles are there in the box?",
+      "options": {
+        "A": "}\\ 3",
+        "B": "}\\ 5",
+        "C": "}\\ 7",
+        "D": "}\\ 9",
+        "E": "}\\ 11"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_2"
+        }
+      ]
+    },
+    "3": {
+      "problem": "Ann made a 3-step staircase using 18 toothpicks as shown in the figure. How many toothpicks does she need to add to complete a 5-step staircase?",
+      "options": {
+        "A": "}\\ 9",
+        "B": "}\\ 18",
+        "C": "}\\ 20",
+        "D": "}\\ 22",
+        "E": "}\\ 24"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_3"
+        }
+      ]
+    },
+    "4": {
+      "problem": "Pablo, Sofia, and Mia got some candy eggs at a party. Pablo had three times as many eggs as Sofia, and Sofia had twice as many eggs as Mia. Pablo decides to give some of his eggs to Sofia and Mia so that all three will have the same number of eggs. What fraction of his eggs should Pablo give to Sofia?",
+      "options": {
+        "A": "}\\ \\frac{1}{12}",
+        "B": "}\\ \\frac{1}{6}",
+        "C": "}\\ \\frac{1}{4}",
+        "D": "}\\ \\frac{1}{3}",
+        "E": "}\\ \\frac{1}{2}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_4"
+        }
+      ]
+    },
+    "5": {
+      "problem": "Mr. Patrick teaches math to students. He was grading tests and found that when he graded everyone's test except Payton's, the average grade for the class was . After he graded Payton's test, the test average became . What was Payton's score on the test?",
+      "options": {
+        "A": "}\\ 81",
+        "B": "}\\ 85",
+        "C": "}\\ 91",
+        "D": "}\\ 94",
+        "E": "}\\ 95"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_5"
+        }
+      ]
+    },
+    "6": {
+      "problem": "The sum of two positive numbers is times their difference. What is the ratio of the larger number to the smaller number?",
+      "options": {
+        "A": "}\\ \\frac{5}{4}",
+        "B": "}\\ \\frac{3}{2}",
+        "C": "}\\ \\frac{9}{5}",
+        "D": "}\\ 2",
+        "E": "}\\ \\frac{5}{2}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_6"
+        }
+      ]
+    },
+    "7": {
+      "problem": "How many terms are there in the arithmetic sequence , , , . . ., , ?",
+      "options": {
+        "A": "}\\ 20",
+        "B": "}\\ 21",
+        "C": "}\\ 24",
+        "D": "}\\ 60",
+        "E": "}\\ 61"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_7"
+        }
+      ]
+    },
+    "8": {
+      "problem": "Two years ago Pete was three times as old as his cousin Claire. 2 years before that, Pete was four times as old as Claire. In how many years will the ratio of their ages be : ?",
+      "options": {
+        "A": "}\\ 2",
+        "B": "}\\ 4",
+        "C": "}\\ 5",
+        "D": "}\\ 6",
+        "E": "}\\ 8"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_8"
+        }
+      ]
+    },
+    "9": {
+      "problem": "Two right circular cylinders have the same volume. The radius of the second cylinder is more than the radius of the first. What is the relationship between the heights of the two cylinders?",
+      "options": {
+        "A": "}\\ \\text{The second height is } 10\\% \\text{ less than the first.}",
+        "B": "}\\ \\text{The first height is } 10\\% \\text{ more than the second.}",
+        "C": "}\\ \\text{The second height is } 21\\% \\text{ less than the first.}",
+        "D": "}\\ \\text{The first height is } 21\\% \\text{ more than the second.}",
+        "E": "}\\ \\text{The second height is } 80\\% \\text{ of the first.}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_9"
+        }
+      ]
+    },
+    "10": {
+      "problem": "How many rearrangements of are there in which no two adjacent letters are also adjacent letters in the alphabet? For example, no such rearrangements could include either or .",
+      "options": {
+        "A": "}\\ 0",
+        "B": "}\\ 1",
+        "C": "}\\ 2",
+        "D": "}\\ 3",
+        "E": "}\\ 4"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_10"
+        }
+      ]
+    },
+    "11": {
+      "problem": "The ratio of the length to the width of a rectangle is : . If the rectangle has diagonal of length , then the area may be expressed as for some constant . What is ?",
+      "options": {
+        "A": "}\\ \\frac{2}{7}",
+        "B": "}\\ \\frac{3}{7}",
+        "C": "}\\ \\frac{12}{25}",
+        "D": "}\\ \\frac{16}{25}",
+        "E": "}\\ \\frac{3}{4}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_11"
+        }
+      ]
+    },
+    "12": {
+      "problem": "Points and are distinct points on the graph of . What is ?",
+      "options": {
+        "A": "}1",
+        "B": "}\\dfrac{\\pi}{2}",
+        "C": "}2",
+        "D": "}\\sqrt{1+\\pi}",
+        "E": "}1+\\sqrt{\\pi}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_12"
+        }
+      ]
+    },
+    "13": {
+      "problem": "Claudia has 12 coins, each of which is a 5-cent coin or a 10-cent coin. There are exactly 17 different values that can be obtained as combinations of one or more of her coins. How many 10-cent coins does Claudia have?",
+      "options": {
+        "A": "}3",
+        "B": "}4",
+        "C": "}5",
+        "D": "}6",
+        "E": "}7"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_13"
+        }
+      ]
+    },
+    "14": {
+      "problem": "The diagram below shows the circular face of a clock with radius cm and a circular disk with radius cm externally tangent to the clock face at o'clock. The disk has an arrow painted on it, initially pointing in the upward vertical direction. Let the disk roll clockwise around the clock face. At what point on the clock face will the disk be tangent when the arrow is next pointing in the upward vertical direction?",
+      "options": {
+        "A": "}\\mathrm{2 o'clock}",
+        "B": "}\\mathrm{3 o'clock}",
+        "C": "}\\mathrm{4 o'clock}",
+        "D": "}\\mathrm{6 o'clock}",
+        "E": "}\\mathrm{8 o'clock}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_14"
+        }
+      ]
+    },
+    "15": {
+      "problem": "Consider the set of all fractions where and are relatively prime positive integers. How many of these fractions have the property that if both numerator and denominator are increased by , the value of the fraction is increased by ?",
+      "options": {
+        "A": "}0",
+        "B": "}1",
+        "C": "}2",
+        "D": "}3",
+        "E": "}\\text{infinitely many}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_15"
+        }
+      ]
+    },
+    "16": {
+      "problem": "If , and , what is the value of ?",
+      "options": {
+        "A": "}10",
+        "B": "}15",
+        "C": "}20",
+        "D": "}25",
+        "E": "}\\text{30}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_16"
+        }
+      ]
+    },
+    "17": {
+      "problem": "A line that passes through the origin intersects both the line and the line . The three lines create an equilateral triangle. What is the perimeter of the triangle?",
+      "options": {
+        "A": "}2\\sqrt{6}",
+        "B": "}2+2\\sqrt{3}",
+        "C": "}6",
+        "D": "}3+2\\sqrt{3}",
+        "E": "}6+\\frac{\\sqrt{3}}{3}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_17"
+        }
+      ]
+    },
+    "18": {
+      "problem": "Hexadecimal (base-16) numbers are written using numeric digits through as well as the letters through to represent through . Among the first positive integers, there are whose hexadecimal representation contains only numeric digits. What is the sum of the digits of ?",
+      "options": {
+        "A": "}17",
+        "B": "}18",
+        "C": "}19",
+        "D": "}20",
+        "E": "}21"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_18"
+        }
+      ]
+    },
+    "19": {
+      "problem": "The isosceles right triangle has right angle at and area . The rays trisecting intersect at and . What is the area of ?",
+      "options": {
+        "A": "}\\dfrac{5\\sqrt{2}}{3}",
+        "B": "}\\dfrac{50\\sqrt{3}-75}{4}",
+        "C": "}\\dfrac{15\\sqrt{3}}{8}",
+        "D": "}\\dfrac{50-25\\sqrt{3}}{2}",
+        "E": "}\\dfrac{25}{6}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_19"
+        }
+      ]
+    },
+    "20": {
+      "problem": "A rectangle with positive integer side lengths in has area and perimeter . Which of the following numbers cannot equal ? As it originally appeared in the AMC 10, this problem was stated incorrectly and had no answer; it has been modified here to be solvable. This is the original question: A rectangle with side lengths in has an area of integer and a perimeter of integer . Which of the following numbers cannot equal ?",
+      "options": {
+        "A": "}100",
+        "B": "}102",
+        "C": "}104",
+        "D": "}106",
+        "E": "}108"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_20"
+        }
+      ]
+    },
+    "21": {
+      "problem": "Tetrahedron has , , , , , and . What is the volume of the tetrahedron?",
+      "options": {
+        "A": "}3\\sqrt2",
+        "B": "}2\\sqrt5",
+        "C": "}\\dfrac{24}5",
+        "D": "}3\\sqrt3",
+        "E": "}\\dfrac{24}5\\sqrt2"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_21"
+        }
+      ]
+    },
+    "22": {
+      "problem": "Eight people are sitting around a circular table, each holding a fair coin. All eight people flip their coins and those who flip heads stand while those who flip tails remain seated. What is the probability that no two adjacent people will stand?",
+      "options": {
+        "A": "}\\dfrac{47}{256}",
+        "B": "}\\dfrac{3}{16}",
+        "C": "}\\dfrac{49}{256}",
+        "D": "}\\dfrac{25}{128}",
+        "E": "}\\dfrac{51}{256}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_22"
+        }
+      ]
+    },
+    "23": {
+      "problem": "The zeroes of the function are integers. What is the sum of the possible values of ?",
+      "options": {
+        "A": "}7",
+        "B": "}8",
+        "C": "}16",
+        "D": "}17",
+        "E": "}18"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_23"
+        }
+      ]
+    },
+    "24": {
+      "problem": "For some positive integers , there is a quadrilateral with positive integer side lengths, perimeter , right angles at and , , and . How many different values of are possible?",
+      "options": {
+        "A": "}30",
+        "B": "}31",
+        "C": "}61",
+        "D": "}62",
+        "E": "}63"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_24"
+        }
+      ]
+    },
+    "25": {
+      "problem": "Let be a square of side length . Two points are chosen at random on the sides of . The probability that the straight-line distance between the points is at least is , where , , and are positive integers with . What is ?",
+      "options": {
+        "A": "}59",
+        "B": "}60",
+        "C": "}61",
+        "D": "}62",
+        "E": "}63"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10A_Problems/Problem_25"
+        }
+      ]
+    }
+  },
+  "2015_AMC_10B_Problems": {
+    "1": {
+      "problem": "What is the value of ?",
+      "options": {
+        "A": "} -2",
+        "B": "} \\dfrac{1}{16}",
+        "C": "} \\dfrac{7}{4}",
+        "D": "} \\dfrac{9}{4}",
+        "E": "} 6"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_1"
+        }
+      ]
+    },
+    "2": {
+      "problem": "Marie does three equally time-consuming tasks in a row without taking breaks. She begins the first task at 1:00 PM and finishes the second task at 2:40 PM. When does she finish the third task?",
+      "options": {
+        "A": "}\\text{3:10 PM}",
+        "B": "}\\text{3:30 PM}",
+        "C": "}\\text{4:00 PM}",
+        "D": "}\\text{4:10 PM}",
+        "E": "}\\text{4:30 PM}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_2"
+        }
+      ]
+    },
+    "3": {
+      "problem": "Isaac has written down one integer two times and another integer three times. The sum of the five numbers is , and one of the numbers is What is the other number?",
+      "options": {
+        "A": "} 8",
+        "B": "} 11",
+        "C": "} 14",
+        "D": "} 15",
+        "E": "} 18"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_3"
+        }
+      ]
+    },
+    "4": {
+      "problem": "Four siblings ordered an extra large pizza. Alex ate , Beth , and Cyril of the pizza. Dan got the leftovers. What is the sequence of the siblings in decreasing order of the part of pizza they consumed?",
+      "options": {
+        "A": "} \\text{Alex, Beth, Cyril, Dan}",
+        "B": "} \\text{Beth, Cyril, Alex, Dan}",
+        "C": "} \\text{Beth, Cyril, Dan, Alex}",
+        "D": "} \\text{Beth, Dan, Cyril, Alex}",
+        "E": "} \\text{Dan, Beth, Cyril, Alex}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_4"
+        }
+      ]
+    },
+    "5": {
+      "problem": "David, Hikmet, Jack, Marta, Rand, and Todd were in a -person race with other people. Rand finished places ahead of Hikmet. Marta finished place behind Jack. David finished places behind Hikmet. Jack finished places behind Todd. Todd finished place behind Rand. Marta finished in th place. Who finished in th place?",
+      "options": {
+        "A": "} \\text{David}",
+        "B": "} \\text{Hikmet}",
+        "C": "} \\text{Jack}",
+        "D": "} \\text{Rand}",
+        "E": "} \\text{Todd}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_5"
+        }
+      ]
+    },
+    "6": {
+      "problem": "Marley practices exactly one sport each day of the week. She runs three days a week but never on two consecutive days. On Monday she plays basketball and two days later golf. She swims and plays tennis, but she never plays tennis the day after running or swimming. Which day of the week does Marley swim?",
+      "options": {
+        "A": "} \\text{Sunday}",
+        "B": "} \\text{Tuesday}",
+        "C": "} \\text{Thursday}",
+        "D": "} \\text{Friday}",
+        "E": "} \\text{Saturday}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_6"
+        }
+      ]
+    },
+    "7": {
+      "problem": "Consider the operation \"minus the reciprocal of,\" defined by . What is ?",
+      "options": {
+        "A": "} -\\dfrac{7}{30}",
+        "B": "} -\\dfrac{1}{6}",
+        "C": "} 0",
+        "D": "} \\dfrac{1}{6}",
+        "E": "} \\dfrac{7}{30}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_7"
+        }
+      ]
+    },
+    "8": {
+      "problem": "The letter F shown below is rotated clockwise around the origin, then reflected in the -axis, and then rotated a half turn around the origin. What is the final image?",
+      "options": {},
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_8"
+        }
+      ]
+    },
+    "9": {
+      "problem": "The shaded region below is called a shark's fin falcata, a figure studied by Leonardo da Vinci. It is bounded by the portion of the circle of radius and center that lies in the first quadrant, the portion of the circle with radius and center that lies in the first quadrant, and the line segment from to . What is the area of the shark's fin falcata?",
+      "options": {
+        "A": "} \\dfrac{4\\pi}{5}",
+        "B": "} \\dfrac{9\\pi}{8}",
+        "C": "} \\dfrac{4\\pi}{3}",
+        "D": "} \\dfrac{7\\pi}{5}",
+        "E": "} \\dfrac{3\\pi}{2}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_9"
+        }
+      ]
+    },
+    "10": {
+      "problem": "What is the sign and units digit of the product of all the odd negative integers strictly greater than ?",
+      "options": {
+        "A": "} \\text{It is a negative number ending with a 1.}",
+        "B": "} \\text{It is a positive number ending with a 1.}",
+        "C": "} \\text{It is a negative number ending with a 5.}",
+        "D": "} \\text{It is a positive number ending with a 5.}",
+        "E": "} \\text{It is a negative number ending with a 0.}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_10"
+        }
+      ]
+    },
+    "11": {
+      "problem": "Among the positive integers less than , each of whose digits is a prime number, one is selected at random. What is the probability that the selected number is prime?",
+      "options": {
+        "A": "} \\dfrac{8}{99}",
+        "B": "} \\dfrac{2}{5}",
+        "C": "} \\dfrac{9}{20}",
+        "D": "} \\dfrac{1}{2}",
+        "E": "} \\dfrac{9}{16}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_11"
+        }
+      ]
+    },
+    "12": {
+      "problem": "For how many integers is the point inside or on the circle of radius centered at ?",
+      "options": {
+        "A": "} 11",
+        "B": "} 12",
+        "C": "} 13",
+        "D": "} 14",
+        "E": "} 15"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_12"
+        }
+      ]
+    },
+    "13": {
+      "problem": "The line forms a triangle with the coordinate axes. What is the sum of the lengths of the altitudes of this triangle?",
+      "options": {
+        "A": "} 20",
+        "B": "} \\dfrac{360}{17}",
+        "C": "} \\dfrac{107}{5}",
+        "D": "} \\dfrac{43}{2}",
+        "E": "} \\dfrac{281}{13}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_13"
+        }
+      ]
+    },
+    "14": {
+      "problem": "Let , , and be three distinct one-digit numbers. What is the maximum value of the sum of the roots of the equation ?",
+      "options": {
+        "A": "} 15",
+        "B": "} 15.5",
+        "C": "} 16",
+        "D": "} 16.5",
+        "E": "} 17"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_14"
+        }
+      ]
+    },
+    "15": {
+      "problem": "The town of Hamlet has people for each horse, sheep for each cow, and ducks for each person. Which of the following could not possibly be the total number of people, horses, sheep, cows, and ducks in Hamlet?",
+      "options": {
+        "A": "} 41",
+        "B": "} 47",
+        "C": "} 59",
+        "D": "} 61",
+        "E": "} 66"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_15"
+        }
+      ]
+    },
+    "16": {
+      "problem": "Al, Bill, and Cal will each randomly be assigned a whole number from to , inclusive, with no two of them getting the same number. What is the probability that Al's number will be a whole number multiple of Bill's and Bill's number will be a whole number multiple of Cal's?",
+      "options": {
+        "A": "} \\dfrac{9}{1000}",
+        "B": "} \\dfrac{1}{90}",
+        "C": "} \\dfrac{1}{80}",
+        "D": "} \\dfrac{1}{72}",
+        "E": "} \\dfrac{2}{121}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_16"
+        }
+      ]
+    },
+    "17": {
+      "problem": "When the centers of the faces of the right rectangular prism shown below are joined to create an octahedron, what is the volume of the octahedron?",
+      "options": {
+        "A": "} \\dfrac{75}{12}",
+        "B": "} 10",
+        "C": "} 12",
+        "D": "} 10\\sqrt2",
+        "E": "} 15"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_17"
+        }
+      ]
+    },
+    "18": {
+      "problem": "Johann has fair coins. He flips all the coins. Any coin that lands on tails is tossed again. Coins that land on tails on the second toss are tossed a third time. What is the expected number of coins that are now heads?",
+      "options": {
+        "A": "} 32",
+        "B": "} 40",
+        "C": "} 48",
+        "D": "} 56",
+        "E": "} 64"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_18"
+        }
+      ]
+    },
+    "19": {
+      "problem": "In , and . Squares and are constructed outside of the triangle. The points , and lie on a circle. What is the perimeter of the triangle?",
+      "options": {
+        "A": "}\\ 12+9\\sqrt{3}",
+        "B": "}\\ 18+6\\sqrt{3}",
+        "C": "}\\ 12+12\\sqrt{2}",
+        "D": "}\\ 30",
+        "E": "}\\ 32"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_19"
+        }
+      ]
+    },
+    "20": {
+      "problem": "Erin the ant starts at a given corner of a cube and crawls along exactly edges in such a way that she visits every corner exactly once and then finds that she is unable to return along an edge to her starting point. How many paths are there meeting these conditions?",
+      "options": {
+        "A": "}\\text{6}",
+        "B": "}\\text{9}",
+        "C": "}\\text{12}",
+        "D": "}\\text{18}",
+        "E": "}\\text{24}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_20"
+        }
+      ]
+    },
+    "21": {
+      "problem": "Cozy the Cat and Dash the Dog are going up a staircase with a certain number of steps. However, instead of walking up the steps one at a time, both Cozy and Dash jump. Cozy goes two steps up with each jump (though if necessary, he will just jump the last step). Dash goes five steps up with each jump (though if necessary, he will just jump the last steps if there are fewer than 5 steps left). Suppose Dash takes 19 fewer jumps than Cozy to reach the top of the staircase. Let denote the sum of all possible numbers of steps this staircase can have. What is the sum of the digits of ?",
+      "options": {
+        "A": "} 9",
+        "B": "} 11",
+        "C": "} 12",
+        "D": "} 13",
+        "E": "} 15"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_21"
+        }
+      ]
+    },
+    "22": {
+      "problem": "In the figure shown below, is a regular pentagon and . What is ?",
+      "options": {
+        "A": "} 3",
+        "B": "} 12-4\\sqrt5",
+        "C": "} \\dfrac{5+2\\sqrt5}{3}",
+        "D": "} 1+\\sqrt5",
+        "E": "} \\dfrac{11+11\\sqrt5}{10}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_22"
+        }
+      ]
+    },
+    "23": {
+      "problem": "Let be a positive integer greater than 4 such that the decimal representation of ends in zeros and the decimal representation of ends in zeros. Let denote the sum of the four least possible values of . What is the sum of the digits of ?",
+      "options": {
+        "A": "}7",
+        "B": "}8",
+        "C": "}9",
+        "D": "}10",
+        "E": "}11"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_23"
+        }
+      ]
+    },
+    "24": {
+      "problem": "Aaron the ant walks on the coordinate plane according to the following rules. He starts at the origin facing to the east and walks one unit, arriving at . For , right after arriving at the point , if Aaron can turn left and walk one unit to an unvisited point , he does that. Otherwise, he walks one unit straight ahead to reach . Thus the sequence of points continues , and so on in a counterclockwise spiral pattern. What is ?",
+      "options": {
+        "A": "} (-22,-13)",
+        "B": "} (-13,-22)",
+        "C": "} (-13,22)",
+        "D": "} (13,-22)",
+        "E": "} (22,-13)"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_24"
+        }
+      ]
+    },
+    "25": {
+      "problem": "A rectangular box measures , where and are integers and . The volume and surface area of the box are numerically equal. How many ordered triples are possible?",
+      "options": {
+        "A": "}4",
+        "B": "}10",
+        "C": "}12",
+        "D": "}21",
+        "E": "}26"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2015_AMC_10B_Problems/Problem_25"
+        }
+      ]
+    }
+  },
+  "2016_AMC_10A_Problems": {
+    "1": {
+      "problem": "What is the value of ?",
+      "options": {
+        "A": "}\\ 99",
+        "B": "}\\ 100",
+        "C": "}\\ 110",
+        "D": "}\\ 121",
+        "E": "}\\ 132"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_1"
+        }
+      ]
+    },
+    "2": {
+      "problem": "For what value does ?",
+      "options": {
+        "A": "}\\ 1",
+        "B": "}\\ 2",
+        "C": "}\\ 3",
+        "D": "}\\ 4",
+        "E": "}\\ 5"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_2"
+        }
+      ]
+    },
+    "3": {
+      "problem": "For every dollar Ben spent on bagels, David spent cents less. Ben paid more than David. How much did they spend in the bagel store together?",
+      "options": {
+        "A": "}\\ $37.50",
+        "B": "}\\ $50.00",
+        "C": "}\\ $87.50",
+        "D": "}\\ $90.00",
+        "E": "}\\ $92.50"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_3"
+        }
+      ]
+    },
+    "4": {
+      "problem": "The remainder can be defined for all real numbers and with by where denotes the greatest integer less than or equal to . What is the value of ?",
+      "options": {
+        "A": "} -\\frac{3}{8}",
+        "B": "} -\\frac{1}{40}",
+        "C": "} 0",
+        "D": "} \\frac{3}{8}",
+        "E": "} \\frac{31}{40}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_4"
+        }
+      ]
+    },
+    "5": {
+      "problem": "A rectangular box has integer side lengths in the ratio . Which of the following could be the volume of the box?",
+      "options": {
+        "A": "}\\ 48",
+        "B": "}\\ 56",
+        "C": "}\\ 64",
+        "D": "}\\ 96",
+        "E": "}\\ 144"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_5"
+        }
+      ]
+    },
+    "6": {
+      "problem": "Ximena lists the whole numbers through once. Emilio copies Ximena's numbers, replacing each occurrence of the digit by the digit . Ximena adds her numbers and Emilio adds his numbers. How much larger is Ximena's sum than Emilio's?",
+      "options": {
+        "A": "}\\ 13",
+        "B": "}\\ 26",
+        "C": "}\\ 102",
+        "D": "}\\ 103",
+        "E": "}\\ 110"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_6"
+        }
+      ]
+    },
+    "7": {
+      "problem": "The mean, median, and mode of the data values are all equal to . What is the value of ?",
+      "options": {
+        "A": "}\\ 50",
+        "B": "}\\ 60",
+        "C": "}\\ 75",
+        "D": "}\\ 90",
+        "E": "}\\ 100"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_7"
+        }
+      ]
+    },
+    "8": {
+      "problem": "Trickster Rabbit agrees with Foolish Fox to double Fox's money every time Fox crosses the bridge by Rabbit's house, as long as Fox pays coins in toll to Rabbit after each crossing. The payment is made after the doubling, Fox is excited about his good fortune until he discovers that all his money is gone after crossing the bridge three times. How many coins did Fox have at the beginning?",
+      "options": {
+        "A": "}\\ 20",
+        "B": "}\\ 30",
+        "C": "}\\ 35",
+        "D": "}\\ 40",
+        "E": "}\\ 45"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_8"
+        }
+      ]
+    },
+    "9": {
+      "problem": "A triangular array of coins has coin in the first row, coins in the second row, coins in the third row, and so on up to coins in the th row. What is the sum of the digits of ?",
+      "options": {
+        "A": "}\\ 6",
+        "B": "}\\ 7",
+        "C": "}\\ 8",
+        "D": "}\\ 9",
+        "E": "}\\ 10"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_9"
+        }
+      ]
+    },
+    "10": {
+      "problem": "A rug is made with three different colors as shown. The areas of the three differently colored regions form an arithmetic progression. The inner rectangle is one foot wide, and each of the two shaded regions is foot wide on all four sides. What is the length in feet of the inner rectangle?",
+      "options": {
+        "A": "} 1",
+        "B": "} 2",
+        "C": "} 4",
+        "D": "} 6",
+        "E": "}8"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_10"
+        }
+      ]
+    },
+    "11": {
+      "problem": "Find the area of the shaded region.",
+      "options": {
+        "A": "}\\ 4\\dfrac{3}{5}",
+        "B": "}\\ 5",
+        "C": "}\\ 5\\dfrac{1}{4}",
+        "D": "}\\ 6\\dfrac{1}{2}",
+        "E": "}\\ 8"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_11"
+        }
+      ]
+    },
+    "12": {
+      "problem": "Three distinct integers are selected at random between and , inclusive. Which of the following is a correct statement about the probability that the product of the three integers is odd?",
+      "options": {
+        "A": "}\\ p<\\dfrac{1}{8}",
+        "B": "}\\ p=\\dfrac{1}{8}",
+        "C": "}\\ \\dfrac{1}{8}<p<\\dfrac{1}{3}",
+        "D": "}\\ p=\\dfrac{1}{3}",
+        "E": "}\\ p>\\dfrac{1}{3}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_12"
+        }
+      ]
+    },
+    "13": {
+      "problem": "Five friends sat in a movie theater in a row containing seats, numbered to from left to right. (The directions \"left\" and \"right\" are from the point of view of the people as they sit in the seats.) During the movie Ada went to the lobby to get some popcorn. When she returned, she found that Bea had moved two seats to the right, Ceci had moved one seat to the left, and Dee and Edie had switched seats, leaving an end seat for Ada. In which seat had Ada been sitting before she got up?",
+      "options": {
+        "A": "}1",
+        "B": "} 2",
+        "C": "} 3",
+        "D": "} 4",
+        "E": "} 5"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_13"
+        }
+      ]
+    },
+    "14": {
+      "problem": "How many ways are there to write as the sum of twos and threes, ignoring order? (For example, and are two such ways.)",
+      "options": {
+        "A": "}\\ 236",
+        "B": "}\\ 336",
+        "C": "}\\ 337",
+        "D": "}\\ 403",
+        "E": "}\\ 672"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_14"
+        }
+      ]
+    },
+    "15": {
+      "problem": "Seven cookies of radius inch are cut from a circle of cookie dough, as shown. Neighboring cookies are tangent, and all except the center cookie are tangent to the edge of the dough. The leftover scrap is reshaped to form another cookie of the same thickness. What is the radius in inches of the scrap cookie?",
+      "options": {
+        "A": "} \\sqrt{2}",
+        "B": "} 1.5",
+        "C": "} \\sqrt{\\pi}",
+        "D": "} \\sqrt{2\\pi}",
+        "E": "} \\pi"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_15"
+        }
+      ]
+    },
+    "16": {
+      "problem": "A triangle with vertices , , and is reflected about the -axis, then the image is rotated counterclockwise about the origin by to produce . Which of the following transformations will return to ?",
+      "options": {
+        "A": "}",
+        "B": "}",
+        "C": "}",
+        "D": "}",
+        "E": "}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_16"
+        }
+      ]
+    },
+    "17": {
+      "problem": "Let be a positive multiple of . One red ball and green balls are arranged in a line in random order. Let be the probability that at least of the green balls are on the same side of the red ball. Observe that and that approaches as grows large. What is the sum of the digits of the least value of such that ?",
+      "options": {
+        "A": "} 12",
+        "B": "} 14",
+        "C": "}16",
+        "D": "} 18",
+        "E": "} 20"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_17"
+        }
+      ]
+    },
+    "18": {
+      "problem": "Each vertex of a cube is to be labeled with an integer through , with each integer being used once, in such a way that the sum of the four numbers on the vertices of a face is the same for each face. Arrangements that can be obtained from each other through rotations of the cube are considered to be the same. How many different arrangements are possible?",
+      "options": {
+        "A": "} 1",
+        "B": "} 3",
+        "C": "}6",
+        "D": "}12",
+        "E": "}24"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_18"
+        }
+      ]
+    },
+    "19": {
+      "problem": "In rectangle and . Point between and , and point between and are such that . Segments and intersect at and , respectively. The ratio can be written as where the greatest common factor of and is 1. What is ?",
+      "options": {
+        "A": "} 7",
+        "B": "} 9",
+        "C": "} 12",
+        "D": "} 15",
+        "E": "} 20"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_19"
+        }
+      ]
+    },
+    "20": {
+      "problem": "For some particular value of , when is expanded and like terms are combined, the resulting expression contains exactly terms that include all four variables and , each to some positive power. What is ?",
+      "options": {
+        "A": "}9",
+        "B": "} 14",
+        "C": "} 16",
+        "D": "} 17",
+        "E": "} 19"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_20"
+        }
+      ]
+    },
+    "21": {
+      "problem": "Circles with centers and , having radii and , respectively, lie on the same side of line and are tangent to at and , respectively, with between and . The circle with center is externally tangent to each of the other two circles. What is the area of triangle ?",
+      "options": {
+        "A": "} 0",
+        "B": "} \\sqrt{6}/3",
+        "C": "} 1",
+        "D": "} \\sqrt{6}-\\sqrt{2}",
+        "E": "}\\sqrt{6}/2"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_21"
+        }
+      ]
+    },
+    "22": {
+      "problem": "For some positive integer , the number has positive integer divisors, including and the number . How many positive integer divisors does the number have?",
+      "options": {
+        "A": "}110",
+        "B": "}191",
+        "C": "}261",
+        "D": "}325",
+        "E": "}425"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_22"
+        }
+      ]
+    },
+    "23": {
+      "problem": "A binary operation has the properties that and that for all nonzero real numbers and . (Here represents multiplication). The solution to the equation can be written as , where and are relatively prime positive integers. What is",
+      "options": {
+        "A": "}109",
+        "B": "}201",
+        "C": "}301",
+        "D": "}3049",
+        "E": "}33,601"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_23"
+        }
+      ]
+    },
+    "24": {
+      "problem": "A quadrilateral is inscribed in a circle of radius . Three of the sides of this quadrilateral have length . What is the length of the fourth side?",
+      "options": {
+        "A": "}200",
+        "B": "}200\\sqrt{2}",
+        "C": "}200\\sqrt{3}",
+        "D": "}300\\sqrt{2}",
+        "E": "} 500"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_24"
+        }
+      ]
+    },
+    "25": {
+      "problem": "How many ordered triples of positive integers satisfy and ?",
+      "options": {
+        "A": "}\\ 15",
+        "B": "}\\ 16",
+        "C": "}\\ 24",
+        "D": "}\\ 27",
+        "E": "}\\ 64"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10A_Problems/Problem_25"
+        }
+      ]
+    }
+  },
+  "2016_AMC_10B_Problems": {
+    "1": {
+      "problem": "What is the value of when ?",
+      "options": {
+        "A": "}\\ 1",
+        "B": "}\\ 2",
+        "C": "}\\ \\frac{5}{2}",
+        "D": "}\\ 10",
+        "E": "}\\ 20"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_1"
+        }
+      ]
+    },
+    "2": {
+      "problem": "If , what is ?",
+      "options": {
+        "A": "}\\ \\frac{1}{4}",
+        "B": "}\\ \\frac{1}{2}",
+        "C": "}\\ 1",
+        "D": "}\\ 2",
+        "E": "}\\ 4"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_2"
+        }
+      ]
+    },
+    "3": {
+      "problem": "Let . What is the value of",
+      "options": {
+        "A": "}\\ -2016",
+        "B": "}\\ 0",
+        "C": "}\\ 2016",
+        "D": "}\\ 4032",
+        "E": "}\\ 6048"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_3"
+        }
+      ]
+    },
+    "4": {
+      "problem": "Zoey read books, one at a time. The first book took her day to read, the second book took her days to read, the third book took her days to read, and so on, with each book taking her more day to read than the previous book. Zoey finished the first book on a Monday, and the second on a Wednesday. On what day of the week did she finish her th book?",
+      "options": {
+        "A": "}\\ \\text{Sunday}",
+        "B": "}\\ \\text{Monday}",
+        "C": "}\\ \\text{Wednesday}",
+        "D": "}\\ \\text{Friday}",
+        "E": "}\\ \\text{Saturday}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_4"
+        }
+      ]
+    },
+    "5": {
+      "problem": "The mean age of Amanda's cousins is , and their median age is . What is the sum of the ages of Amanda's youngest and oldest cousins?",
+      "options": {
+        "A": "}\\ 13",
+        "B": "}\\ 16",
+        "C": "}\\ 19",
+        "D": "}\\ 22",
+        "E": "}\\ 25"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_5"
+        }
+      ]
+    },
+    "6": {
+      "problem": "Isaac added two three-digit positive integers. All six digits in these numbers are different. Isaac's sum is a three-digit number . What is the smallest possible value for the sum of the digits of ?",
+      "options": {
+        "A": "}\\ 1",
+        "B": "}\\ 4",
+        "C": "}\\ 5",
+        "D": "}\\ 15",
+        "E": "}\\ 20"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_6"
+        }
+      ]
+    },
+    "7": {
+      "problem": "The ratio of the measures of two acute angles is , and the complement of one of these two angles is twice as large as the complement of the other. What is the sum of the degree measures of the two angles?",
+      "options": {
+        "A": "}\\ 75",
+        "B": "}\\ 90",
+        "C": "}\\ 135",
+        "D": "}\\ 150",
+        "E": "}\\ 270"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_7"
+        }
+      ]
+    },
+    "8": {
+      "problem": "What is the tens digit of",
+      "options": {
+        "A": "}\\ 0",
+        "B": "}\\ 1",
+        "C": "}\\ 3",
+        "D": "}\\ 5",
+        "E": "}\\ 8"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_8"
+        }
+      ]
+    },
+    "9": {
+      "problem": "All three vertices of are lying on the parabola defined by , with at the origin and parallel to the -axis. The area of the triangle is . What is the length of ?",
+      "options": {
+        "A": "}\\ 4",
+        "B": "}\\ 6",
+        "C": "}\\ 8",
+        "D": "}\\ 10",
+        "E": "}\\ 16"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_9"
+        }
+      ]
+    },
+    "10": {
+      "problem": "A thin piece of wood of uniform density in the shape of an equilateral triangle with side length inches weighs ounces. A second piece of the same type of wood, with the same thickness, also in the shape of an equilateral triangle, has side length of inches. Which of the following is closest to the weight, in ounces, of the second piece?",
+      "options": {
+        "A": "}\\ 14.0",
+        "B": "}\\ 16.0",
+        "C": "}\\ 20.0",
+        "D": "}\\ 33.3",
+        "E": "}\\ 55.6"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_10"
+        }
+      ]
+    },
+    "11": {
+      "problem": "Sola decided to fence in his rectangular garden. He bought fence posts, placed one on each of the four corners, and spaced out the rest evenly along the edges of the garden, leaving exactly yards between neighboring posts. The longer side of his garden, including the corners, has twice as many posts as the shorter side, including the corners. What is the area, in square yards, of Sola’s garden?",
+      "options": {
+        "A": "}\\ 256",
+        "B": "}\\ 336",
+        "C": "}\\ 384",
+        "D": "}\\ 448",
+        "E": "}\\ 512"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_11"
+        }
+      ]
+    },
+    "12": {
+      "problem": "Two different numbers are selected at random from and multiplied together. What is the probability that the product is even?",
+      "options": {
+        "A": "}\\ 0.2",
+        "B": "}\\ 0.4",
+        "C": "}\\ 0.5",
+        "D": "}\\ 0.7",
+        "E": "}\\ 0.8"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_12"
+        }
+      ]
+    },
+    "13": {
+      "problem": "At Megapolis Hospital one year, multiple-birth statistics were as follows: Sets of twins, triplets, and quadruplets accounted for of the babies born. There were four times as many sets of triplets as sets of quadruplets, and there was three times as many sets of twins as sets of triplets. How many of these babies were in sets of quadruplets?",
+      "options": {
+        "A": "}\\ 25",
+        "B": "}\\ 40",
+        "C": "}\\ 64",
+        "D": "}\\ 100",
+        "E": "}\\ 160"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_13"
+        }
+      ]
+    },
+    "14": {
+      "problem": "How many squares whose sides are parallel to the axis and whose vertices have coordinates that are integers lie entirely within the region bounded by the line , the line and the line",
+      "options": {
+        "A": "}\\ 30",
+        "B": "}\\ 41",
+        "C": "}\\ 45",
+        "D": "}\\ 50",
+        "E": "}\\ 57"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_14"
+        }
+      ]
+    },
+    "15": {
+      "problem": "All the numbers are written in a array of squares, one number in each square, in such a way that if two numbers are consecutive then they occupy squares that share an edge. The numbers in the four corners add up to . What is the number in the center?",
+      "options": {
+        "A": "}\\ 5",
+        "B": "}\\ 6",
+        "C": "}\\ 7",
+        "D": "}\\ 8",
+        "E": "}\\ 9"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_15"
+        }
+      ]
+    },
+    "16": {
+      "problem": "The sum of an infinite geometric series is a positive number , and the second term in the series is . What is the smallest possible value of",
+      "options": {
+        "A": "}\\ \\frac{1+\\sqrt{5}}{2}",
+        "B": "}\\ 2",
+        "C": "}\\ \\sqrt{5}",
+        "D": "}\\ 3",
+        "E": "}\\ 4"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_16"
+        }
+      ]
+    },
+    "17": {
+      "problem": "All the numbers are assigned to the six faces of a cube, one number to each face. For each of the eight vertices of the cube, a product of three numbers is computed, where the three numbers are the numbers assigned to the three faces that include that vertex. What is the greatest possible value of the sum of these eight products?",
+      "options": {
+        "A": "}\\ 312",
+        "B": "}\\ 343",
+        "C": "}\\ 625",
+        "D": "}\\ 729",
+        "E": "}\\ 1680"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_17"
+        }
+      ]
+    },
+    "18": {
+      "problem": "In how many ways can be written as the sum of an increasing sequence of two or more consecutive positive integers?",
+      "options": {
+        "A": "}\\ 1",
+        "B": "}\\ 3",
+        "C": "}\\ 5",
+        "D": "}\\ 6",
+        "E": "}\\ 7"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_18"
+        }
+      ]
+    },
+    "19": {
+      "problem": "Rectangle has and . Point lies on so that , point lies on so that . and point lies on so that . Segments and intersect at and , respectively. What is the value of ?",
+      "options": {
+        "A": "}~\\frac{\\sqrt{13}}{16}",
+        "B": "}~\\frac{\\sqrt{2}}{13}",
+        "C": "}~\\frac{9}{82}",
+        "D": "}~\\frac{10}{91}",
+        "E": "}~\\frac19"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_19"
+        }
+      ]
+    },
+    "20": {
+      "problem": "A dilation of the plane—that is, a size transformation with a positive scale factor—sends the circle of radius centered at to the circle of radius centered at . What distance does the origin , move under this transformation?",
+      "options": {
+        "A": "}\\ 0",
+        "B": "}\\ 3",
+        "C": "}\\ \\sqrt{13}",
+        "D": "}\\ 4",
+        "E": "}\\ 5"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_20"
+        }
+      ]
+    },
+    "21": {
+      "problem": "What is the area of the region enclosed by the graph of the equation",
+      "options": {
+        "A": "}\\ \\pi+\\sqrt{2}",
+        "B": "}\\ \\pi+2",
+        "C": "}\\ \\pi+2\\sqrt{2}",
+        "D": "}\\ 2\\pi+\\sqrt{2}",
+        "E": "}\\ 2\\pi+2\\sqrt{2}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_21"
+        }
+      ]
+    },
+    "22": {
+      "problem": "A set of teams held a round-robin tournament in which every team played every other team exactly once. Every team won games and lost games; there were no ties. How many sets of three teams were there in which beat , beat , and beat",
+      "options": {
+        "A": "}\\ 385",
+        "B": "}\\ 665",
+        "C": "}\\ 945",
+        "D": "}\\ 1140",
+        "E": "}\\ 1330"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_22"
+        }
+      ]
+    },
+    "23": {
+      "problem": "In regular hexagon , points , , , and are chosen on sides , , , and respectively, so lines , , , and are parallel and equally spaced. What is the ratio of the area of hexagon to the area of hexagon ?",
+      "options": {
+        "A": "}\\ \\frac{1}{3}",
+        "B": "}\\ \\frac{10}{27}",
+        "C": "}\\ \\frac{11}{27}",
+        "D": "}\\ \\frac{4}{9}",
+        "E": "}\\ \\frac{13}{27}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_23"
+        }
+      ]
+    },
+    "24": {
+      "problem": "How many four-digit integers , with , have the property that the three two-digit integers form an increasing arithmetic sequence? One such number is , where , , , and .",
+      "options": {
+        "A": "}\\ 9",
+        "B": "}\\ 15",
+        "C": "}\\ 16",
+        "D": "}\\ 17",
+        "E": "}\\ 20"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_24"
+        }
+      ]
+    },
+    "25": {
+      "problem": "Let , where denotes the greatest integer less than or equal to . How many distinct values does assume for ?",
+      "options": {
+        "A": "}\\ 32",
+        "B": "}\\ 36",
+        "C": "}\\ 45",
+        "D": "}\\ 46",
+        "E": "}\\ \\text{infinitely many}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2016_AMC_10B_Problems/Problem_25"
+        }
+      ]
+    }
+  },
+  "2017_AMC_10A_Problems": {
+    "1": {
+      "problem": "What is the value of ?",
+      "options": {
+        "A": "}\\ 70",
+        "B": "}\\ 97",
+        "C": "}\\ 127",
+        "D": "}\\ 159",
+        "E": "}\\ 729"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_1"
+        }
+      ]
+    },
+    "2": {
+      "problem": "Pablo buys popsicles for his friends. The store sells single popsicles for each, -popsicle boxes for each, and -popsicle boxes for . What is the greatest number of popsicles that Pablo can buy with ?",
+      "options": {
+        "A": "}\\ 8",
+        "B": "}\\ 11",
+        "C": "}\\ 12",
+        "D": "}\\ 13",
+        "E": "}\\ 15"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_2"
+        }
+      ]
+    },
+    "3": {
+      "problem": "Tamara has three rows of two -feet by -feet flower beds in her garden. The beds are separated and also surrounded by -foot-wide walkways, as shown on the diagram. What is the total area of the walkways, in square feet?",
+      "options": {
+        "A": "}\\ 72",
+        "B": "}\\ 78",
+        "C": "}\\ 90",
+        "D": "}\\ 120",
+        "E": "}\\ 150"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_3"
+        }
+      ]
+    },
+    "4": {
+      "problem": "Mia is “helping” her mom pick up toys that are strewn on the floor. Mia’s mom manages to put toys into the toy box every seconds, but each time immediately after those seconds have elapsed, Mia takes toys out of the box. How much time, in minutes, will it take Mia and her mom to put all toys into the box for the first time?",
+      "options": {
+        "A": "}\\ 13.5",
+        "B": "}\\ 14",
+        "C": "}\\ 14.5",
+        "D": "}\\ 15",
+        "E": "}\\ 15.5"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_4"
+        }
+      ]
+    },
+    "5": {
+      "problem": "The sum of two nonzero real numbers is times their product. What is the sum of the reciprocals of the two numbers?",
+      "options": {
+        "A": "}\\ 1",
+        "B": "}\\ 2",
+        "C": "}\\ 4",
+        "D": "}\\ 8",
+        "E": "}\\ 12"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_5"
+        }
+      ]
+    },
+    "6": {
+      "problem": "Ms. Carroll promised that anyone who got all the multiple choice questions right on the upcoming exam would receive an A on the exam. Which of these statements necessarily follows logically?",
+      "options": {
+        "A": "}\\ \\text{If Lewis did not receive an A, then he got all of the multiple choice questions wrong.}\\\\\\textbf{(B)}\\ \\text{If Lewis did not receive an A, then he got at least one of the multiple choice questions wrong.}\\\\\\textbf{(C)}\\ \\text{If Lewis got at least one of the multiple choice questions wrong, then he did not receive an A. }\\\\\\textbf{(D)}\\ \\text{If Lewis received an A, then he got all of the multiple choice questions right.}\\\\\\textbf{(E)}\\ \\text{If Lewis received an A, then he got at least one of the multiple choice questions right.}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_6"
+        }
+      ]
+    },
+    "7": {
+      "problem": "Jerry and Silvia wanted to go from the southwest corner of a square field to the northeast corner. Jerry walked due east and then due north to reach the goal, but Silvia headed northeast and reached the goal walking in a straight line. Which of the following is closest to how much shorter Silvia's trip was, compared to Jerry's trip?",
+      "options": {
+        "A": "}\\ 30\\%",
+        "B": "}\\ 40\\%",
+        "C": "}\\ 50\\%",
+        "D": "}\\ 60\\%",
+        "E": "}\\ 70\\%"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_7"
+        }
+      ]
+    },
+    "8": {
+      "problem": "At a gathering of people, there are people who all know each other and people who know no one. People who know each other hug, and people who do not know each other shake hands. How many handshakes occur?",
+      "options": {
+        "A": "}\\ 240",
+        "B": "}\\ 245",
+        "C": "}\\ 290",
+        "D": "}\\ 480",
+        "E": "}\\ 490"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_8"
+        }
+      ]
+    },
+    "9": {
+      "problem": "Minnie rides on a flat road at kilometers per hour (kph), downhill at kph, and uphill at kph. Penny rides on a flat road at kph, downhill at kph, and uphill at kph. Minnie goes from town to town , a distance of km all uphill, then from town to town , a distance of km all downhill, and then back to town , a distance of km on the flat. Penny goes the other way around using the same route. How many more minutes does it take Minnie to complete the -km ride than it takes Penny?",
+      "options": {
+        "A": "}\\ 45",
+        "B": "}\\ 60",
+        "C": "}\\ 65",
+        "D": "}\\ 90",
+        "E": "}\\ 95"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_9"
+        }
+      ]
+    },
+    "10": {
+      "problem": "Joy has thin rods, one each of every integer length from cm through cm. She places the rods with lengths cm, cm, and cm on a table. She then wants to choose a fourth rod that she can put with these three to form a quadrilateral with positive area. How many of the remaining rods can she choose as the fourth rod?",
+      "options": {
+        "A": "}\\ 16",
+        "B": "}\\ 17",
+        "C": "}\\ 18",
+        "D": "}\\ 19",
+        "E": "}\\ 20"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_10"
+        }
+      ]
+    },
+    "11": {
+      "problem": "The region consisting of all points in three-dimensional space within units of line segment has volume . What is the length ?",
+      "options": {
+        "A": "}\\ 6",
+        "B": "}\\ 12",
+        "C": "}\\ 18",
+        "D": "}\\ 20",
+        "E": "}\\ 24"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_11"
+        }
+      ]
+    },
+    "12": {
+      "problem": "Let be a set of points in the coordinate plane such that two of the three quantities and are equal and the third of the three quantities is no greater than this common value. Which of the following is a correct description for",
+      "options": {
+        "A": "}\\ \\text{a single point}",
+        "B": "}\\ \\text{two intersecting lines} \\\\",
+        "C": "}\\ \\text{ three lines whose pairwise intersections are three distinct points} \\\\",
+        "D": "}\\ \\text{a triangle}",
+        "E": "}\\ \\text{three rays with a common endpoint}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_12"
+        }
+      ]
+    },
+    "13": {
+      "problem": "Define a sequence recursively by and the remainder when is divided by for all Thus the sequence starts What is",
+      "options": {
+        "A": "}\\ 6",
+        "B": "}\\ 7",
+        "C": "}\\ 8",
+        "D": "}\\ 9",
+        "E": "}\\ 10"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_13"
+        }
+      ]
+    },
+    "14": {
+      "problem": "Every week Roger pays for a movie ticket and a soda out of his allowance. Last week, Roger's allowance was dollars. The cost of his movie ticket was of the difference between and the cost of his soda, while the cost of his soda was of the difference between and the cost of his movie ticket. To the nearest whole percent, what fraction of did Roger pay for his movie ticket and soda?",
+      "options": {
+        "A": "}\\ 9\\%",
+        "B": "}\\ 19\\%",
+        "C": "}\\ 22\\%",
+        "D": "}\\ 23\\%",
+        "E": "}\\ 25\\%"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_14"
+        }
+      ]
+    },
+    "15": {
+      "problem": "Chloé chooses a real number uniformly at random from the interval . Independently, Laurent chooses a real number uniformly at random from the interval . What is the probability that Laurent's number is greater than Chloé's number?",
+      "options": {
+        "A": "}\\ \\frac{1}{2}",
+        "B": "}\\ \\frac{2}{3}",
+        "C": "}\\ \\frac{3}{4}",
+        "D": "}\\ \\frac{5}{6}",
+        "E": "}\\ \\frac{7}{8}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_15"
+        }
+      ]
+    },
+    "16": {
+      "problem": "There are 10 horses, named Horse 1, Horse 2, , Horse 10. They get their names from how many minutes it takes them to run one lap around a circular race track: Horse runs one lap in exactly minutes. At time 0 all the horses are together at the starting point on the track. The horses start running in the same direction, and they keep running around the circular track at their constant speeds. The least time , in minutes, at which all 10 horses will again simultaneously be at the starting point is . Let be the least time, in minutes, such that at least 5 of the horses are again at the starting point. What is the sum of the digits of ?",
+      "options": {
+        "A": "}\\ 2",
+        "B": "}\\ 3",
+        "C": "}\\ 4",
+        "D": "}\\ 5",
+        "E": "}\\ 6"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_16"
+        }
+      ]
+    },
+    "17": {
+      "problem": "Distinct points , , , lie on the circle and have integer coordinates. The distances and are irrational numbers. What is the greatest possible value of the ratio ?",
+      "options": {
+        "A": "}\\ 3",
+        "B": "}\\ 5",
+        "C": "}\\ 3\\sqrt{5}",
+        "D": "}\\ 7",
+        "E": "}\\ 5\\sqrt{2}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_17"
+        }
+      ]
+    },
+    "18": {
+      "problem": "Amelia has a coin that lands heads with probability , and Blaine has a coin that lands on heads with probability . Amelia and Blaine alternately toss their coins until someone gets a head; the first one to get a head wins. All coin tosses are independent. Amelia goes first. The probability that Amelia wins is , where and are relatively prime positive integers. What is ?",
+      "options": {
+        "A": "}\\ 1",
+        "B": "}\\ 2",
+        "C": "}\\ 3",
+        "D": "}\\ 4",
+        "E": "}\\ 5"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_18"
+        }
+      ]
+    },
+    "19": {
+      "problem": "Alice refuses to sit next to either Bob or Carla. Derek refuses to sit next to Eric. How many ways are there for the five of them to sit in a row of 5 chairs under these conditions?",
+      "options": {
+        "A": "}\\ 12",
+        "B": "}\\ 16",
+        "C": "}\\ 28",
+        "D": "}\\ 32",
+        "E": "}\\ 40"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_19"
+        }
+      ]
+    },
+    "20": {
+      "problem": "Let equal the sum of the digits of positive integer . For example, . For a particular positive integer , . Which of the following could be the value of ?",
+      "options": {
+        "A": "}\\ 1",
+        "B": "}\\ 3",
+        "C": "}\\ 12",
+        "D": "}\\ 1239",
+        "E": "}\\ 1265"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_20"
+        }
+      ]
+    },
+    "21": {
+      "problem": "A square with side length is inscribed in a right triangle with sides of length , , and so that one vertex of the square coincides with the right-angle vertex of the triangle. A square with side length is inscribed in another right triangle with sides of length , , and so that one side of the square lies on the hypotenuse of the triangle. What is ?",
+      "options": {
+        "A": "} \\dfrac{12}{13}",
+        "B": "} \\dfrac{35}{37}",
+        "C": "} 1",
+        "D": "} \\dfrac{37}{35}",
+        "E": "} \\dfrac{13}{12}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_21"
+        }
+      ]
+    },
+    "22": {
+      "problem": "Sides and of equilateral triangle are tangent to a circle at points and respectively. What fraction of the area of lies outside the circle?",
+      "options": {
+        "A": "}\\ \\frac{4\\sqrt{3}\\pi}{27}-\\frac{1}{3}",
+        "B": "}\\ \\frac{\\sqrt{3}}{2}-\\frac{\\pi}{8}",
+        "C": "}\\ \\frac{1}{2}",
+        "D": "}\\ \\sqrt{3}-\\frac{2\\sqrt{3}\\pi}{9}",
+        "E": "}\\ \\frac{4}{3}-\\frac{4\\sqrt{3}\\pi}{27}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_22"
+        }
+      ]
+    },
+    "23": {
+      "problem": "How many triangles with positive area have all their vertices at points in the coordinate plane, where and are integers between and , inclusive?",
+      "options": {
+        "A": "}\\ 2128",
+        "B": "}\\ 2148",
+        "C": "}\\ 2160",
+        "D": "}\\ 2200",
+        "E": "}\\ 2300"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_23"
+        }
+      ]
+    },
+    "24": {
+      "problem": "For certain real numbers , , and , the polynomial has three distinct roots, and each root of is also a root of the polynomial What is ?",
+      "options": {
+        "A": "}\\ -9009",
+        "B": "}\\ -8008",
+        "C": "}\\ -7007",
+        "D": "}\\ -6006",
+        "E": "}\\ -5005"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_24"
+        }
+      ]
+    },
+    "25": {
+      "problem": "How many integers between and , inclusive, have the property that some permutation of its digits is a multiple of between and For example, both and have this property.",
+      "options": {
+        "A": "}\\ 226",
+        "B": "}\\ 243",
+        "C": "}\\ 270",
+        "D": "}\\ 469",
+        "E": "}\\ 486"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10A_Problems/Problem_25"
+        }
+      ]
+    }
+  },
+  "2017_AMC_10B_Problems": {
+    "1": {
+      "problem": "Mary thought of a positive two-digit number. She multiplied it by and added . Then she switched the digits of the result, obtaining a number between and , inclusive. What was Mary's number?",
+      "options": {
+        "A": "}\\ 11",
+        "B": "}\\ 12",
+        "C": "}\\ 13",
+        "D": "}\\ 14",
+        "E": "}\\ 15"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_1"
+        }
+      ]
+    },
+    "2": {
+      "problem": "Sofia ran laps around the -meter track at her school. For each lap, she ran the first meters at an average speed of meters per second and the remaining meters at an average speed of meters per second. How much time did Sofia take running the laps?",
+      "options": {
+        "A": "}\\ \\text{5 minutes and 35 seconds}",
+        "B": "}\\ \\text{6 minutes and 40 seconds}",
+        "C": "}\\ \\text{7 minutes and 5 seconds}",
+        "D": "}\\ \\text{7 minutes and 25 seconds}\\",
+        "E": "}\\ \\text{8 minutes and 10 seconds}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_2"
+        }
+      ]
+    },
+    "3": {
+      "problem": "Real numbers , , and satisfy the inequalities , , and . Which of the following numbers is necessarily positive?",
+      "options": {
+        "A": "}\\ y+x^2",
+        "B": "}\\ y+xz",
+        "C": "}\\ y+y^2",
+        "D": "}\\ y+2y^2",
+        "E": "}\\ y+z"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_3"
+        }
+      ]
+    },
+    "4": {
+      "problem": "Suppose that and are nonzero real numbers such that . What is the value of ?",
+      "options": {
+        "A": "}\\ -3",
+        "B": "}\\ -1",
+        "C": "}\\ 1",
+        "D": "}\\ 2",
+        "E": "}\\ 3"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_4"
+        }
+      ]
+    },
+    "5": {
+      "problem": "Camilla had twice as many blueberry jelly beans as cherry jelly beans. After eating pieces of each kind, she now has three times as many blueberry jelly beans as cherry jelly beans. How many blueberry jelly beans did she originally have?",
+      "options": {
+        "A": "}\\ 10",
+        "B": "}\\ 20",
+        "C": "}\\ 30",
+        "D": "}\\ 40",
+        "E": "}\\ 50"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_5"
+        }
+      ]
+    },
+    "6": {
+      "problem": "What is the largest number of solid by by blocks that can fit in a by by box?",
+      "options": {
+        "A": "}\\ 3",
+        "B": "}\\ 4",
+        "C": "}\\ 5",
+        "D": "}\\ 6",
+        "E": "}\\ 7"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_6"
+        }
+      ]
+    },
+    "7": {
+      "problem": "Samia set off on her bicycle to visit her friend, traveling at an average speed of kilometers per hour. When she had gone half the distance to her friend's house, a tire went flat, and she walked the rest of the way at kilometers per hour. In all it took her minutes to reach her friend's house. In kilometers rounded to the nearest tenth, how far did Samia walk?",
+      "options": {
+        "A": "}\\ 2.0",
+        "B": "}\\ 2.2",
+        "C": "}\\ 2.8",
+        "D": "}\\ 3.4",
+        "E": "}\\ 4.4"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_7"
+        }
+      ]
+    },
+    "8": {
+      "problem": "Points and are vertices of with . The altitude from meets the opposite side at . What are the coordinates of point ?",
+      "options": {
+        "A": "}\\ (-8, 9)",
+        "B": "}\\ (-4, 8)",
+        "C": "}\\ (-4, 9)",
+        "D": "}\\ (-2, 3)",
+        "E": "}\\ (-1, 0)"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_8"
+        }
+      ]
+    },
+    "9": {
+      "problem": "A radio program has a quiz consisting of multiple-choice questions, each with choices. A contestant wins if he or she gets or more of the questions right. The contestant answers randomly to each question. What is the probability of winning?",
+      "options": {
+        "A": "}\\ \\frac{1}{27}",
+        "B": "}\\ \\frac{1}{9}",
+        "C": "}\\ \\frac{2}{9}",
+        "D": "}\\ \\frac{7}{27}",
+        "E": "}\\ \\frac{1}{2}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_9"
+        }
+      ]
+    },
+    "10": {
+      "problem": "The lines with equations and are perpendicular and intersect at . What is ?",
+      "options": {
+        "A": "}\\ -13",
+        "B": "}\\ -8",
+        "C": "}\\ 2",
+        "D": "}\\ 8",
+        "E": "}\\ 13"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_10"
+        }
+      ]
+    },
+    "11": {
+      "problem": "At Typico High School, of the students like dancing, and the rest dislike it. Of those who like dancing, say that they like it, and the rest say that they dislike it. Of those who dislike dancing, say that they dislike it, and the rest say that they like it. What fraction of students who say they dislike dancing actually like it?",
+      "options": {
+        "A": "}\\ 10\\%",
+        "B": "}\\ 12\\%",
+        "C": "}\\ 20\\%",
+        "D": "}\\ 25\\%",
+        "E": "}\\ 33\\frac{1}{3}\\%"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_11"
+        }
+      ]
+    },
+    "12": {
+      "problem": "Elmer's new car gives better fuel efficiency. However, the new car uses diesel fuel, which is more expensive per liter than the gasoline the old car used. By what percent will Elmer save money if he uses his new car instead of his old car for a long trip?",
+      "options": {
+        "A": "} 20\\%",
+        "B": "} 26\\tfrac23\\%",
+        "C": "} 27\\tfrac79\\%",
+        "D": "} 33\\tfrac13\\%",
+        "E": "} 66\\tfrac23\\%"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_12"
+        }
+      ]
+    },
+    "13": {
+      "problem": "There are students participating in an after-school program offering classes in yoga, bridge, and painting. Each student must take at least one of these three classes, but may take two or all three. There are students taking yoga, taking bridge, and taking painting. There are students taking at least two classes. How many students are taking all three classes?",
+      "options": {
+        "A": "}\\ 1",
+        "B": "}\\ 2",
+        "C": "}\\ 3",
+        "D": "}\\ 4",
+        "E": "}\\ 5"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_13"
+        }
+      ]
+    },
+    "14": {
+      "problem": "An integer is selected at random in the range . What is the probability that the remainder when is divided by is ?",
+      "options": {
+        "A": "}\\ \\frac{1}{5}",
+        "B": "}\\ \\frac{2}{5}",
+        "C": "}\\ \\frac{3}{5}",
+        "D": "}\\ \\frac{4}{5}",
+        "E": "}\\ 1"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_14"
+        }
+      ]
+    },
+    "15": {
+      "problem": "Rectangle has and . Point is the foot of the perpendicular from to diagonal . What is the area of ?",
+      "options": {
+        "A": "}\\ 1",
+        "B": "}\\ \\frac{42}{25}",
+        "C": "}\\ \\frac{28}{15}",
+        "D": "}\\ 2",
+        "E": "}\\ \\frac{54}{25}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_15"
+        }
+      ]
+    },
+    "16": {
+      "problem": "How many of the base-ten numerals for the positive integers less than or equal to contain the digit ?",
+      "options": {
+        "A": "}\\ 469",
+        "B": "}\\ 471",
+        "C": "}\\ 475",
+        "D": "}\\ 478",
+        "E": "}\\ 481"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_16"
+        }
+      ]
+    },
+    "17": {
+      "problem": "Call a positive integer if it is a one-digit number or its digits, when read from left to right, form either a strictly increasing or a strictly decreasing sequence. For example, , , and are monotonous, but , , and are not. How many monotonous positive integers are there?",
+      "options": {
+        "A": "}\\ 1024",
+        "B": "}\\ 1524",
+        "C": "}\\ 1533",
+        "D": "}\\ 1536",
+        "E": "}\\ 2048"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_17"
+        }
+      ]
+    },
+    "18": {
+      "problem": "In the figure below, of the disks are to be painted blue, are to be painted red, and is to be painted green. Two paintings that can be obtained from one another by a rotation or a reflection of the entire figure are considered the same. How many different paintings are possible?",
+      "options": {
+        "A": "}\\ 6",
+        "B": "}\\ 8",
+        "C": "}\\ 9",
+        "D": "}\\ 12",
+        "E": "}\\ 15"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_18"
+        }
+      ]
+    },
+    "19": {
+      "problem": "Let be an equilateral triangle. Extend side beyond to a point so that . Similarly, extend side beyond to a point so that , and extend side beyond to a point so that . What is the ratio of the area of to the area of ?",
+      "options": {
+        "A": "}\\ 9:1",
+        "B": "}\\ 16:1",
+        "C": "}\\ 25:1",
+        "D": "}\\ 36:1",
+        "E": "}\\ 37:1"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_19"
+        }
+      ]
+    },
+    "20": {
+      "problem": "The number has over positive integer divisors. One of them is chosen at random. What is the probability that it is odd?",
+      "options": {
+        "A": "}\\ \\frac{1}{21}",
+        "B": "}\\ \\frac{1}{19}",
+        "C": "}\\ \\frac{1}{18}",
+        "D": "}\\ \\frac{1}{2}",
+        "E": "}\\ \\frac{11}{21}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_20"
+        }
+      ]
+    },
+    "21": {
+      "problem": "In , , , , and is the midpoint of . What is the sum of the radii of the circles inscribed in and ?",
+      "options": {
+        "A": "}\\ \\sqrt{5}",
+        "B": "}\\ \\frac{11}{4}",
+        "C": "}\\ 2\\sqrt{2}",
+        "D": "}\\ \\frac{17}{6}",
+        "E": "}\\ 3"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_21"
+        }
+      ]
+    },
+    "22": {
+      "problem": "The diameter of a circle of radius is extended to a point outside the circle so that . Point is chosen so that and line is perpendicular to line . Segment intersects the circle at a point between and . What is the area of ?",
+      "options": {
+        "A": "}\\ \\frac{120}{37}",
+        "B": "}\\ \\frac{140}{39}",
+        "C": "}\\ \\frac{145}{39}",
+        "D": "}\\ \\frac{140}{37}",
+        "E": "}\\ \\frac{120}{31}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_22"
+        }
+      ]
+    },
+    "23": {
+      "problem": "Let be the -digit number that is formed by writing the integers from to in order, one after the other. What is the remainder when is divided by ?",
+      "options": {
+        "A": "}\\ 1",
+        "B": "}\\ 4",
+        "C": "}\\ 9",
+        "D": "}\\ 18",
+        "E": "}\\ 44"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_23"
+        }
+      ]
+    },
+    "24": {
+      "problem": "The vertices of an equilateral triangle lie on the hyperbola , and a vertex of this hyperbola is the centroid of the triangle. What is the square of the area of the triangle?",
+      "options": {
+        "A": "}\\ 48",
+        "B": "}\\ 60",
+        "C": "}\\ 108",
+        "D": "}\\ 120",
+        "E": "}\\ 169"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_24"
+        }
+      ]
+    },
+    "25": {
+      "problem": "Last year Isabella took math tests and received different scores, each an integer between and , inclusive. After each test she noticed that the average of her test scores was an integer. Her score on the seventh test was . What was her score on the sixth test?",
+      "options": {
+        "A": "}\\ 92",
+        "B": "}\\ 94",
+        "C": "}\\ 96",
+        "D": "}\\ 98",
+        "E": "}\\ 100"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2017_AMC_10B_Problems/Problem_25"
+        }
+      ]
+    }
+  },
+  "2018_AMC_10A_Problems": {
+    "2": {
+      "problem": "Liliane has more soda than Jacqueline, and Alice has more soda than Jacqueline. What is the relationship between the amounts of soda that Liliane and Alice have?",
+      "options": {
+        "A": "}",
+        "B": "}",
+        "C": "}",
+        "D": "}",
+        "E": "}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_2"
+        }
+      ]
+    },
+    "3": {
+      "problem": "A unit of blood expires after seconds. Yasin donates a unit of blood at noon of January 1. On what day does his unit of blood expire?",
+      "options": {
+        "A": "}\\text{January 2}",
+        "B": "}\\text{January 12}",
+        "C": "}\\text{January 22}",
+        "D": "}\\text{February 11}",
+        "E": "}\\text{February 12}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_3"
+        }
+      ]
+    },
+    "4": {
+      "problem": "How many ways can a student schedule mathematics courses -- algebra, geometry, and number theory -- in a -period day if no two mathematics courses can be taken in consecutive periods? (What courses the student takes during the other periods is of no concern here.)",
+      "options": {
+        "A": "}3",
+        "B": "}6",
+        "C": "}12",
+        "D": "}18",
+        "E": "}24"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_4"
+        }
+      ]
+    },
+    "5": {
+      "problem": "Alice, Bob, and Charlie were on a hike and were wondering how far away the nearest town was. When Alice said, \"We are at least miles away,\" Bob replied, \"We are at most miles away.\" Charlie then remarked, \"Actually the nearest town is at most miles away.\" It turned out that none of the three statements were true. Let be the distance in miles to the nearest town. Which of the following intervals is the set of all possible values of ?",
+      "options": {
+        "A": "} (0,4)",
+        "B": "} (4,5)",
+        "C": "} (4,6)",
+        "D": "} (5,6)",
+        "E": "} (5,\\infty)"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_5"
+        }
+      ]
+    },
+    "6": {
+      "problem": "Sangho uploaded a video to a website where viewers can vote that they like or dislike a video. Each video begins with a score of , and the score increases by for each like vote and decreases by for each dislike vote. At one point Sangho saw that his video had a score of , and that of the votes cast on his video were like votes. How many votes had been cast on Sangho's video at that point?",
+      "options": {
+        "A": "} 200",
+        "B": "} 300",
+        "C": "} 400",
+        "D": "} 500",
+        "E": "} 600"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_6"
+        }
+      ]
+    },
+    "7": {
+      "problem": "For how many (not necessarily positive) integer values of is the value of an integer?",
+      "options": {
+        "A": "}3",
+        "B": "}4",
+        "C": "}6",
+        "D": "}8",
+        "E": "}9"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_7"
+        }
+      ]
+    },
+    "8": {
+      "problem": "Joe has a collection of coins, consisting of -cent coins, -cent coins, and -cent coins. He has more -cent coins than -cent coins, and the total value of his collection is cents. How many more -cent coins does Joe have than -cent coins?",
+      "options": {
+        "A": "} 0",
+        "B": "} 1",
+        "C": "} 2",
+        "D": "} 3",
+        "E": "} 4"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_8"
+        }
+      ]
+    },
+    "9": {
+      "problem": "All of the triangles in the diagram below are similar to isosceles triangle , in which . Each of the smallest triangles has area and has area . What is the area of trapezoid ?",
+      "options": {
+        "A": "} 16",
+        "B": "} 18",
+        "C": "} 20",
+        "D": "} 22",
+        "E": "} 24"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_9"
+        }
+      ]
+    },
+    "10": {
+      "problem": "Suppose that real number satisfies What is the value of ?",
+      "options": {
+        "A": "}8",
+        "B": "}\\sqrt{33}+8",
+        "C": "}9",
+        "D": "}2\\sqrt{10}+4",
+        "E": "}12"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_10"
+        }
+      ]
+    },
+    "11": {
+      "problem": "When fair standard -sided dice are thrown, the probability that the sum of the numbers on the top faces is can be written as where is a positive integer. What is ?",
+      "options": {
+        "A": "}42",
+        "B": "}49",
+        "C": "}56",
+        "D": "}63",
+        "E": "}84"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_11"
+        }
+      ]
+    },
+    "14": {
+      "problem": "What is the greatest integer less than or equal to",
+      "options": {
+        "A": "}80",
+        "B": "}81",
+        "C": "}96",
+        "D": "}97",
+        "E": "}625"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_14"
+        }
+      ]
+    },
+    "15": {
+      "problem": "Two circles of radius are externally tangent to each other and are internally tangent to a circle of radius at points and , as shown in the diagram. The distance can be written in the form , where and are relatively prime positive integers. What is ?",
+      "options": {
+        "A": "} 21",
+        "B": "} 29",
+        "C": "} 58",
+        "D": "} 69",
+        "E": "} 93"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_15"
+        }
+      ]
+    },
+    "16": {
+      "problem": "Right triangle has leg lengths and . Including and , how many line segments with integer length can be drawn from vertex to a point on hypotenuse ?",
+      "options": {
+        "A": "}5",
+        "B": "}8",
+        "C": "}12",
+        "D": "}13",
+        "E": "}15"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_16"
+        }
+      ]
+    },
+    "17": {
+      "problem": "Let be a set of integers taken from with the property that if and are elements of with , then is not a multiple of . What is the least possible value of an element in ?",
+      "options": {
+        "A": "}\\ 2",
+        "B": "}\\ 3",
+        "C": "}\\ 4",
+        "D": "}\\ 5",
+        "E": "}\\ 7"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_17"
+        }
+      ]
+    },
+    "18": {
+      "problem": "How many nonnegative integers can be written in the form where for ?",
+      "options": {
+        "A": "} 512",
+        "B": "} 729",
+        "C": "} 1094",
+        "D": "} 3281",
+        "E": "} 59,048"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_18"
+        }
+      ]
+    },
+    "19": {
+      "problem": "A number is randomly selected from the set , and a number is randomly selected from . What is the probability that has a units digit of ?",
+      "options": {
+        "A": "} \\frac{1}{5}",
+        "B": "} \\frac{1}{4}",
+        "C": "} \\frac{3}{10}",
+        "D": "} \\frac{7}{20}",
+        "E": "} \\frac{2}{5}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_19"
+        }
+      ]
+    },
+    "20": {
+      "problem": "A scanning code consists of a grid of squares, with some of its squares colored black and the rest colored white. There must be at least one square of each color in this grid of squares. A scanning code is called if its look does not change when the entire square is rotated by a multiple of counterclockwise around its center, nor when it is reflected across a line joining opposite corners or a line joining midpoints of opposite sides. What is the total number of possible symmetric scanning codes?",
+      "options": {
+        "A": "} \\text{ 510}",
+        "B": "} \\text{ 1022}",
+        "C": "} \\text{ 8190}",
+        "D": "} \\text{ 8192}",
+        "E": "} \\text{ 65,534}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_20"
+        }
+      ]
+    },
+    "21": {
+      "problem": "Which of the following describes the set of values of for which the curves and in the real -plane intersect at exactly points?",
+      "options": {
+        "A": "}a=\\frac14",
+        "B": "}\\frac14 < a < \\frac12",
+        "C": "}a>\\frac14",
+        "D": "}a=\\frac12",
+        "E": "}a>\\frac12"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_21"
+        }
+      ]
+    },
+    "22": {
+      "problem": "Let and be positive integers such that , , , and . Which of the following must be a divisor of ?",
+      "options": {
+        "A": "} \\text{ 5}",
+        "B": "} \\text{ 7}",
+        "C": "} \\text{ 11}",
+        "D": "} \\text{ 13}",
+        "E": "} \\text{ 17}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_22"
+        }
+      ]
+    },
+    "23": {
+      "problem": "Farmer Pythagoras has a field in the shape of a right triangle. The right triangle's legs have lengths and units. In the corner where those sides meet at a right angle, he leaves a small unplanted square so that from the air it looks like the right angle symbol. The rest of the field is planted. The shortest distance from to the hypotenuse is units. What fraction of the field is planted?",
+      "options": {
+        "A": "} \\frac{25}{27}",
+        "B": "} \\frac{26}{27}",
+        "C": "} \\frac{73}{75}",
+        "D": "} \\frac{145}{147}",
+        "E": "} \\frac{74}{75}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_23"
+        }
+      ]
+    },
+    "24": {
+      "problem": "Triangle with and has area . Let be the midpoint of , and let be the midpoint of . The angle bisector of intersects and at and , respectively. What is the area of quadrilateral ?",
+      "options": {
+        "A": "}60",
+        "B": "}65",
+        "C": "}70",
+        "D": "}75",
+        "E": "}80"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_24"
+        }
+      ]
+    },
+    "25": {
+      "problem": "For a positive integer and nonzero digits , , and , let be the -digit integer each of whose digits is equal to ; let be the -digit integer each of whose digits is equal to , and let be the -digit (not -digit) integer each of whose digits is equal to . What is the greatest possible value of for which there are at least two values of such that ?",
+      "options": {
+        "A": "} 12",
+        "B": "} 14",
+        "C": "} 16",
+        "D": "} 18",
+        "E": "} 20"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10A_Problems/Problem_25"
+        }
+      ]
+    }
+  },
+  "2018_AMC_10B_Problems": {
+    "1": {
+      "problem": "Kate bakes a -inch by -inch pan of cornbread. The cornbread is cut into pieces that measure inches by inches. How many pieces of cornbread does the pan contain?",
+      "options": {
+        "A": "} 90",
+        "B": "} 100",
+        "C": "} 180",
+        "D": "} 200",
+        "E": "} 360"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_1"
+        }
+      ]
+    },
+    "2": {
+      "problem": "Sam drove miles in minutes. His average speed during the first minutes was mph (miles per hour), and his average speed during the second minutes was mph. What was his average speed, in mph, during the last minutes?",
+      "options": {
+        "A": "} 64",
+        "B": "} 65",
+        "C": "} 66",
+        "D": "} 67",
+        "E": "} 68"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_2"
+        }
+      ]
+    },
+    "3": {
+      "problem": "In the expression each blank is to be filled in with one of the digits or with each digit being used once. How many different values can be obtained?",
+      "options": {
+        "A": "}2",
+        "B": "}3",
+        "C": "}4",
+        "D": "}6",
+        "E": "}24"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_3"
+        }
+      ]
+    },
+    "4": {
+      "problem": "A three-dimensional rectangular box with dimensions , , and has faces whose surface areas are and square units. What is ?",
+      "options": {
+        "A": "}18",
+        "B": "}22",
+        "C": "}24",
+        "D": "}30",
+        "E": "}36"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_4"
+        }
+      ]
+    },
+    "5": {
+      "problem": "How many subsets of contain at least one prime number?",
+      "options": {
+        "A": "}128",
+        "B": "}192",
+        "C": "}224",
+        "D": "}240",
+        "E": "}256"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_5"
+        }
+      ]
+    },
+    "6": {
+      "problem": "A box contains chips, numbered and . Chips are drawn randomly one at a time without replacement until the sum of the values drawn exceeds . What is the probability that draws are required?",
+      "options": {
+        "A": "}\\frac{1}{15}",
+        "B": "}\\frac{1}{10}",
+        "C": "}\\frac{1}{6}",
+        "D": "}\\frac{1}{5}",
+        "E": "}\\frac{1}{4}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_6"
+        }
+      ]
+    },
+    "7": {
+      "problem": "In the figure below, congruent semicircles are drawn along a diameter of a large semicircle, with their diameters covering the diameter of the large semicircle with no overlap. Let be the combined area of the small semicircles and be the area of the region inside the large semicircle but outside the small semicircles. The ratio is . What is ?",
+      "options": {
+        "A": "}16",
+        "B": "}17",
+        "C": "}18",
+        "D": "}19",
+        "E": "}36"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_7"
+        }
+      ]
+    },
+    "8": {
+      "problem": "Sara makes a staircase out of toothpicks as shown: This is a -step staircase and uses toothpicks. How many steps would be in a staircase that used toothpicks?",
+      "options": {
+        "A": "}10",
+        "B": "}11",
+        "C": "}12",
+        "D": "}24",
+        "E": "}30"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_8"
+        }
+      ]
+    },
+    "9": {
+      "problem": "The faces of each of standard dice are labeled with the integers from to . Let be the probability that when all dice are rolled, the sum of the numbers on the top faces is . What other sum occurs with the same probability ?",
+      "options": {
+        "A": "}13",
+        "B": "}26",
+        "C": "}32",
+        "D": "}39",
+        "E": "}42"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_9"
+        }
+      ]
+    },
+    "10": {
+      "problem": "In the rectangular parallelepiped shown, , , and . Point is the midpoint of . What is the volume of the rectangular pyramid with base and apex ?",
+      "options": {
+        "A": "}1",
+        "B": "}\\frac{4}{3}",
+        "C": "}\\frac{3}{2}",
+        "D": "}\\frac{5}{3}",
+        "E": "}2"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_10"
+        }
+      ]
+    },
+    "11": {
+      "problem": "Which of the following expressions is never a prime number when is a prime number?",
+      "options": {
+        "A": "}p^2+16",
+        "B": "}p^2+24",
+        "C": "}p^2+26",
+        "D": "}p^2+46",
+        "E": "}p^2+96"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_11"
+        }
+      ]
+    },
+    "12": {
+      "problem": "Line segment is a diameter of a circle with . Point , not equal to or , lies on the circle. As point moves around the circle, the centroid (center of mass) of traces out a closed curve missing two points. To the nearest positive integer, what is the area of the region bounded by this curve?",
+      "options": {
+        "A": "}25",
+        "B": "}38",
+        "C": "}50",
+        "D": "}63",
+        "E": "}75"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_12"
+        }
+      ]
+    },
+    "13": {
+      "problem": "How many of the first numbers in the sequence are divisible by ?",
+      "options": {
+        "A": "}253",
+        "B": "}504",
+        "C": "}505",
+        "D": "}506",
+        "E": "}1009"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_13"
+        }
+      ]
+    },
+    "14": {
+      "problem": "A list of positive integers has a unique mode, which occurs exactly times. What is the least number of distinct values that can occur in the list?",
+      "options": {
+        "A": "}202",
+        "B": "}223",
+        "C": "}224",
+        "D": "}225",
+        "E": "}234"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_14"
+        }
+      ]
+    },
+    "15": {
+      "problem": "A closed box with a square base is to be wrapped with a square sheet of wrapping paper. The box is centered on the wrapping paper with the vertices of the base lying on the midlines of the square sheet of paper, as shown in the figure on the left. The four corners of the wrapping paper are to be folded up over the sides and brought together to meet at the center of the top of the box, point in the figure on the right. The box has base length and height . What is the area of the sheet of wrapping paper?",
+      "options": {
+        "A": "} 2(w+h)^2",
+        "B": "} \\frac{(w+h)^2}2",
+        "C": "} 2w^2+4wh",
+        "D": "} 2w^2",
+        "E": "} w^2h"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_15"
+        }
+      ]
+    },
+    "16": {
+      "problem": "Let be a strictly increasing sequence of positive integers such that What is the remainder when is divided by ?",
+      "options": {
+        "A": "}0",
+        "B": "}1",
+        "C": "}2",
+        "D": "}3",
+        "E": "}4"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_16"
+        }
+      ]
+    },
+    "17": {
+      "problem": "In rectangle , and . Points and lie on , points and lie on , points and lie on , and points and lie on so that and the convex octagon is equilateral. The length of a side of this octagon can be expressed in the form , where , , and are integers and is not divisible by the square of any prime. What is ?",
+      "options": {
+        "A": "}1",
+        "B": "}7",
+        "C": "}21",
+        "D": "}92",
+        "E": "}106"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_17"
+        }
+      ]
+    },
+    "18": {
+      "problem": "Three young brother-sister pairs from different families need to take a trip in a van. These six children will occupy the second and third rows in the van, each of which has three seats. To avoid disruptions, siblings may not sit right next to each other in the same row, and no child may sit directly in front of his or her sibling. How many seating arrangements are possible for this trip?",
+      "options": {
+        "A": "}60",
+        "B": "}72",
+        "C": "}92",
+        "D": "}96",
+        "E": "}120"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_18"
+        }
+      ]
+    },
+    "19": {
+      "problem": "Joey and Chloe and their daughter Zoe all have the same birthday. Joey is year older than Chloe, and Zoe is exactly year old today. Today is the first of the birthdays on which Chloe's age will be an integral multiple of Zoe's age. What will be the sum of the two digits of Joey's age the next time his age is a multiple of Zoe's age?",
+      "options": {
+        "A": "}7",
+        "B": "}8",
+        "C": "}9",
+        "D": "}10",
+        "E": "}11"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_19"
+        }
+      ]
+    },
+    "20": {
+      "problem": "A function is defined recursively by and for all integers . What is ?",
+      "options": {
+        "A": "} 2016",
+        "B": "} 2017",
+        "C": "} 2018",
+        "D": "} 2019",
+        "E": "} 2020"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_20"
+        }
+      ]
+    },
+    "21": {
+      "problem": "Mary chose an even -digit number . She wrote down all the divisors of in increasing order from left to right: . At some moment Mary wrote as a divisor of . What is the smallest possible value of the next divisor written to the right of ?",
+      "options": {
+        "A": "}324",
+        "B": "}330",
+        "C": "}340",
+        "D": "}361",
+        "E": "}646"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_21"
+        }
+      ]
+    },
+    "22": {
+      "problem": "Real numbers and are chosen independently and uniformly at random from the interval . Which of the following numbers is closest to the probability that and are the side lengths of an obtuse triangle?",
+      "options": {
+        "A": "}0.21",
+        "B": "}0.25",
+        "C": "}0.29",
+        "D": "}0.50",
+        "E": "}0.79"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_22"
+        }
+      ]
+    },
+    "23": {
+      "problem": "How many ordered pairs of positive integers satisfy the equation where denotes the greatest common divisor of and , and denotes their least common multiple?",
+      "options": {
+        "A": "} \\text{ 0}",
+        "B": "} \\text{ 2}",
+        "C": "} \\text{ 4}",
+        "D": "} \\text{ 6}",
+        "E": "} \\text{ 8}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_23"
+        }
+      ]
+    },
+    "24": {
+      "problem": "Let be a regular hexagon with side length . Denote by , , and the midpoints of sides , , and , respectively. What is the area of the convex hexagon whose interior is the intersection of the interiors of and ?",
+      "options": {
+        "A": "}\\ \\frac {3}{8}\\sqrt{3}",
+        "B": "}\\ \\frac {7}{16}\\sqrt{3}",
+        "C": "}\\ \\frac {15}{32}\\sqrt{3}",
+        "D": "}\\ \\frac {1}{2}\\sqrt{3}",
+        "E": "}\\ \\frac {9}{16}\\sqrt{3}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_24"
+        }
+      ]
+    },
+    "25": {
+      "problem": "Let denote the greatest integer less than or equal to . How many real numbers satisfy the equation ?",
+      "options": {
+        "A": "} 197",
+        "B": "} 198",
+        "C": "} 199",
+        "D": "} 200",
+        "E": "} 201"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2018_AMC_10B_Problems/Problem_25"
+        }
+      ]
+    }
+  },
+  "2019_AMC_10A_Problems": {
+    "2": {
+      "problem": "What is the hundreds digit of",
+      "options": {
+        "A": "}0",
+        "B": "}1",
+        "C": "}2",
+        "D": "}4",
+        "E": "}5"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_2"
+        }
+      ]
+    },
+    "3": {
+      "problem": "Ana and Bonita are born on the same date in different years, years apart. Last year Ana was times as old as Bonita. This year Ana's age is the square of Bonita's age. What is",
+      "options": {
+        "A": "} 3",
+        "B": "} 5",
+        "C": "} 9",
+        "D": "} 12",
+        "E": "} 15"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_3"
+        }
+      ]
+    },
+    "4": {
+      "problem": "A box contains red balls, green balls, yellow balls, blue balls, white balls, and black balls. What is the minimum number of balls that must be drawn from the box without replacement to guarantee that at least balls of a single color will be drawn",
+      "options": {
+        "A": "} 75",
+        "B": "} 76",
+        "C": "} 79",
+        "D": "} 84",
+        "E": "} 91"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_4"
+        }
+      ]
+    },
+    "5": {
+      "problem": "What is the greatest number of consecutive integers whose sum is",
+      "options": {
+        "A": "} 9",
+        "B": "} 25",
+        "C": "} 45",
+        "D": "} 90",
+        "E": "} 120"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_5"
+        }
+      ]
+    },
+    "6": {
+      "problem": "For how many of the following types of quadrilaterals does there exist a point in the plane of the quadrilateral that is equidistant from all four vertices of the quadrilateral?",
+      "options": {
+        "A": "} 1",
+        "B": "} 2",
+        "C": "} 3",
+        "D": "} 4",
+        "E": "} 5"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_6"
+        }
+      ]
+    },
+    "7": {
+      "problem": "Two lines with slopes and intersect at . What is the area of the triangle enclosed by these two lines and the line",
+      "options": {
+        "A": "} 4",
+        "B": "} 4\\sqrt{2}",
+        "C": "} 6",
+        "D": "} 8",
+        "E": "} 6\\sqrt{2}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_7"
+        }
+      ]
+    },
+    "8": {
+      "problem": "The figure below shows line with a regular, infinite, recurring pattern of squares and line segments. How many of the following four kinds of rigid motion transformations of the plane in which this figure is drawn, other than the identity transformation, will transform this figure into itself?",
+      "options": {
+        "A": "} 0",
+        "B": "} 1",
+        "C": "} 2",
+        "D": "} 3",
+        "E": "} 4"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_8"
+        }
+      ]
+    },
+    "9": {
+      "problem": "What is the greatest three-digit positive integer for which the sum of the first positive integers is a divisor of the product of the first positive integers?",
+      "options": {
+        "A": "} 995",
+        "B": "} 996",
+        "C": "} 997",
+        "D": "} 998",
+        "E": "} 999"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_9"
+        }
+      ]
+    },
+    "10": {
+      "problem": "A rectangular floor that is feet wide and feet long is tiled with one-foot square tiles. A bug walks from one corner to the opposite corner in a straight line. Including the first and the last tile, how many tiles does the bug visit?",
+      "options": {
+        "A": "} 17",
+        "B": "} 25",
+        "C": "} 26",
+        "D": "} 27",
+        "E": "} 28"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_10"
+        }
+      ]
+    },
+    "11": {
+      "problem": "How many positive integer divisors of are perfect squares or perfect cubes (or both)?",
+      "options": {
+        "A": "} 32",
+        "B": "} 36",
+        "C": "} 37",
+        "D": "} 39",
+        "E": "} 41"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_11"
+        }
+      ]
+    },
+    "12": {
+      "problem": "Melanie computes the mean , the median , and the modes of the values that are the dates in the months of . Thus her data consists of , , . . . , , , , and . Let be the median of the modes. Which of the following statements is true?",
+      "options": {
+        "A": "} \\mu < d < M",
+        "B": "} M < d < \\mu",
+        "C": "} d = M =\\mu",
+        "D": "} d < M < \\mu",
+        "E": "} d < \\mu < M"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_12"
+        }
+      ]
+    },
+    "13": {
+      "problem": "Let be an isosceles triangle with and . Construct the circle with diameter , and let and be the other intersection points of the circle with the sides and , respectively. Let be the intersection of the diagonals of the quadrilateral . What is the degree measure of",
+      "options": {
+        "A": "} 90",
+        "B": "} 100",
+        "C": "} 105",
+        "D": "} 110",
+        "E": "} 120"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_13"
+        }
+      ]
+    },
+    "14": {
+      "problem": "For a set of four distinct lines in a plane, there are exactly distinct points that lie on two or more of the lines. What is the sum of all possible values of ?",
+      "options": {
+        "A": "} 14",
+        "B": "} 16",
+        "C": "} 18",
+        "D": "} 19",
+        "E": "} 21"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_14"
+        }
+      ]
+    },
+    "15": {
+      "problem": "A sequence of numbers is defined recursively by , , and for all . Then can be written as , where and are relatively prime positive integers. What is",
+      "options": {
+        "A": "} 2020",
+        "B": "} 4039",
+        "C": "} 6057",
+        "D": "} 6061",
+        "E": "} 8078"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_15"
+        }
+      ]
+    },
+    "16": {
+      "problem": "The figure below shows circles of radius within a larger circle. All the intersections occur at points of tangency. What is the area of the region, shaded in the figure, inside the larger circle but outside all the circles of radius",
+      "options": {
+        "A": "} 4 \\pi \\sqrt{3}",
+        "B": "} 7 \\pi",
+        "C": "} \\pi\\left(3\\sqrt{3} +2\\right)",
+        "D": "} 10 \\pi \\left(\\sqrt{3} - 1\\right)",
+        "E": "} \\pi\\left(\\sqrt{3} + 6\\right)"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_16"
+        }
+      ]
+    },
+    "17": {
+      "problem": "A child builds towers using identically shaped cubes of different colors. How many different towers with a height cubes can the child build with red cubes, blue cubes, and green cubes? (One cube will be left out.)",
+      "options": {
+        "A": "} 24",
+        "B": "} 288",
+        "C": "} 312",
+        "D": "} 1,260",
+        "E": "} 40,320"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_17"
+        }
+      ]
+    },
+    "18": {
+      "problem": "For some positive integer , the repeating base- representation of the (base-ten) fraction is . What is ?",
+      "options": {
+        "A": "} 13",
+        "B": "} 14",
+        "C": "} 15",
+        "D": "} 16",
+        "E": "} 17"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_18"
+        }
+      ]
+    },
+    "19": {
+      "problem": "What is the least possible value of where is a real number?",
+      "options": {
+        "A": "} 2017",
+        "B": "} 2018",
+        "C": "} 2019",
+        "D": "} 2020",
+        "E": "} 2021"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_19"
+        }
+      ]
+    },
+    "20": {
+      "problem": "The numbers are randomly placed into the squares of a grid. Each square gets one number, and each of the numbers is used once. What is the probability that the sum of the numbers in each row and each column is odd?",
+      "options": {
+        "A": "}\\dfrac{1}{21}",
+        "B": "}\\dfrac{1}{14}",
+        "C": "}\\dfrac{5}{63}",
+        "D": "}\\dfrac{2}{21}",
+        "E": "}\\dfrac{1}{7}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_20"
+        }
+      ]
+    },
+    "21": {
+      "problem": "A sphere with center has radius 6. A triangle with sides of length , , and is situated in space so that each of its sides are tangent to the sphere. What is the distance between and the plane determined by the triangle?",
+      "options": {
+        "A": "} 2\\sqrt{3}",
+        "B": "}4",
+        "C": "} 3\\sqrt{2}",
+        "D": "} 2\\sqrt{5}",
+        "E": "} 5"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_21"
+        }
+      ]
+    },
+    "22": {
+      "problem": "Real numbers between 0 and 1, inclusive, are chosen in the following manner. A fair coin is flipped. If it lands heads, then it is flipped again and the chosen number is 0 if the second flip is heads and 1 if the second flip is tails. On the other hand, if the first coin flip is tails, then the number is chosen uniformly at random from the closed interval . Two random numbers and are chosen independently in this manner. What is the probability that ?",
+      "options": {
+        "A": "} \\frac{1}{3}",
+        "B": "} \\frac{7}{16}",
+        "C": "} \\frac{1}{2}",
+        "D": "} \\frac{9}{16}",
+        "E": "} \\frac{2}{3}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_22"
+        }
+      ]
+    },
+    "23": {
+      "problem": "Travis has to babysit the terrible Thompson triplets. Knowing that they love big numbers, Travis devises a counting game for them. First Tadd will say the number , then Todd must say the next two numbers ( and ), then Tucker must say the next three numbers ( , , ), then Tadd must say the next four numbers ( , , , ), and the process continues to rotate through the three children in order, each saying one more number than the previous child did, until the number is reached. What is the th number said by Tadd?",
+      "options": {
+        "A": "}\\ 5743",
+        "B": "}\\ 5885",
+        "C": "}\\ 5979",
+        "D": "}\\ 6001",
+        "E": "}\\ 6011"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_23"
+        }
+      ]
+    },
+    "24": {
+      "problem": "Let , , and be the distinct roots of the polynomial . It is given that there exist real numbers , , and such that for all . What is ?",
+      "options": {
+        "A": "}243",
+        "B": "}244",
+        "C": "}245",
+        "D": "}246",
+        "E": "} 247"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_24"
+        }
+      ]
+    },
+    "25": {
+      "problem": "For how many integers between and , inclusive, is an integer? (Recall that .)",
+      "options": {
+        "A": "} 31",
+        "B": "} 32",
+        "C": "} 33",
+        "D": "} 34",
+        "E": "} 35"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10A_Problems/Problem_25"
+        }
+      ]
+    }
+  },
+  "2019_AMC_10B_Problems": {
+    "1": {
+      "problem": "Alicia had two containers. The first was full of water and the second was empty. She poured all the water from the first container into the second container, at which point the second container was full of water. What is the ratio of the volume of the first container to the volume of the second container?",
+      "options": {
+        "A": "} \\frac{5}{8}",
+        "B": "} \\frac{4}{5}",
+        "C": "} \\frac{7}{8}",
+        "D": "} \\frac{9}{10}",
+        "E": "} \\frac{11}{12}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_1"
+        }
+      ]
+    },
+    "2": {
+      "problem": "Consider the statement, \"If is not prime, then is prime.\" Which of the following values of is a counterexample to this statement?",
+      "options": {
+        "A": "} 11",
+        "B": "} 15",
+        "C": "} 19",
+        "D": "} 21",
+        "E": "} 27"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_2"
+        }
+      ]
+    },
+    "3": {
+      "problem": "In a high school with students, of the seniors play a musical instrument, while of the non-seniors do not play a musical instrument. In all, of the students do not play a musical instrument. How many non-seniors play a musical instrument?",
+      "options": {
+        "A": "} 66",
+        "B": "} 154",
+        "C": "} 186",
+        "D": "} 220",
+        "E": "} 266"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_3"
+        }
+      ]
+    },
+    "4": {
+      "problem": "All lines with equation such that form an arithmetic progression pass through a common point. What are the coordinates of that point?",
+      "options": {
+        "A": "} (-1,2)",
+        "B": "} (0,1)",
+        "C": "} (1,-2)",
+        "D": "} (1,0)",
+        "E": "} (1,2)"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_4"
+        }
+      ]
+    },
+    "5": {
+      "problem": "Triangle lies in the first quadrant. Points , , and are reflected across the line to points , , and , respectively. Assume that none of the vertices of the triangle lie on the line . Which of the following statements is not always true?",
+      "options": {
+        "A": "}",
+        "B": "}",
+        "C": "}",
+        "D": "}",
+        "E": "}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_5"
+        }
+      ]
+    },
+    "6": {
+      "problem": "There is a real such that . What is the sum of the digits of ?",
+      "options": {
+        "A": "}3",
+        "B": "}8",
+        "C": "}10",
+        "D": "}11",
+        "E": "}12"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_6"
+        }
+      ]
+    },
+    "7": {
+      "problem": "Each piece of candy in a store costs a whole number of cents. Casper has exactly enough money to buy either pieces of red candy, pieces of green candy, pieces of blue candy, or pieces of purple candy. A piece of purple candy costs cents. What is the smallest possible value of ?",
+      "options": {
+        "A": "} 18",
+        "B": "} 21",
+        "C": "} 24",
+        "D": "} 25",
+        "E": "} 28"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_7"
+        }
+      ]
+    },
+    "8": {
+      "problem": "The figure below shows a square and four equilateral triangles, with each triangle having a side lying on a side of the square, such that each triangle has side length and the third vertices of the triangles meet at the center of the square. The region inside the square but outside the triangles is shaded. What is the area of the shaded region?",
+      "options": {
+        "A": "} 4",
+        "B": "} 12 - 4\\sqrt{3}",
+        "C": "} 3\\sqrt{3}",
+        "D": "} 4\\sqrt{3}",
+        "E": "} 16 - 4\\sqrt{3}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_8"
+        }
+      ]
+    },
+    "9": {
+      "problem": "The function is defined by for all real numbers , where denotes the greatest integer less than or equal to the real number . What is the range of ?",
+      "options": {
+        "A": "}",
+        "B": "}",
+        "C": "}",
+        "D": "}",
+        "E": "}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_9"
+        }
+      ]
+    },
+    "10": {
+      "problem": "In a given plane, points and are units apart. How many points are there in the plane such that the perimeter of is units and the area of is square units?",
+      "options": {
+        "A": "}0",
+        "B": "}2",
+        "C": "}4",
+        "D": "}8",
+        "E": "}\\text{infinitely many}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_10"
+        }
+      ]
+    },
+    "11": {
+      "problem": "Two jars each contain the same number of marbles, and every marble is either blue or green. In Jar the ratio of blue to green marbles is , and the ratio of blue to green marbles in Jar is . There are green marbles in all. How many more blue marbles are in Jar than in Jar ?",
+      "options": {
+        "A": "} 5",
+        "B": "} 10",
+        "C": "} 25",
+        "D": "} 45",
+        "E": "} 50"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_11"
+        }
+      ]
+    },
+    "12": {
+      "problem": "What is the greatest possible sum of the digits in the base-seven representation of a positive integer less than ?",
+      "options": {
+        "A": "} 11",
+        "B": "} 14",
+        "C": "} 22",
+        "D": "} 23",
+        "E": "} 27"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_12"
+        }
+      ]
+    },
+    "13": {
+      "problem": "What is the sum of all real numbers for which the median of the numbers and is equal to the mean of those five numbers?",
+      "options": {
+        "A": "} -5",
+        "B": "} 0",
+        "C": "} 5",
+        "D": "} \\frac{15}{4}",
+        "E": "} \\frac{35}{4}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_13"
+        }
+      ]
+    },
+    "14": {
+      "problem": "The base-ten representation for is , where , , and denote digits that are not given. What is ?",
+      "options": {
+        "A": "}3",
+        "B": "}8",
+        "C": "}12",
+        "D": "}14",
+        "E": "} 17"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_14"
+        }
+      ]
+    },
+    "15": {
+      "problem": "Right triangles and have areas 1 and 2, respectively. A side of is congruent to a side of , and a different side of is congruent to a different side of . What is the square of the product of the other (third) sides of and ?",
+      "options": {
+        "A": "} \\frac{28}{3}",
+        "B": "}10",
+        "C": "} \\frac{32}{3}",
+        "D": "} \\frac{34}{3}",
+        "E": "}12"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_15"
+        }
+      ]
+    },
+    "16": {
+      "problem": "In with a right angle at point lies in the interior of and point lies in the interior of so that and the ratio What is the ratio",
+      "options": {
+        "A": "} 2:3",
+        "B": "} 2:\\sqrt{5}",
+        "C": "} 1:1",
+        "D": "} 3:\\sqrt{5}",
+        "E": "} 3:2"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_16"
+        }
+      ]
+    },
+    "17": {
+      "problem": "A red ball and a green ball are randomly and independently tossed into bins numbered with positive integers so that for each ball, the probability that it is tossed into bin is for What is the probability that the red ball is tossed into a higher-numbered bin than the green ball?",
+      "options": {
+        "A": "} \\frac{1}{4}",
+        "B": "} \\frac{2}{7}",
+        "C": "} \\frac{1}{3}",
+        "D": "} \\frac{3}{8}",
+        "E": "} \\frac{3}{7}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_17"
+        }
+      ]
+    },
+    "18": {
+      "problem": "Henry decides one morning to do a workout, and he walks of the way from his home to his gym. The gym is kilometers away from Henry's home. At that point, he changes his mind and walks of the way from where he is back toward home. When he reaches that point, he changes his mind again and walks of the distance from there back toward the gym. If Henry keeps changing his mind when he has walked of the distance toward either the gym or home from the point where he last changed his mind, he will get very close to walking back and forth between a point kilometers from home and a point kilometers from home. What is ?",
+      "options": {
+        "A": "} \\frac{2}{3}",
+        "B": "} 1",
+        "C": "} 1\\frac{1}{5}",
+        "D": "} 1\\frac{1}{4}",
+        "E": "} 1\\frac{1}{2}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_18"
+        }
+      ]
+    },
+    "19": {
+      "problem": "Let be the set of all positive integer divisors of How many numbers are the product of two distinct elements of",
+      "options": {
+        "A": "}98",
+        "B": "}100",
+        "C": "}117",
+        "D": "}119",
+        "E": "}121"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_19"
+        }
+      ]
+    },
+    "20": {
+      "problem": "As shown in the figure, line segment is trisected by points and so that Three semicircles of radius and have their diameters on lie in the same halfplane determined by line , and are tangent to line at and respectively. A circle of radius has its center on The area of the region inside the circle but outside the three semicircles, shaded in the figure, can be expressed in the form where and are positive integers and and are relatively prime. What is ?",
+      "options": {
+        "A": "} 13",
+        "B": "} 14",
+        "C": "} 15",
+        "D": "} 16",
+        "E": "} 17"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_20"
+        }
+      ]
+    },
+    "21": {
+      "problem": "Debra flips a fair coin repeatedly, keeping track of how many heads and how many tails she has seen in total, until she gets either two heads in a row or two tails in a row, at which point she stops flipping. What is the probability that she gets two heads in a row but she sees a second tail before she sees a second head?",
+      "options": {
+        "A": "} \\frac{1}{36}",
+        "B": "} \\frac{1}{24}",
+        "C": "} \\frac{1}{18}",
+        "D": "} \\frac{1}{12}",
+        "E": "} \\frac{1}{6}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_21"
+        }
+      ]
+    },
+    "22": {
+      "problem": "Raashan, Sylvia, and Ted play the following game. Each starts with . A bell rings every seconds, at which time each of the players who currently have money simultaneously chooses one of the other two players independently and at random and gives to that player. What is the probability that after the bell has rung times, each player will have ? (For example, Raashan and Ted may each decide to give to Sylvia, and Sylvia may decide to give her dollar to Ted, at which point Raashan will have , Sylvia will have , and Ted will have , and that is the end of the first round of play. In the second round Raashan has no money to give, but Sylvia and Ted might choose each other to give their to, and the holdings will be the same at the end of the second round.)",
+      "options": {
+        "A": "} \\frac{1}{7}",
+        "B": "} \\frac{1}{4}",
+        "C": "} \\frac{1}{3}",
+        "D": "} \\frac{1}{2}",
+        "E": "} \\frac{2}{3}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_22"
+        }
+      ]
+    },
+    "23": {
+      "problem": "Points and lie on circle in the plane. Suppose that the tangent lines to at and intersect at a point on the -axis. What is the area of ?",
+      "options": {
+        "A": "}\\frac{83\\pi}{8}",
+        "B": "}\\frac{21\\pi}{2}",
+        "C": "} \\frac{85\\pi}{8}",
+        "D": "}\\frac{43\\pi}{4}",
+        "E": "}\\frac{87\\pi}{8}"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_23"
+        }
+      ]
+    },
+    "24": {
+      "problem": "Define a sequence recursively by and for all nonnegative integers Let be the least positive integer such that In which of the following intervals does lie?",
+      "options": {
+        "A": "} [9,26]",
+        "B": "} [27,80]",
+        "C": "} [81,242]",
+        "D": "} [243,728]",
+        "E": "} [729,\\infty)"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_24"
+        }
+      ]
+    },
+    "25": {
+      "problem": "How many sequences of s and s of length are there that begin with a , end with a , contain no two consecutive s, and contain no three consecutive s?",
+      "options": {
+        "A": "}55",
+        "B": "}60",
+        "C": "}65",
+        "D": "}70",
+        "E": "}75"
+      },
+      "solutions": [
+        {
+          "title": "Solution",
+          "url": "https://artofproblemsolving.com/wiki/index.php/2019_AMC_10B_Problems/Problem_25"
+        }
+      ]
+    }
+  }
+}

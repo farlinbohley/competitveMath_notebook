@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html>
+	<head>
+				
+<script>AoPS = {
+	start_time : new Date().getTime()
+};</script>
+
+<script>
+	AoPS.bootstrap_data = [];
+	AoPS.bd = AoPS.bootstrap_data; // Alias!
+	AoPS.session = {"user_id":1,"platform_user_id":"","username":"Anonymous","avatar":"\/\/avatar.artofproblemsolving.com\/avatar_1.png?t=1","email":"","role":"","logged_in":false,"initialized":false,"needs_coppa_approval":false,"admin":false,"national_staff":false,"wikiname":""};
+	AoPS.bd.assetVersion = 1;
+	AoPS.bd.environment = 'production';
+	AoPS.protected_url = 'https://artofproblemsolving.com/';
+	AoPS.aops_url = 'https://artofproblemsolving.com/';
+	AoPS.academy_url = 'https://aopsacademy.org/';
+</script>
+		<!-- GA plugin and Enhanced Ecommerce -->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-1905305-1', 'auto', {allowLinker: true}); // GA Property ID
+		ga('send', 'pageview');
+		</script>
+		<!-- End GA plugin and Enhanced Ecommerce -->
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer', 'GTM-59JWRGZ')</script>
+		<!-- End Google Tag Manager -->
+
+		<link rel="apple-touch-icon" href="https://artofproblemsolving.com/apple-touch-icon.png">
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1">
+		<meta name="referrer" content="origin">
+
+		<meta name="facebook-domain-verification" content="zmmwg7oqqsqvf8ihckwvzoo85b08gx" />
+
+		
+		<link rel="apple-touch-icon" href="https://assets.artofproblemsolving.com/images/apple-touch-icon.png">
+		<title>Art of Problem Solving</title>
+
+		
+		<link href="https://artofproblemsolving.com/assets/fonts/font-awesome/css/all.css" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/sharedsite.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/navheader.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/footer.css">
+		<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/main-head.css">
+
+					<link rel="icon" href="https://artofproblemsolving.com/online-favicon.ico?v=2">
+		
+		
+		<script>
+  if (!window.console) console = {log: function() {}, dir: function() {}};
+  $$ = function( selector ) { return document.getElementById( selector ); }
+</script>
+
+							<script src="//assets.artofproblemsolving.com/js/jquery360.min.js"></script>
+							<script src="//artofproblemsolving.com/assets/vendor/jquery/3.6.0/jquery-migrate.min.js"></script>
+					<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '[katex]', right: '[/katex]', display: false},
+			  {left: '[katex display=true]', right: '[/katex]', display: true} 
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+</script>
+
+<script>
+MathJax = {
+  tex: {
+	inlineMath: [['[mathjax]', '[/mathjax]'], ['\\(', '\\)']],
+	displayMath: [['[mathjax display=true]', '[/mathjax]']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"> </script>
+
+				<meta charset="UTF-8"/>
+<title>2020 AMC 10B Problems - AoPS Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"2020_AMC_10B_Problems","wgTitle":"2020 AMC 10B Problems","wgCurRevisionId":238405,"wgRevisionId":238405,"wgArticleId":17816,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["AMC 10 Problems"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"2020_AMC_10B_Problems","wgRelevantArticleId":17816,"wgRequestId":"1083523d3ad10c3a431fd3d7","wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","site":"ready","user.options":"ready","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","skins.aopsp":"ready"});mw.loader.implement("user.tokens@09avpoe",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});mw.loader.load(["mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","skins.aopsp.js"]);});</script>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cskins.aopsp&amp;only=styles&amp;skin=aopsp"/>
+<script async="" src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=aopsp"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/wiki/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=aopsp"/>
+<meta name="generator" content="MediaWiki 1.31.1"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="AoPS Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://artofproblemsolving.com/wiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="AoPS Wiki Atom feed" href="/wiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/wiki/load.php?debug=false&amp;lang=en&amp;modules=html5shiv&amp;only=scripts&amp;skin=aopsp&amp;sync=1"></script><![endif]-->
+			</head>
+		<body class="production mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-2020_AMC_10B_Problems rootpage-2020_AMC_10B_Problems skin-aopsp action-view resources">
+
+					<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59JWRGZ"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		
+		<div id="page-wrapper">
+
+			<!-- search:off -->
+			
+			<!-- The gray bar at top -->
+			<!-- see shared-site.css -->
+			<div id="top-bar" class="sharedsite-wrapper no-select">
+				<div class="sharedsitebar">
+					<a href="https://artofproblemsolving.com" class="mobile-title"></a>
+					<div class="sharedsite-links">
+											<a class="site-link main" href="https://artofproblemsolving.com/company">
+												Art of Problem Solving
+						</a>
+						<div class="site">
+													<a class="site-link selected" href="https://artofproblemsolving.com">
+														<img src="https://artofproblemsolving.com/assets/images/logos/icon-online.svg" class="site-icon">
+								<span class="site-name">AoPS Online</span>
+							</a>
+							<!-- Rich dropdown -->
+							<div class="site-dropdown-wrapper">
+								<div class="site-dropdown">
+									<div class="site-info">
+										<div class="site-logo">
+											<img src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+										</div>
+										<div class="site-snippet">
+											Math texts, online classes, and more
+											<br/>for students in grades 5-12.
+										</div>
+										<a target="_blank" class="site-visit aops-primary" href="https://artofproblemsolving.com">
+											Visit AoPS Online <span class="aops-font">‚</span>
+										</a>
+									</div>
+									<div class="site-quick-nav">
+										<a target="_blank" href="https://artofproblemsolving.com/store" class="btn btn-primary aops-btn">
+											Books for Grades 5-12
+										</a>
+										<a target="_blank" href="https://artofproblemsolving.com/school" class="btn btn-primary aops-btn">
+											Online Courses
+										</a>
+									</div>
+								</div>
+							</div>
+							<!-- End rich dropdown -->
+						</div>
+						<div class="site">
+							<a class="site-link" href="https://beastacademy.com">
+								<img src="https://artofproblemsolving.com/assets/images/logos/icon-ba.svg" class="site-icon">
+								<span class="site-name">Beast Academy</span>
+							</a>
+							<div class="site-dropdown-wrapper">
+								<div class="site-dropdown">
+									<div class="site-info">
+										<div class="site-logo">
+											<img src="https://artofproblemsolving.com/assets/images/logos/aops-ba.svg"/>
+										</div>
+										<div class="site-snippet">
+											Engaging math books and online learning
+											<br/>for students ages 6-13.
+										</div>
+										<a target="_blank" class="site-visit ba-primary" href="https://beastacademy.com">
+											Visit Beast Academy <span class="aops-font">‚</span>
+										</a>
+									</div>
+									<div class="site-quick-nav">
+										<a target="_blank" href="https://beastacademy.com/books" class="btn btn-primary ba-btn">
+											Books for Ages 6-13
+										</a>
+										<a target="_blank" href="https://beastacademy.com/online" class="btn btn-primary ba-btn">
+											Beast Academy Online
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="site">
+							<a class="site-link" href="https://aopsacademy.org">
+								<img src="https://artofproblemsolving.com/assets/images/logos/icon-academy.svg" class="site-icon">
+								<span class="site-name">AoPS Academy</span>
+							</a>
+							<div class="site-dropdown-wrapper">
+								<div class="site-dropdown">
+									<div class="site-info">
+										<div class="site-logo">
+											<img src="https://artofproblemsolving.com/assets/images/logos/aops-academy.svg"/>
+										</div>
+										<div class="site-snippet">
+											Small live classes for advanced math
+											<br/>and language arts learners in grades 2-12.
+										</div>
+										<a target="_blank" class="site-visit academy-primary" href="https://aopsacademy.org">
+											Visit AoPS Academy <span class="aops-font">‚</span>
+										</a>
+									</div>
+									<div class="site-quick-nav">
+										<a target="_blank" href="https://aopsacademy.org/campuses" class="btn btn-primary academy-btn">
+											Find a Physical Campus
+										</a>
+										<a target="_blank" href="https://virtual.aopsacademy.org" class="btn btn-primary academy-btn">
+											Visit the Virtual Campus
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="header-wrapper" class="no-select">
+				<div class="header-underlay">
+					<div id="header">
+
+						<!-- The white area where main menu options appear -->
+
+						<!-- The menu links -->
+													<div id="main-menubar">
+								<div class="menubar-content">
+									<div class="menubar-logo online">
+										<img class="menubar-hamburger" src="https://artofproblemsolving.com/assets/images/hamburger.svg"/>
+										<a class="logo-img-link" href="https://artofproblemsolving.com/online">
+											<img class="logo-img" src="https://artofproblemsolving.com/assets/images/logos/aops-online.svg"/>
+											<img class="logo-img-mobile" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+											<img class="logo-img-small" src="https://artofproblemsolving.com/assets/images/logos/aops-online-mobile.svg"/>
+										</a>
+									</div>
+									<div class="menubar-links-outer">
+										<!-- The login links -->
+										<div class="menu-login-wrapper online">
+											
+											<div class="menu-login-item">
+															<div 
+		    id="header-login"
+			class="no-select not-signed-in"
+			style="display:flex">
+
+			<div class="online-login-button solid-rounded-button">Sign&nbsp;In</div><div class="online-register-button">Register</div>
+		</div>
+												</div>
+
+											
+										</div>
+										<div class="menubar-labels online">
+											<div class="menubar-label school">
+												<div class="menubar-label-link-outer">
+													<a class="menubar-label-link " href="https://artofproblemsolving.com/school">
+														online school
+													</a>
+												</div>
+												<div class="menubar-dropdown">
+													<div class="triangle"></div>
+													<div class="dropdown-content">
+														<!-- These have IDs for A/B testing purposes. T27691 -->
+																												<a id="online-school-menu-schedule" href="https://artofproblemsolving.com/school/schedule"> Class Schedule </a>
+														<a id="online-school-menu-recommmendations" href="https://artofproblemsolving.com/school/recommendations"> Recommendations </a>
+														<a id="online-school-menu-woot-courses" href="https://artofproblemsolving.com/school/woot?gtmlist=School_Nav"> Olympiad Courses </a>
+														<a id="online-school-menu-mathjams" href="https://artofproblemsolving.com/school/mathjams"> Free Sessions </a>
+																																									</div>
+												</div>
+											</div>
+											<div class="menubar-label store">
+												<div class="menubar-label-link-outer">
+													<a class="menubar-label-link " href="https://artofproblemsolving.com/store">
+														books<span class="menubar-link-ext">tore </span>
+													</a>
+												</div>
+												<div class="menubar-dropdown">
+													<div class="triangle"></div>
+													<div class="dropdown-content">
+																																																								<a href="https://artofproblemsolving.com/store/list/aops-curriculum">AoPS Curriculum</a>
+														<a href="https://artofproblemsolving.com/store/list/beast-academy">Beast Academy</a>
+														<a href="https://artofproblemsolving.com/store/online">Online Books</a>
+														<a href="https://artofproblemsolving.com/store/recommendations">Recommendations</a>
+														<a href="https://artofproblemsolving.com/store/list/other-products">Other Books &amp; Gear</a>
+														<a href="https://artofproblemsolving.com/store/list/all-products">All Products</a>
+														<a href="https://artofproblemsolving.com/store/gift-certificates?gtmlist=Bookstore_Nav">Gift Certificates</a>
+																											</div>
+												</div>
+											</div>
+											<div class="menubar-label community">
+												<div class="menubar-label-link-outer">
+													<a class="menubar-label-link " href="https://artofproblemsolving.com/community">
+														community
+													</a>
+												</div>
+												<div class="menubar-dropdown">
+													<div class="triangle"></div>
+													<div class="dropdown-content">
+																												<a data-cmty href="https://artofproblemsolving.com/community">Forums</a>
+														<a data-cmty href="https://artofproblemsolving.com/community/c13_contests">Contests</a>
+														<a data-cmty href="https://artofproblemsolving.com/community/search">Search</a>
+														<a data-cmty href="https://artofproblemsolving.com/community/faq">Help</a>
+																																									</div>
+												</div>
+											</div>
+											<div class="menubar-label resources">
+												<div class="menubar-label-link-outer">
+													<a class="menubar-label-link " href="https://artofproblemsolving.com/resources">
+														resources
+													</a>
+												</div>
+												<div class="menubar-dropdown">
+													<div class="triangle"></div>
+													<div class="dropdown-content">
+														<div class="dropdown-columns">
+															<div class="dropdown-category">
+																<span class="dropdown-category-label">math training & tools</span>
+																<a href="https://artofproblemsolving.com/alcumus">Alcumus</a>
+																<a href="https://artofproblemsolving.com/videos">Videos</a>
+																<a href="https://artofproblemsolving.com/ftw">For the Win!</a>
+																<a href="https://artofproblemsolving.com/mathcounts_trainer">MATHCOUNTS Trainer</a>
+																<a href="https://artofproblemsolving.com/contests/practice">AoPS Practice Contests</a>
+																<a href="https://artofproblemsolving.com/wiki/index.php?title=Main_Page">AoPS Wiki</a>
+																<a href="https://artofproblemsolving.com/texer">LaTeX TeXeR</a>
+																<a href="https://artofproblemsolving.com/polymath">MIT PRIMES/CrowdMath</a>
+																<a href="https://artofproblemsolving.com/keeplearning">Keep Learning</a>
+																<a href="https://beastacademy.com/all-ten">All Ten</a>
+																															</div>
+															<div class="dropdown-column">
+																																<div class="dropdown-category category-in-column">
+																	<span class="dropdown-category-label">contests on aops</span>
+																	<a href="https://artofproblemsolving.com/contests/practice">Practice Math Contests</a>
+																	<a href="https://artofproblemsolving.com/contests/usabo">USABO</a>
+																</div>
+																<div class="dropdown-category category-in-column">
+                                                                                                                                        <span class="dropdown-category-label">news</span>
+                                                                                                                                        <a href="https://artofproblemsolving.com/blog">AoPS Blog</a>
+                                                                                                                                        <a href="https://artofproblemsolving.com/blog/webinars/aopswebinars">Webinars</a>
+                                                                                                                                </div>
+															</div>
+														</div>
+														<div class="dropdown-view-more-link-container">
+															<a href="https://artofproblemsolving.com/resources" class="dropdown-view-more-link">view all <span class="aops-icon">0</span></a>
+														</div>
+													</div>
+												</div>
+											</div>
+																						<div class="menubar-label menu-login-item">
+															<div 
+		    id="header-login"
+			class="no-select not-signed-in"
+			style="display:flex">
+
+			<div class="online-login-button solid-rounded-button">Sign&nbsp;In</div><div class="online-register-button">Register</div>
+		</div>
+												</div>
+																					</div>
+									</div>
+								</div>
+							</div>
+											</div>
+				</div>
+
+								<noscript>
+					<div class="infobar">JavaScript is not enabled. JavaScript is required to fully utilize the site.</div>
+				</noscript>
+
+
+									<div id="breadcrumbs-wrapper">
+						<div id="submenu-icon"></div>
+						<div id="breadcrumbs">
+														<!-- ignore-security-checks -->
+							<div class="title-wrapper"><div class="title"><a href="/wiki">AoPS Wiki</a></div></div>
+														<div class="crumb-wrapper">
+																										<span class="crumb crumb-1">
+																			<!-- ignore-security-checks -->
+										<a href="https://artofproblemsolving.com/resources">Resources</a>
+																		</span>
+																											<i class="aops-font aops-angle-double-right"></i>
+																		<span class="crumb crumb-2">
+																			<!-- ignore-security-checks -->
+										<a href="/wiki">Aops Wiki</a>
+																		</span>
+																											<i class="aops-font aops-angle-double-right"></i>
+																		<span class="crumb crumb-3">
+																			2020 AMC 10B Problems																		</span>
+															</div>
+						</div>
+					</div>
+							</div>
+
+			<!-- search icon script lives in footer.phtml-->
+
+			<!-- /search:off -->
+
+<div id="main-content" class="left-navigation wiki">
+	<div id="side-column-wrapper">
+		<div id="side-column">
+						<div id="content-actions" class="menu open">
+				<div class="submenu">
+					<h1>Page</h1>
+					<div class="submenu-wrapper">
+						<span id="ca-nstab-main" class="selected"><a href="/wiki/index.php/2020_AMC_10B_Problems" title="View the content page " accesskey="c">Article</a></span><span id="ca-talk" class="new"><a href="/wiki/index.php?title=Talk:2020_AMC_10B_Problems&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) " accesskey="t">Discussion</a></span><span id="ca-viewsource"><a href="/wiki/index.php?title=2020_AMC_10B_Problems&amp;action=edit" title="This page is protected.&#10;You can view its source " accesskey="e">View source</a></span><span id="ca-history"><a href="/wiki/index.php?title=2020_AMC_10B_Problems&amp;action=history" title="Past revisions of this page " accesskey="h">History</a></span>					</div>
+				</div>
+			</div>
+			<div id="toolbox" class="menu open">
+				<div class="submenu">
+					<h1>Toolbox</h1>
+					<div class="submenu-wrapper">
+						<span id="n-recentchanges"><a href="/wiki/index.php/Special:RecentChanges" title="A list of recent changes in the wiki " accesskey="r">Recent changes</a></span><span id="n-randompage"><a href="/wiki/index.php/Special:Random" title="Load a random page " accesskey="x">Random page</a></span><span id="n-help"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" title="The place to find out">Help</a></span><span id="t-whatlinkshere"><a href="/wiki/index.php/Special:WhatLinksHere/2020_AMC_10B_Problems" title="A list of all wiki pages that link here " accesskey="j">What links here</a></span><span id="t-specialpages"><a href="/wiki/index.php/Special:SpecialPages" title="A list of all special pages " accesskey="q">Special pages</a></span>					</div>
+				</div>
+			</div>
+			
+			<div id="search" class="menu open">
+				<h1>Search</h1>
+				<div class="submenu-wrapper" style="margin-bottom:5px;">
+					<form action="/wiki/index.php" id="searchform" class="mw-search">
+						<input type="hidden" name="title" value="Special:Search">
+						<input type="search" name="search" placeholder="Search" value="" accesskey="f" id="searchInput">
+						<div style="margin:0 5px 5px 5px;text-align:right;"><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="btn btn-primary searchButton"/></div>
+					</form>
+				</div>
+			</div>
+
+			<!--
+			<div class="menu open">
+				<h1>Note</h1>
+				<div class="submenu-wrapper" style="padding:10px;color:#444;">
+					Please do not discuss the 2015 AMC 8 Competition on any website until November 25th.
+				</div>
+			</div>
+			-->
+		</div>
+	</div>
+
+	<div id="main-column" style="margin-top:10px">
+		<div class="wikiannounce-outer">
+<div class="wikiannounce-filler"></div>
+<div class="wikiannounce">
+    <div class="wikiannounce-title">TRAIN FOR THE AMC 10 WITH US
+    </div>
+    <div class="wikiannounce-text">
+     Thousands of top-scorers on the AMC 10 have used our
+    <a href="https://www.artofproblemsolving.com/store/list/aops-curriculum?gtmlist=wikiAMC10B_2020Probspage">Introduction series of textbooks</a>
+    and 
+    <a href="https://www.artofproblemsolving.com/store/item/aops-vol1?gtmlist=wikiAMC10B_2020Probspage">Art of Problem Solving Volume 1</a> 
+    for their training. </div>
+</div>
+<a class="wikiannounce-button" href="https://www.artofproblemsolving.com/store?gtmlist=wikiAMC10B_2020Probspage">
+    CHECK OUT THE BOOKS
+</a>
+</div>
+		<div class="page-wrapper">
+						<div id="mw-js-message" style="display:none;"></div>
+			<h1 id="firstHeading" class="firstHeading">2020 AMC 10B Problems</h1>
+
+						
+			<div class="mw-body">
+												
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:50%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2020_AMC_10B" title="2020 AMC 10B">2020 AMC 10B</a></b> (<b><a href="/wiki/index.php/2020_AMC_10B_Answer_Key" title="2020 AMC 10B Answer Key">Answer Key</a></b>)<br />Printable versions: <span class="noprint plainlinks"><a rel="nofollow" class="external text" href="https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_10B_Problems&amp;printable=yes">Wiki</a></span> • <a rel="nofollow" class="external text" href="https://artofproblemsolving.com/community/contest/collection/c3414_amc_10/2020">AoPS Resources</a> • <a rel="nofollow" class="external text" href="https://artofproblemsolving.com/community/contest/download/c3414_amc_10/2020">PDF</a>
+</td></tr>
+<tr>
+<td style="font-size:80%;">
+<p><font style="text-align:center;">Instructions</font>
+</p>
+<ol><li>This is a 25-question, multiple choice test. Each question is followed by answers marked A, B, C, D and E. Only one of these is correct.</li>
+<li>You will receive 6 points for each correct answer, 2.5 points for each problem left unanswered if the year is before 2006, 1.5 points for each problem left unanswered if the year is after 2006, and 0 points for each incorrect answer.</li>
+<li>No aids are permitted other than scratch paper, graph paper, ruler, compass, protractor and erasers (and calculators that are accepted for use on the SAT if before 2006. No problems on the test will <i>require</i> the use of a calculator).</li>
+<li>Figures are not necessarily drawn to scale.</li>
+<li>You will have <b>75 minutes</b> working time to complete the test.</li></ol>
+</td></tr>
+<tr>
+<td style="text-align:center;"><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_1" title="2020 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_2" title="2020 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_3" title="2020 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_4" title="2020 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_5" title="2020 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_6" title="2020 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_7" title="2020 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_8" title="2020 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_9" title="2020 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_10" title="2020 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_11" title="2020 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_12" title="2020 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_13" title="2020 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_14" title="2020 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_15" title="2020 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_16" title="2020 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_17" title="2020 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_18" title="2020 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_19" title="2020 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_20" title="2020 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_21" title="2020 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_22" title="2020 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_23" title="2020 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_24" title="2020 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_25" title="2020 AMC 10B Problems/Problem 25">25</a>
+</td></tr></tbody></table>
+<div id="toc" class="toc"><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Problem_1"><span class="tocnumber">1</span> <span class="toctext">Problem 1</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Problem_2"><span class="tocnumber">2</span> <span class="toctext">Problem 2</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Problem_3"><span class="tocnumber">3</span> <span class="toctext">Problem 3</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Problem_4"><span class="tocnumber">4</span> <span class="toctext">Problem 4</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Problem_5"><span class="tocnumber">5</span> <span class="toctext">Problem 5</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Problem_6"><span class="tocnumber">6</span> <span class="toctext">Problem 6</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Problem_7"><span class="tocnumber">7</span> <span class="toctext">Problem 7</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Problem_8"><span class="tocnumber">8</span> <span class="toctext">Problem 8</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Problem_9"><span class="tocnumber">9</span> <span class="toctext">Problem 9</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Problem_10"><span class="tocnumber">10</span> <span class="toctext">Problem 10</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Problem_11"><span class="tocnumber">11</span> <span class="toctext">Problem 11</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Problem_12"><span class="tocnumber">12</span> <span class="toctext">Problem 12</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Problem_13"><span class="tocnumber">13</span> <span class="toctext">Problem 13</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Problem_14"><span class="tocnumber">14</span> <span class="toctext">Problem 14</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Problem_15"><span class="tocnumber">15</span> <span class="toctext">Problem 15</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#Problem_16"><span class="tocnumber">16</span> <span class="toctext">Problem 16</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#Problem_17"><span class="tocnumber">17</span> <span class="toctext">Problem 17</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#Problem_18"><span class="tocnumber">18</span> <span class="toctext">Problem 18</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#Problem_19"><span class="tocnumber">19</span> <span class="toctext">Problem 19</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Problem_20"><span class="tocnumber">20</span> <span class="toctext">Problem 20</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#Problem_21"><span class="tocnumber">21</span> <span class="toctext">Problem 21</span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#Problem_22"><span class="tocnumber">22</span> <span class="toctext">Problem 22</span></a></li>
+<li class="toclevel-1 tocsection-23"><a href="#Problem_23"><span class="tocnumber">23</span> <span class="toctext">Problem 23</span></a></li>
+<li class="toclevel-1 tocsection-24"><a href="#Problem_24"><span class="tocnumber">24</span> <span class="toctext">Problem 24</span></a></li>
+<li class="toclevel-1 tocsection-25"><a href="#Problem_25"><span class="tocnumber">25</span> <span class="toctext">Problem 25</span></a></li>
+<li class="toclevel-1 tocsection-26"><a href="#See_also"><span class="tocnumber">26</span> <span class="toctext">See also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Problem_1">Problem 1</span></h2>
+<p>What is the value of <img src="//latex.artofproblemsolving.com/b/e/9/be98cae79cec3b48dda8cf8457ed7681e18a306b.png" class="latexcenter" alt="\[1 - (-2) - 3 - (-4) - 5 - (-6)?\]" width="256" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/b/d/5/bd5ffcf907876e2be6b38306ea5e7bf72d9cd8f1.png" class="latex" alt="$\textbf{(A)}\ -20 \qquad\textbf{(B)}\ -3 \qquad\textbf{(C)}\ 3 \qquad\textbf{(D)}\ 5 \qquad\textbf{(E)}\ 21$" style="vertical-align: -4px" width="410" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_1" title="2020 AMC 10B Problems/Problem 1">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_2">Problem 2</span></h2>
+<p>Carl has <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> cubes each having side length <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: -1px" width="11" height="14" />, and Kate has <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> cubes each having side length <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />. What is the total volume of these <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> cubes?
+</p><p><img src="//latex.artofproblemsolving.com/c/6/3/c63f923fed936e6e182d8d50299c1bcb3f39b0a4.png" class="latex" alt="$\textbf{(A)}\ 24 \qquad\textbf{(B)}\ 25 \qquad\textbf{(C)}\ 28 \qquad\textbf{(D)}\ 40 \qquad\textbf{(E)}\ 45$" style="vertical-align: -4px" width="394" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_2" title="2020 AMC 10B Problems/Problem 2">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_3">Problem 3</span></h2>
+<p>The ratio of <img src="//latex.artofproblemsolving.com/9/e/e/9ee4b825a2e36ae093ed7be5e4851ef453b34914.png" class="latex" alt="$w$" width="13" height="8" /> to <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" style="vertical-align: -1px" width="12" height="10" /> is <img src="//latex.artofproblemsolving.com/d/e/f/def7726c2babb527f7ab2ae4c436cc012ebbd351.png" class="latex" alt="$4:3$" style="vertical-align: 0px" width="32" height="13" />, the ratio of <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -4px" width="11" height="13" /> to <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" style="vertical-align: -1px" width="11" height="10" /> is <img src="//latex.artofproblemsolving.com/8/0/e/80e47d95347d6e72d1b3e8a4aea3dd20082f3cc3.png" class="latex" alt="$3:2$" width="32" height="12" />, and the ratio of <img src="//latex.artofproblemsolving.com/b/1/3/b13f21416d84e13708696f34dea81026cda583c9.png" class="latex" alt="$z$" style="vertical-align: -1px" width="11" height="10" /> to <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" style="vertical-align: -1px" width="12" height="10" /> is <img src="//latex.artofproblemsolving.com/9/2/7/9272fbcdbe136e6528e3f6d3ded14eaead70d0ce.png" class="latex" alt="$1:6$" style="vertical-align: 0px" width="32" height="13" />. What is the ratio of <img src="//latex.artofproblemsolving.com/9/e/e/9ee4b825a2e36ae093ed7be5e4851ef453b34914.png" class="latex" alt="$w$" width="13" height="8" /> to <img src="//latex.artofproblemsolving.com/e/e/3/ee326c993c95f1656496d2d74ca2270dd268c4c5.png" class="latex" alt="$y?$" style="vertical-align: -3px" width="17" height="16" />
+</p><p><img src="//latex.artofproblemsolving.com/8/9/8/8983c70c40b17d964f2592f83651f94301343734.png" class="latex" alt="$\textbf{(A)}\ 4:3 \qquad\textbf{(B)}\ 3:2 \qquad\textbf{(C)}\  8:3 \qquad\textbf{(D)}\ 4:1 \qquad\textbf{(E)}\ 16:3$" style="vertical-align: -4px" width="479" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_3" title="2020 AMC 10B Problems/Problem 3">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_4">Problem 4</span></h2>
+<p>The acute angles of a right triangle are <img src="//latex.artofproblemsolving.com/e/d/0/ed029035047cb2533cbe0cafde67b2d4c6d1b022.png" class="latex" alt="$a^{\circ}$" width="15" height="13" /> and <img src="//latex.artofproblemsolving.com/b/3/5/b35098f620afd0d4f7dd6bcee2c8f743556cd518.png" class="latex" alt="$b^{\circ}$" width="14" height="13" />, where <img src="//latex.artofproblemsolving.com/0/8/2/082852571ecc48ed136ba13dcffa8f6e40064bbd.png" class="latex" alt="$a&gt;b$" style="vertical-align: 0px" width="42" height="13" /> and both <img src="//latex.artofproblemsolving.com/c/7/d/c7d457e388298246adb06c587bccd419ea67f7e8.png" class="latex" alt="$a$" style="vertical-align: -1px" width="11" height="10" /> and <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" style="vertical-align: -1px" width="10" height="14" /> are prime numbers. What is the least possible value of <img src="//latex.artofproblemsolving.com/8/1/3/8136a7ef6a03334a7246df9097e5bcc31ba33fd2.png" class="latex" alt="$b$" style="vertical-align: -1px" width="10" height="14" />?
+</p><p><img src="//latex.artofproblemsolving.com/9/0/b/90b267da6156f3651912ba37dc13affab6778ca2.png" class="latex" alt="$\textbf{(A)}\ 2 \qquad\textbf{(B)}\ 3 \qquad\textbf{(C)}\  5 \qquad\textbf{(D)}\ 7 \qquad\textbf{(E)}\ 11$" style="vertical-align: -4px" width="357" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_4" title="2020 AMC 10B Problems/Problem 4">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_5">Problem 5</span></h2>
+<p>How many distinguishable arrangements are there of <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: -1px" width="11" height="14" /> brown tile, <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: -1px" width="11" height="14" /> purple tile, <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> green tiles, and <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> yellow tiles in a row from left to right? (Tiles of the same color are indistinguishable.)
+</p><p><img src="//latex.artofproblemsolving.com/3/7/c/37c42896d5b7705f9701bba55b6239beca69df7a.png" class="latex" alt="$\textbf{(A)}\ 210 \qquad\textbf{(B)}\ 420 \qquad\textbf{(C)}\  630 \qquad\textbf{(D)}\ 840 \qquad\textbf{(E)}\ 1050$" style="vertical-align: -4px" width="448" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_5" title="2020 AMC 10B Problems/Problem 5">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_6">Problem 6</span></h2>
+<p>Driving along a highway, Megan noticed that her odometer showed <img src="//latex.artofproblemsolving.com/f/e/0/fe03798054ce5c2d1aef8db8237a5bdbb4b063ae.png" class="latex" alt="$15951$" style="vertical-align: 0px" width="44" height="13" /> (miles). This number is a palindrome-it reads the same forward and backward. Then <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> hours later, the odometer displayed the next higher palindrome. What was her average speed, in miles per hour, during this <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />-hour period?
+</p><p><img src="//latex.artofproblemsolving.com/2/5/0/2504de9a10e83a09cd5d5852042f3a61b6c1c32c.png" class="latex" alt="$\textbf{(A)}\ 50 \qquad\textbf{(B)}\ 55 \qquad\textbf{(C)}\ 60 \qquad\textbf{(D)}\ 65 \qquad\textbf{(E)}\ 70$" style="vertical-align: -4px" width="394" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_6" title="2020 AMC 10B Problems/Problem 6">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_7">Problem 7</span></h2>
+<p>How many positive even multiples of <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> less than <img src="//latex.artofproblemsolving.com/5/0/9/509a9369d5c55fd98dc99cb2938fb44f0101f90a.png" class="latex" alt="$2020$" width="35" height="12" /> are perfect squares?
+</p><p><img src="//latex.artofproblemsolving.com/0/9/c/09c50bbb3572b7e8844da7beef02f584c7faff59.png" class="latex" alt="$\textbf{(A)}\ 7 \qquad\textbf{(B)}\ 8 \qquad\textbf{(C)}\  9 \qquad\textbf{(D)}\ 10 \qquad\textbf{(E)}\ 12$" style="vertical-align: -4px" width="366" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_7" title="2020 AMC 10B Problems/Problem 7">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_8">Problem 8</span></h2>
+<p>Points <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" /> and <img src="//latex.artofproblemsolving.com/9/8/6/9866e3a998d628ba0941eb4fea0666ac391d149a.png" class="latex" alt="$Q$" style="vertical-align: -3px" width="13" height="16" /> lie in a plane with <img src="//latex.artofproblemsolving.com/9/1/0/9102816304aa6a66edc87c364f93db592e92f303.png" class="latex" alt="$PQ=8$" style="vertical-align: -3px" width="61" height="16" />. How many locations for point <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" /> in this plane are there such that the triangle with vertices <img src="//latex.artofproblemsolving.com/4/b/4/4b4cade9ca8a2c8311fafcf040bc5b15ca507f52.png" class="latex" alt="$P$" width="14" height="12" />, <img src="//latex.artofproblemsolving.com/9/8/6/9866e3a998d628ba0941eb4fea0666ac391d149a.png" class="latex" alt="$Q$" style="vertical-align: -3px" width="13" height="16" />, and <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" /> is a right triangle with area <img src="//latex.artofproblemsolving.com/e/d/f/edf074831eb5bc9e61d6d6e09f525a86e3068f6a.png" class="latex" alt="$12$" style="vertical-align: 0px" width="17" height="12" /> square units?
+</p><p><img src="//latex.artofproblemsolving.com/4/6/1/4610606a92bb4de59b941898739ac8dea78e81d4.png" class="latex" alt="$\textbf{(A)}\ 2 \qquad\textbf{(B)}\ 4 \qquad\textbf{(C)}\  6 \qquad\textbf{(D)}\ 8 \qquad\textbf{(E)}\ 12$" style="vertical-align: -4px" width="357" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_8" title="2020 AMC 10B Problems/Problem 8">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_9">Problem 9</span></h2>
+<p>How many ordered pairs of integers <img src="//latex.artofproblemsolving.com/e/5/3/e53b1fe25be1c679117fb44a6a886fe1247d189a.png" class="latex" alt="$(x,y)$" style="vertical-align: -4px" width="40" height="18" /> satisfy the equation <img src="//latex.artofproblemsolving.com/b/e/8/be875eb54572b43dd54cd3172a8dd868e4e24791.png" class="latexcenter" alt="\[x^{2020} + y^2 = 2y?\]" width="127" height="18" />
+</p><p><img src="//latex.artofproblemsolving.com/4/a/c/4ac5f64265ed3afd46c46381e8beb55e8c8386c6.png" class="latex" alt="$\textbf{(A)}\ 1 \qquad\textbf{(B)}\ 2 \qquad\textbf{(C)}\  3 \qquad\textbf{(D)}\ 4 \qquad\textbf{(E)}\ \text{infinitely many}$" style="vertical-align: -4px" width="449" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_9" title="2020 AMC 10B Problems/Problem 9">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_10">Problem 10</span></h2>
+<p>A three-quarter sector of a circle of radius <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> inches together with its interior can be rolled up to form the lateral surface area of a right circular cone by taping together along the two radii shown. What is the volume of the cone in cubic inches?
+</p><p><img src="//latex.artofproblemsolving.com/0/f/d/0fd309aa42ba1222ee60252a6c9cb5860f74c4c4.png" class="latexcenter" alt="[asy] draw(Arc((0,0), 4, 0, 270)); draw((0,-4)--(0,0)--(4,0)); label(&quot;$4$&quot;, (2,0), S); [/asy]" width="252" height="252" />
+</p><p><img src="//latex.artofproblemsolving.com/6/b/1/6b1f58739039d84996842ce9fd26c68e045100cf.png" class="latex" alt="$\textbf{(A)}\ 3\pi \sqrt5 \qquad\textbf{(B)}\ 4\pi \sqrt3 \qquad\textbf{(C)}\ 3 \pi \sqrt7 \qquad\textbf{(D)}\ 6\pi \sqrt3 \qquad\textbf{(E)}\ 6\pi \sqrt7$" style="vertical-align: -4px" width="526" height="21" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_10" title="2020 AMC 10B Problems/Problem 10">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_11">Problem 11</span></h2>
+<p>Ms. Carr asks her students to read any <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> of the <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> books on a reading list. Harold randomly selects <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> books from this list, and Betty does the same. What is the probability that there are exactly <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> books that they both select?
+</p><p><img src="//latex.artofproblemsolving.com/9/5/5/955a063f60a42be87a026dcf858f91f82360d09a.png" class="latex" alt="$\textbf{(A)}\ \frac{1}{8} \qquad\textbf{(B)}\ \frac{5}{36} \qquad\textbf{(C)}\ \frac{14}{45} \qquad\textbf{(D)}\ \frac{25}{63} \qquad\textbf{(E)}\ \frac{1}{2}$" style="vertical-align: -13px" width="395" height="38" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_11" title="2020 AMC 10B Problems/Problem 11">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_12">Problem 12</span></h2>
+<p>The decimal representation of <img src="//latex.artofproblemsolving.com/d/4/d/d4db2d9da9d692a4bdbc3b0c7b42da9975c8c6ba.png" class="latexcenter" alt="\[\frac{1}{20^{20}}\]" width="32" height="37" />
+consists of a string of zeros after the decimal point, followed by a <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> and then several more digits. How many zeros are in that initial string of zeros after the decimal point?
+</p><p><img src="//latex.artofproblemsolving.com/4/3/e/43eb7894dbe7c5d2505d5f7df39afe08b70dead4.png" class="latex" alt="$\textbf{(A)}\ 23 \qquad\textbf{(B)}\ 24 \qquad\textbf{(C)}\  25 \qquad\textbf{(D)}\ 26 \qquad\textbf{(E)}\ 27$" style="vertical-align: -4px" width="394" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_12" title="2020 AMC 10B Problems/Problem 12">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_13">Problem 13</span></h2>
+<p>Andy the Ant lives on a coordinate plane and is currently at <img src="//latex.artofproblemsolving.com/b/9/1/b9164855eaf1d66ae72c06ca1561c4d67989462e.png" class="latex" alt="$(-20, 20)$" style="vertical-align: -4px" width="71" height="18" /> facing east (that is, in the positive <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" style="vertical-align: -1px" width="12" height="10" />-direction). Andy moves <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: -1px" width="11" height="14" /> unit and then turns <img src="//latex.artofproblemsolving.com/6/a/7/6a7dfa8a2a90d521b2b03f5b82a1fb9f85dce88c.png" class="latex" alt="$90^{\circ}$" width="24" height="13" /> left. From there, Andy moves <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> units (north) and then turns <img src="//latex.artofproblemsolving.com/6/a/7/6a7dfa8a2a90d521b2b03f5b82a1fb9f85dce88c.png" class="latex" alt="$90^{\circ}$" width="24" height="13" /> left. He then moves <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> units (west) and again turns <img src="//latex.artofproblemsolving.com/6/a/7/6a7dfa8a2a90d521b2b03f5b82a1fb9f85dce88c.png" class="latex" alt="$90^{\circ}$" width="24" height="13" /> left. Andy continues his progress, increasing his distance each time by <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: -1px" width="11" height="14" /> unit and always turning left. What is the location of the point which Andy makes the <img src="//latex.artofproblemsolving.com/5/0/9/509a9369d5c55fd98dc99cb2938fb44f0101f90a.png" class="latex" alt="$2020$" width="35" height="12" /> left turn?
+</p><p><img src="//latex.artofproblemsolving.com/e/e/0/ee03f4fc603050d8d12a313c5e7e56484c01ab26.png" class="latex" alt="$\textbf{(A)}\ (-1030, -994)\qquad\textbf{(B)}\ (-1030, -990)\qquad\textbf{(C)}\ (-1026, -994)\qquad\textbf{(D)}\ (-1026, -990)$" style="vertical-align: -5px" width="696" height="20" />
+</p><p><img src="//latex.artofproblemsolving.com/4/e/d/4ed6306ff15e35fa6c6d6879af3dd82fe75c76f9.png" class="latex" alt="$\textbf{(E)}\ (-1022, -994)$" style="vertical-align: -5px" width="149" height="20" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_13" title="2020 AMC 10B Problems/Problem 13">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_14">Problem 14</span></h2>
+<p>As shown in the figure below, six semicircles lie in the interior of a regular hexagon with side length 2 so that the diameters of the semicircles coincide with the sides of the hexagon. What is the area of the shaded region — inside the hexagon but outside all of the semicircles?
+</p><p><img src="//latex.artofproblemsolving.com/c/c/4/cc4a8eea36390b30289f00cdba179c25b9ee3543.png" class="latexcenter" alt="[asy] size(140); fill((1,0)--(3,0)--(4,sqrt(3))--(3,2sqrt(3))--(1,2sqrt(3))--(0,sqrt(3))--cycle,gray(0.4)); fill(arc((2,0),1,180,0)--(2,0)--cycle,white); fill(arc((3.5,sqrt(3)/2),1,60,240)--(3.5,sqrt(3)/2)--cycle,white); fill(arc((3.5,3sqrt(3)/2),1,120,300)--(3.5,3sqrt(3)/2)--cycle,white); fill(arc((2,2sqrt(3)),1,180,360)--(2,2sqrt(3))--cycle,white); fill(arc((0.5,3sqrt(3)/2),1,240,420)--(0.5,3sqrt(3)/2)--cycle,white); fill(arc((0.5,sqrt(3)/2),1,300,480)--(0.5,sqrt(3)/2)--cycle,white); draw((1,0)--(3,0)--(4,sqrt(3))--(3,2sqrt(3))--(1,2sqrt(3))--(0,sqrt(3))--(1,0)); draw(arc((2,0),1,180,0)--(2,0)--cycle); draw(arc((3.5,sqrt(3)/2),1,60,240)--(3.5,sqrt(3)/2)--cycle); draw(arc((3.5,3sqrt(3)/2),1,120,300)--(3.5,3sqrt(3)/2)--cycle); draw(arc((2,2sqrt(3)),1,180,360)--(2,2sqrt(3))--cycle); draw(arc((0.5,3sqrt(3)/2),1,240,420)--(0.5,3sqrt(3)/2)--cycle); draw(arc((0.5,sqrt(3)/2),1,300,480)--(0.5,sqrt(3)/2)--cycle); label(&quot;$2$&quot;,(3.5,3sqrt(3)/2),NE); [/asy]" width="235" height="205" />
+</p><p><img src="//latex.artofproblemsolving.com/f/8/c/f8cfa3c7619f7d7c603abdd72eccd46343014c23.png" class="latex" alt="$\textbf {(A) } 6\sqrt{3}-3\pi \qquad \textbf {(B) } \frac{9\sqrt{3}}{2} - 2\pi\ \qquad \textbf {(C) } \frac{3\sqrt{3}}{2} - \frac{\pi}{3} \qquad \textbf {(D) } 3\sqrt{3} - \pi \qquad \textbf {(E) } \frac{9\sqrt{3}}{2} - \pi$" style="vertical-align: -12px" width="680" height="41" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_14" title="2020 AMC 10B Problems/Problem 14">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_15">Problem 15</span></h2>
+<p>Steve wrote the digits <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: -1px" width="11" height="14" />, <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />, and <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> in order repeatedly from left to right, forming a list of <img src="//latex.artofproblemsolving.com/5/0/b/50b19142d92b7b4f1a115c4ec91766582e2b8faf.png" class="latex" alt="$10,000$" style="vertical-align: -3px" width="53" height="16" /> digits, beginning <img src="//latex.artofproblemsolving.com/c/0/6/c06594de7428dfd8f69a3518db290d51bffc5bb0.png" class="latex" alt="$123451234512\ldots.$" style="vertical-align: 0px" width="140" height="13" /> He then erased every third digit from his list (that is, the <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />rd, <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" />th, <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" />th, <img src="//latex.artofproblemsolving.com/3/9/5/3958e984d2597b35da7975f4503cdcf965a777f7.png" class="latex" alt="$\ldots$" width="19" height="2" /> digits from the left), then erased every fourth digit from the resulting list (that is, the <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />th, <img src="//latex.artofproblemsolving.com/8/4/5/8455f3b5cb3b4880b8c9d782a5c1f0334db819eb.png" class="latex" alt="$8$" style="vertical-align: -1px" width="11" height="14" />th, <img src="//latex.artofproblemsolving.com/e/d/f/edf074831eb5bc9e61d6d6e09f525a86e3068f6a.png" class="latex" alt="$12$" style="vertical-align: 0px" width="17" height="12" />th, <img src="//latex.artofproblemsolving.com/3/9/5/3958e984d2597b35da7975f4503cdcf965a777f7.png" class="latex" alt="$\ldots$" width="19" height="2" /> digits from the left in what remained), and then erased every fifth digit from what remained at that point. What is the sum of the three digits that were then in the positions <img src="//latex.artofproblemsolving.com/0/d/4/0d4f7ca94808b6f8dcebf04f8495e4a848289db3.png" class="latex" alt="$2019, 2020, 2021$" style="vertical-align: -3px" width="124" height="16" />?
+</p><p><img src="//latex.artofproblemsolving.com/1/3/7/1379f4579e535f4c40ed133dead36b07c6460bf6.png" class="latex" alt="$\textbf{(A)}\ 7 \qquad\textbf{(B)}\ 9 \qquad\textbf{(C)}\ 10 \qquad\textbf{(D)}\ 11 \qquad\textbf{(E)}\ 12$" style="vertical-align: -4px" width="376" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_15" title="2020 AMC 10B Problems/Problem 15">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_16">Problem 16</span></h2>
+<p>Bela and Jenn play the following game on the closed interval <img src="//latex.artofproblemsolving.com/a/5/8/a585433224883cbcd304f34129a152b97d5ed96e.png" class="latex" alt="$[0, n]$" style="vertical-align: -5px" width="40" height="20" /> of the real number line, where <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> is a fixed integer greater than <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />. They take turns playing, with Bela going first. At his first turn, Bela chooses any real number in the interval <img src="//latex.artofproblemsolving.com/a/5/8/a585433224883cbcd304f34129a152b97d5ed96e.png" class="latex" alt="$[0, n]$" style="vertical-align: -5px" width="40" height="20" />. Thereafter, the player whose turn it is chooses a real number that is more than one unit away from all numbers previously chosen by either player. A player unable to choose such a number loses. Using optimal strategy, which player will win the game?
+</p><p><img src="//latex.artofproblemsolving.com/6/9/b/69b17959a70494e237fe1b26008c28bc13f71686.png" class="latex" alt="$\textbf{(A)} \text{ Bela will always win.} \qquad \textbf{(B)} \text{ Jenn will always win.} \qquad \textbf{(C)} \text{ Bela will win if and only if }n \text{ is odd.}$" style="vertical-align: -4px" width="739" height="17" />
+<img src="//latex.artofproblemsolving.com/b/1/a/b1a934e9aeb3d05fa5657eb18f5776c39f81e920.png" class="latex" alt="$\textbf{(D)} \text{ Jenn will win if and only if }n \text{ is odd.} \qquad \textbf{(E)} \text { Jenn will win if and only if } n&gt;8.$" style="vertical-align: -4px" width="617" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_16" title="2020 AMC 10B Problems/Problem 16">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_17">Problem 17</span></h2>
+<p>There are <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> people standing equally spaced around a circle. Each person knows exactly <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" /> of the other <img src="//latex.artofproblemsolving.com/b/f/2/bf2c9074b396e3af0dea52d792660eea1c77f10f.png" class="latex" alt="$9$" width="8" height="12" /> people: the <img src="//latex.artofproblemsolving.com/4/1/c/41c544263a265ff15498ee45f7392c5f86c6d151.png" class="latex" alt="$2$" width="8" height="12" /> people standing next to him or her, as well as the person directly across the circle. How many ways are there for the <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> people to split up into <img src="//latex.artofproblemsolving.com/7/9/0/79069377f91364c2f87a64e5f9f562a091c8a6c1.png" class="latex" alt="$5$" width="8" height="12" /> pairs so that the members of each pair know each other?
+</p><p><img src="//latex.artofproblemsolving.com/d/b/7/db742e2f33cccc20107ed85146f0a07fa7f7a84c.png" class="latex" alt="$\textbf{(A)}\ 11 \qquad\textbf{(B)}\ 12 \qquad\textbf{(C)}\  13 \qquad\textbf{(D)}\ 14 \qquad\textbf{(E)}\ 15$" style="vertical-align: -4px" width="394" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_17" title="2020 AMC 10B Problems/Problem 17">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_18">Problem 18</span></h2>
+<p>An urn contains one red ball and one blue ball. A box of extra red and blue balls lies nearby. George performs the following operation four times: he draws a ball from the urn at random and then takes a ball of the same color from the box and returns those two matching balls to the urn. After the four iterations the urn contains six balls. What is the probability that the urn contains three balls of each color?
+</p><p><img src="//latex.artofproblemsolving.com/3/0/7/30782f54944030c465e65bd2f18635af20166c63.png" class="latex" alt="$\textbf{(A) } \frac16 \qquad \textbf{(B) }\frac15 \qquad \textbf{(C) } \frac14 \qquad \textbf{(D) } \frac13 \qquad \textbf{(E) } \frac12$" style="vertical-align: -13px" width="371" height="37" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_18" title="2020 AMC 10B Problems/Problem 18">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_19">Problem 19</span></h2>
+<p>In a certain card game, a player is dealt a hand of <img src="//latex.artofproblemsolving.com/f/c/6/fc606f7f1e530731ab4f1cc364c01dc64a4455ee.png" class="latex" alt="$10$" style="vertical-align: 0px" width="17" height="13" /> cards from a deck of <img src="//latex.artofproblemsolving.com/5/e/1/5e1d1611143f5792dc0f61f3b130af88cb790c04.png" class="latex" alt="$52$" width="17" height="12" /> distinct cards. The number of distinct (unordered) hands that can be dealt to the player can be written as <img src="//latex.artofproblemsolving.com/1/4/8/148796eba947fa39cc403b3aff6a46755fa8cdec.png" class="latex" alt="$158A00A4AA0$" style="vertical-align: 0px" width="117" height="13" />. What is the digit <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" />?
+</p><p><img src="//latex.artofproblemsolving.com/b/4/8/b485774600f8dd1b249a7c79932060d7c570c412.png" class="latex" alt="$\textbf{(A) } 2 \qquad\textbf{(B) } 3 \qquad\textbf{(C) } 4 \qquad\textbf{(D) } 6 \qquad\textbf{(E) } 7$" style="vertical-align: -4px" width="353" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_19" title="2020 AMC 10B Problems/Problem 19">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_20">Problem 20</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> be a right rectangular prism (box) with edges lengths <img src="//latex.artofproblemsolving.com/5/b/f/5bf27edd6ee0c25241392922eca9b9c9144f4d73.png" class="latex" alt="$1,$" style="vertical-align: -3px" width="13" height="15" /> <img src="//latex.artofproblemsolving.com/2/f/8/2f885f96d2fb7e65f800de4ff71d7dcd0a5d2db5.png" class="latex" alt="$3,$" style="vertical-align: -3px" width="13" height="16" /> and <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" />, together with its interior. For real <img src="//latex.artofproblemsolving.com/6/2/3/623bd6fa8205b33b9857e6001f091f949d457db1.png" class="latex" alt="$r\geq0$" style="vertical-align: -2px" width="41" height="15" />, let <img src="//latex.artofproblemsolving.com/4/f/c/4fc701e00ae222f04544bdfd81edfacf3fefc76d.png" class="latex" alt="$S(r)$" style="vertical-align: -4px" width="33" height="18" /> be the set of points in <img src="//latex.artofproblemsolving.com/7/c/d/7cde695f2e4542fd01f860a89189f47a27143b66.png" class="latex" alt="$3$" width="8" height="12" />-dimensional space that lie within a distance <img src="//latex.artofproblemsolving.com/b/5/5/b55ca7a0aa88ab7d58f4fc035317fdac39b17861.png" class="latex" alt="$r$" width="8" height="8" /> of some point in <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" />. The volume of <img src="//latex.artofproblemsolving.com/4/f/c/4fc701e00ae222f04544bdfd81edfacf3fefc76d.png" class="latex" alt="$S(r)$" style="vertical-align: -4px" width="33" height="18" /> can be expressed as <img src="//latex.artofproblemsolving.com/6/3/9/6397311ef9509cd7a9456ef506b2d0617c17b190.png" class="latex" alt="$ar^{3} + br^{2} + cr +d$" style="vertical-align: -1px" width="142" height="16" />, where <img src="//latex.artofproblemsolving.com/7/c/8/7c8acfd7d5ee559262593701b8dbd02e43ad96e3.png" class="latex" alt="$a,$" style="vertical-align: -3px" width="13" height="11" /> <img src="//latex.artofproblemsolving.com/5/b/1/5b1d6265e67657b5886ce257671d45ff9c0282eb.png" class="latex" alt="$b,$" style="vertical-align: -3px" width="12" height="16" /> <img src="//latex.artofproblemsolving.com/4/2/1/421dbe5ac249bea2c9d25145a7eb9b73644c5c61.png" class="latex" alt="$c,$" style="vertical-align: -3px" width="12" height="11" /> and <img src="//latex.artofproblemsolving.com/9/6/a/96ab646de7704969b91c76a214126b45f2b07b25.png" class="latex" alt="$d$" width="9" height="12" /> are positive real numbers. What is <img src="//latex.artofproblemsolving.com/5/b/c/5bcac6f22b6255846dc8d5218abb1b5faa70970b.png" class="latex" alt="$\frac{bc}{ad}?$" style="vertical-align: -12px" width="31" height="37" />
+</p><p><img src="//latex.artofproblemsolving.com/6/3/a/63afde35a5177bd286f438c233d6af9eace065f9.png" class="latex" alt="$\textbf{(A) } 6 \qquad\textbf{(B) } 19 \qquad\textbf{(C) } 24 \qquad\textbf{(D) } 26 \qquad\textbf{(E) } 38$" style="vertical-align: -4px" width="389" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_20" title="2020 AMC 10B Problems/Problem 20">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_21">Problem 21</span></h2>
+<p>In square <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" />, points <img src="//latex.artofproblemsolving.com/f/a/2/fa2fa899f0afb05d6837885523503a2d4df434f9.png" class="latex" alt="$E$" style="vertical-align: -1px" width="16" height="14" /> and <img src="//latex.artofproblemsolving.com/b/1/9/b1902d279ba37d60bdce4e0e987b7cd19d48974e.png" class="latex" alt="$H$" width="16" height="12" /> lie on <img src="//latex.artofproblemsolving.com/8/4/0/840e2b592390eb6ec918fa6f3292716ce170de66.png" class="latex" alt="$\overline{AB}$" style="vertical-align: -1px" width="30" height="18" /> and <img src="//latex.artofproblemsolving.com/b/6/6/b6691251a362837413262d094d29f92be951d579.png" class="latex" alt="$\overline{DA}$" width="29" height="15" />, respectively, so that <img src="//latex.artofproblemsolving.com/1/6/a/16a87b2115b98db9b77242776453dfc23f104550.png" class="latex" alt="$AE=AH.$" style="vertical-align: -1px" width="88" height="14" /> Points <img src="//latex.artofproblemsolving.com/a/0/5/a055f405829e64a3b70253ab67cb45ed6ed5bb29.png" class="latex" alt="$F$" style="vertical-align: -1px" width="16" height="14" /> and <img src="//latex.artofproblemsolving.com/6/e/2/6e28ce12d49d39f160d5a0ef54077fc98e4b9d2b.png" class="latex" alt="$G$" width="14" height="12" /> lie on <img src="//latex.artofproblemsolving.com/e/3/3/e33fe7d65facd8868f58b6e94ddc7f153a5a3f9f.png" class="latex" alt="$\overline{BC}$" width="29" height="15" /> and <img src="//latex.artofproblemsolving.com/c/e/0/ce0bfc603f9a044e308b1a1fdadca917e81ad2dd.png" class="latex" alt="$\overline{CD}$" style="vertical-align: -1px" width="32" height="18" />, respectively, and points <img src="//latex.artofproblemsolving.com/0/2/7/027f4a11d6090f9eac0ce2488df6384dad1263ea.png" class="latex" alt="$I$" width="9" height="12" /> and <img src="//latex.artofproblemsolving.com/a/b/b/abb5588023cfa1ac14643e9778699f03eecc57a3.png" class="latex" alt="$J$" style="vertical-align: -1px" width="14" height="14" /> lie on <img src="//latex.artofproblemsolving.com/8/4/2/842af13d9d45f591c45c8390ee791ce1c7ff312a.png" class="latex" alt="$\overline{EH}$" style="vertical-align: -1px" width="33" height="18" /> so that <img src="//latex.artofproblemsolving.com/6/d/0/6d0cc93a9a4bc9f51becd932374001060528d0ad.png" class="latex" alt="$\overline{FI} \perp \overline{EH}$" width="79" height="15" /> and <img src="//latex.artofproblemsolving.com/f/a/d/fada193840a5c59d394522b2d051657c9f60dd6e.png" class="latex" alt="$\overline{GJ} \perp \overline{EH}$" width="82" height="15" />. See the figure below. Triangle <img src="//latex.artofproblemsolving.com/2/c/e/2cecf090af263a60467ac6a2353b7c6d14be9d3d.png" class="latex" alt="$AEH$" width="44" height="13" />, quadrilateral <img src="//latex.artofproblemsolving.com/1/2/1/121370fc4f2ea9c485f503b0213aadd10aa2d744.png" class="latex" alt="$BFIE$" width="52" height="12" />, quadrilateral <img src="//latex.artofproblemsolving.com/2/f/e/2fe56bd61b3c08af4b56d388a19a064f67c582ed.png" class="latex" alt="$DHJG$" width="58" height="12" />, and pentagon <img src="//latex.artofproblemsolving.com/9/5/c/95c92822b575b7ef8c33f2bb4ae5d4ad7888149f.png" class="latex" alt="$FCGJI$" width="64" height="12" /> each has area <img src="//latex.artofproblemsolving.com/6/c/d/6cdd1b53e5faf7a118222e4b7571d1e9afa0cf56.png" class="latex" alt="$1.$" style="vertical-align: 0px" width="12" height="12" /> What is <img src="//latex.artofproblemsolving.com/3/e/6/3e6b4a4fb3cea954381809f7c02989e02e188bb7.png" class="latex" alt="$FI^2$" width="29" height="15" />?
+<img src="//latex.artofproblemsolving.com/4/8/9/4892da26cb6334b359f58d4007f89460883779ab.png" class="latexcenter" alt="[asy] real x=2sqrt(2); real y=2sqrt(16-8sqrt(2))-4+2sqrt(2); real z=2sqrt(8-4sqrt(2)); pair A, B, C, D, E, F, G, H, I, J; A = (0,0); B = (4,0); C = (4,4); D = (0,4); E = (x,0); F = (4,y); G = (y,4); H = (0,x); I = F + z * dir(225); J = G + z * dir(225);  draw(A--B--C--D--A); draw(H--E); draw(J--G^^F--I); draw(rightanglemark(G, J, I), linewidth(.5)); draw(rightanglemark(F, I, E), linewidth(.5));  dot(&quot;$A$&quot;, A, S); dot(&quot;$B$&quot;, B, S); dot(&quot;$C$&quot;, C, dir(90)); dot(&quot;$D$&quot;, D, dir(90)); dot(&quot;$E$&quot;, E, S); dot(&quot;$F$&quot;, F, dir(0)); dot(&quot;$G$&quot;, G, N); dot(&quot;$H$&quot;, H, W); dot(&quot;$I$&quot;, I, SW); dot(&quot;$J$&quot;, J, SW);  [/asy]" width="252" height="245" />
+<img src="//latex.artofproblemsolving.com/d/4/2/d429f46568204bf115dba64c23150377cfb1032d.png" class="latex" alt="$\textbf{(A) } \frac{7}{3} \qquad \textbf{(B) } 8-4\sqrt2 \qquad \textbf{(C) } 1+\sqrt2 \qquad \textbf{(D) } \frac{7}{4}\sqrt2 \qquad \textbf{(E) } 2\sqrt2$" style="vertical-align: -13px" width="512" height="37" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_21" title="2020 AMC 10B Problems/Problem 21">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_22">Problem 22</span></h2>
+<p>What is the remainder when <img src="//latex.artofproblemsolving.com/f/9/8/f98e39b970fbb4fcc2cb31a24d354b288822c25d.png" class="latex" alt="$2^{202} +202$" style="vertical-align: -1px" width="78" height="16" /> is divided by <img src="//latex.artofproblemsolving.com/5/0/a/50a6e139d36ebcdc2d34782269826a2a992d5b10.png" class="latex" alt="$2^{101}+2^{51}+1$" style="vertical-align: -1px" width="105" height="16" />?
+</p><p><img src="//latex.artofproblemsolving.com/8/b/c/8bc86cec5dce4ad543c35d5de7e0aff0c9c211bb.png" class="latex" alt="$\textbf{(A) } 100 \qquad\textbf{(B) } 101 \qquad\textbf{(C) } 200 \qquad\textbf{(D) } 201 \qquad\textbf{(E) } 202$" style="vertical-align: -4px" width="443" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_22" title="2020 AMC 10B Problems/Problem 22">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_23">Problem 23</span></h2>
+<p>Square <img src="//latex.artofproblemsolving.com/f/9/e/f9efaf9474c5658c4089523e2aff4e11488f8603.png" class="latex" alt="$ABCD$" width="57" height="13" /> in the coordinate plane has vertices at the points <img src="//latex.artofproblemsolving.com/a/2/8/a286bab79bcf8940eba4126760285c6ba32d5a49.png" class="latex" alt="$A(1,1), B(-1,1), C(-1,-1),$" style="vertical-align: -5px" width="229" height="20" /> and <img src="//latex.artofproblemsolving.com/e/5/9/e59378eda688f94a8972d35e4a82804fe8857c35.png" class="latex" alt="$D(1,-1).$" style="vertical-align: -4px" width="73" height="18" /> Consider the following four transformations:
+</p><p><img src="//latex.artofproblemsolving.com/2/1/b/21bd3ea695e036053a02446aacf8d9975e9678fa.png" class="latex" alt="$\quad\bullet\qquad$" style="vertical-align: 1px" width="25" height="7" /> <img src="//latex.artofproblemsolving.com/e/d/2/ed22e596b436e3d8a18552fb7eb6c61ca1a11500.png" class="latex" alt="$L,$" style="vertical-align: -3px" width="16" height="16" /> a rotation of <img src="//latex.artofproblemsolving.com/6/a/7/6a7dfa8a2a90d521b2b03f5b82a1fb9f85dce88c.png" class="latex" alt="$90^{\circ}$" width="24" height="13" /> counterclockwise around the origin;
+</p><p><img src="//latex.artofproblemsolving.com/2/1/b/21bd3ea695e036053a02446aacf8d9975e9678fa.png" class="latex" alt="$\quad\bullet\qquad$" style="vertical-align: 1px" width="25" height="7" /> <img src="//latex.artofproblemsolving.com/0/a/1/0a1603310a6bfb8542204de0e46b0e4484d3897a.png" class="latex" alt="$R,$" style="vertical-align: -3px" width="18" height="16" /> a rotation of <img src="//latex.artofproblemsolving.com/6/a/7/6a7dfa8a2a90d521b2b03f5b82a1fb9f85dce88c.png" class="latex" alt="$90^{\circ}$" width="24" height="13" /> clockwise around the origin;
+</p><p><img src="//latex.artofproblemsolving.com/2/1/b/21bd3ea695e036053a02446aacf8d9975e9678fa.png" class="latex" alt="$\quad\bullet\qquad$" style="vertical-align: 1px" width="25" height="7" /> <img src="//latex.artofproblemsolving.com/f/6/0/f60f22f4712c64c119affdc91fc2f1594e4a4e14.png" class="latex" alt="$H,$" style="vertical-align: -3px" width="19" height="16" /> a reflection across the <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" style="vertical-align: -1px" width="12" height="10" />-axis; and
+</p><p><img src="//latex.artofproblemsolving.com/2/1/b/21bd3ea695e036053a02446aacf8d9975e9678fa.png" class="latex" alt="$\quad\bullet\qquad$" style="vertical-align: 1px" width="25" height="7" /> <img src="//latex.artofproblemsolving.com/3/2/1/321de31a68785826a0cf0348aebd8384f46a7d31.png" class="latex" alt="$V,$" style="vertical-align: -3px" width="15" height="16" /> a reflection across the <img src="//latex.artofproblemsolving.com/0/9/2/092e364e1d9d19ad5fffb0b46ef4cc7f2da02c1c.png" class="latex" alt="$y$" style="vertical-align: -4px" width="11" height="13" />-axis.
+</p><p>Each of these transformations maps the squares onto itself, but the positions of the labeled vertices will change. For example, applying <img src="//latex.artofproblemsolving.com/e/f/f/eff43e84f8a3bcf7b6965f0a3248bc4d3a9d0cd4.png" class="latex" alt="$R$" width="14" height="12" /> and then <img src="//latex.artofproblemsolving.com/1/2/d/12d58aa29201da09d8e620f8698e3a37547f6b4a.png" class="latex" alt="$V$" width="14" height="12" /> would send the vertex <img src="//latex.artofproblemsolving.com/0/1/9/019e9892786e493964e145e7c5cf7b700314e53b.png" class="latex" alt="$A$" width="13" height="13" /> at <img src="//latex.artofproblemsolving.com/a/e/7/ae7a465ffe5255961382f5777569608be052b783.png" class="latex" alt="$(1,1)$" style="vertical-align: -5px" width="42" height="20" /> to <img src="//latex.artofproblemsolving.com/a/1/1/a11af309f4f98a632b52d2972cd9de92053c603c.png" class="latex" alt="$(-1,-1)$" style="vertical-align: -5px" width="71" height="20" /> and would send the vertex <img src="//latex.artofproblemsolving.com/f/f/5/ff5fb3d775862e2123b007eb4373ff6cc1a34d4e.png" class="latex" alt="$B$" width="14" height="12" /> at <img src="//latex.artofproblemsolving.com/6/5/e/65e0bc049577502741df50e34e88ae0654f438b6.png" class="latex" alt="$(-1,1)$" style="vertical-align: -4px" width="53" height="18" /> to itself. How many sequences of <img src="//latex.artofproblemsolving.com/f/8/3/f8366cd6196dd8a9da6d38a3e9eafb109e99d53e.png" class="latex" alt="$20$" width="17" height="12" /> transformations chosen from <img src="//latex.artofproblemsolving.com/3/a/2/3a2c8f1914e0052a76b95afc729a761b4bcb740f.png" class="latex" alt="$\{L, R, H, V\}$" style="vertical-align: -4px" width="98" height="18" /> will send all of the labeled vertices back to their original positions? (For example, <img src="//latex.artofproblemsolving.com/c/3/0/c3047db038c0f014be85bb309d6d67e0d3a821da.png" class="latex" alt="$R, R, V, H$" style="vertical-align: -3px" width="80" height="16" /> is one sequence of <img src="//latex.artofproblemsolving.com/c/7/c/c7cab1a05e1e0c1d51a6a219d96577a16b7abf9d.png" class="latex" alt="$4$" style="vertical-align: 0px" width="9" height="12" /> transformations that will send the vertices back to their original positions.)
+</p><p><img src="//latex.artofproblemsolving.com/a/0/a/a0a96e98cd15436695405e677783214d65834ce4.png" class="latex" alt="$\textbf{(A)}\ 2^{37} \qquad\textbf{(B)}\ 3\cdot 2^{36} \qquad\textbf{(C)}\  2^{38} \qquad\textbf{(D)}\ 3\cdot 2^{37} \qquad\textbf{(E)}\ 2^{39}$" style="vertical-align: -5px" width="466" height="21" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_23" title="2020 AMC 10B Problems/Problem 23">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_24">Problem 24</span></h2>
+<p>How many positive integers <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> satisfy<img src="//latex.artofproblemsolving.com/0/d/d/0dd28ce1709d2e91e3b6ff963c8adf1cac05b9fa.png" class="latexcenter" alt="\[\dfrac{n+1000}{70} = \lfloor \sqrt{n} \rfloor?\]" width="146" height="37" />(Recall that <img src="//latex.artofproblemsolving.com/4/4/1/441416e660d25335f27e55334ac2a06e51541c97.png" class="latex" alt="$\lfloor x\rfloor$" style="vertical-align: -5px" width="23" height="19" /> is the greatest integer not exceeding <img src="//latex.artofproblemsolving.com/2/6/e/26eeb5258ca5099acf8fe96b2a1049c48c89a5e6.png" class="latex" alt="$x$" style="vertical-align: -1px" width="12" height="10" />.)
+</p><p><img src="//latex.artofproblemsolving.com/b/4/0/b400da258295dd020a7176d7f3f9d41d547bb4bc.png" class="latex" alt="$\textbf{(A) } 2 \qquad\textbf{(B) } 4 \qquad\textbf{(C) } 6 \qquad\textbf{(D) } 30 \qquad\textbf{(E) } 32$" style="vertical-align: -4px" width="371" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_24" title="2020 AMC 10B Problems/Problem 24">Solution</a>
+</p>
+<h2><span class="mw-headline" id="Problem_25">Problem 25</span></h2>
+<p>Let <img src="//latex.artofproblemsolving.com/f/a/c/fac95dd82546821132c3e9adc3ad5e83eaf301ec.png" class="latex" alt="$D(n)$" style="vertical-align: -4px" width="39" height="18" /> denote the number of ways of writing the positive integer <img src="//latex.artofproblemsolving.com/1/7/4/174fadd07fd54c9afe288e96558c92e0c1da733a.png" class="latex" alt="$n$" width="10" height="8" /> as a product<img src="//latex.artofproblemsolving.com/7/f/5/7f52b53b0b17822b9bde3837f27c952c28b38559.png" class="latexcenter" alt="\[n = f_1\cdot f_2\cdots f_k,\]" width="129" height="16" />
+</p><p>where <img src="//latex.artofproblemsolving.com/5/1/8/518773c4c14231c816d4656a6180e1391cbf308d.png" class="latex" alt="$k\ge1$" style="vertical-align: -2px" width="42" height="15" />, the <img src="//latex.artofproblemsolving.com/6/1/c/61c594c97b61f72af93af4e61894b3f16a3bbb30.png" class="latex" alt="$f_i$" style="vertical-align: -3px" width="13" height="16" /> are integers strictly greater than <img src="//latex.artofproblemsolving.com/d/c/e/dce34f4dfb2406144304ad0d6106c5382ddd1446.png" class="latex" alt="$1$" style="vertical-align: -1px" width="11" height="14" />, and the order in which the factors are listed matters (that is, two representations that differ only in the order of the factors are counted as distinct). For example, the number <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" /> can be written as <img src="//latex.artofproblemsolving.com/6/0/1/601a7806cbfad68196c43a4665871f8c3186802e.png" class="latex" alt="$6$" width="8" height="12" />, <img src="//latex.artofproblemsolving.com/4/7/3/47352a9c4ca17d3a1d5f61063ef3abf1510e96b0.png" class="latex" alt="$2\cdot 3$" width="30" height="12" />, and <img src="//latex.artofproblemsolving.com/6/0/0/60070619a4e65e13f60e6f83ae342a27431b413d.png" class="latex" alt="$3\cdot2$" width="30" height="12" />, so <img src="//latex.artofproblemsolving.com/7/4/6/746bc603fcaa7e0736904119976047d736eb3f9c.png" class="latex" alt="$D(6) = 3$" style="vertical-align: -4px" width="71" height="18" />. What is <img src="//latex.artofproblemsolving.com/7/7/2/772a9d5e294233db4b4761f6b4c5c5f2cdebd701.png" class="latex" alt="$D(96)$" style="vertical-align: -4px" width="46" height="18" />?
+</p><p><img src="//latex.artofproblemsolving.com/e/c/c/ecc8968706e266c806315966c475339ac03ad0a4.png" class="latex" alt="$\textbf{(A) } 112 \qquad\textbf{(B) } 128 \qquad\textbf{(C) } 144 \qquad\textbf{(D) } 172 \qquad\textbf{(E) } 184$" style="vertical-align: -4px" width="444" height="17" />
+</p><p><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_25" title="2020 AMC 10B Problems/Problem 25">Solution</a>
+</p>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<table class="wikitable" style="margin:0.5em auto; font-size:95%; border:1px solid black; width:80%;">
+<tbody><tr>
+<td style="background:#ccf;text-align:center;" colspan="3"><b><a href="/wiki/index.php/2020_AMC_10B" title="2020 AMC 10B">2020 AMC 10B</a></b> (<b><a class="mw-selflink selflink">Problems</a></b> • <b><a href="/wiki/index.php/2020_AMC_10B_Answer_Key" title="2020 AMC 10B Answer Key">Answer Key</a></b> • <a rel="nofollow" class="external text" href="https://artofproblemsolving.com/community/c13">Resources</a>)
+</td></tr>
+<tr>
+<td width="50%" align="center" rowspan="1">Preceded&#160;by<br /><b><a href="/wiki/index.php/2020_AMC_10A_Problems" title="2020 AMC 10A Problems">2020 AMC 10A Problems</a></b>
+</td>
+<td width="50%" align="center" rowspan="1">Followed&#160;by<br /><b><a href="/wiki/index.php/2021_AMC_10A_Problems" title="2021 AMC 10A Problems">2021 AMC 10A Problems</a></b>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_1" title="2020 AMC 10B Problems/Problem 1">1</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_2" title="2020 AMC 10B Problems/Problem 2">2</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_3" title="2020 AMC 10B Problems/Problem 3">3</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_4" title="2020 AMC 10B Problems/Problem 4">4</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_5" title="2020 AMC 10B Problems/Problem 5">5</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_6" title="2020 AMC 10B Problems/Problem 6">6</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_7" title="2020 AMC 10B Problems/Problem 7">7</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_8" title="2020 AMC 10B Problems/Problem 8">8</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_9" title="2020 AMC 10B Problems/Problem 9">9</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_10" title="2020 AMC 10B Problems/Problem 10">10</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_11" title="2020 AMC 10B Problems/Problem 11">11</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_12" title="2020 AMC 10B Problems/Problem 12">12</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_13" title="2020 AMC 10B Problems/Problem 13">13</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_14" title="2020 AMC 10B Problems/Problem 14">14</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_15" title="2020 AMC 10B Problems/Problem 15">15</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_16" title="2020 AMC 10B Problems/Problem 16">16</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_17" title="2020 AMC 10B Problems/Problem 17">17</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_18" title="2020 AMC 10B Problems/Problem 18">18</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_19" title="2020 AMC 10B Problems/Problem 19">19</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_20" title="2020 AMC 10B Problems/Problem 20">20</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_21" title="2020 AMC 10B Problems/Problem 21">21</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_22" title="2020 AMC 10B Problems/Problem 22">22</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_23" title="2020 AMC 10B Problems/Problem 23">23</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_24" title="2020 AMC 10B Problems/Problem 24">24</a> <b>•</b> <a href="/wiki/index.php/2020_AMC_10B_Problems/Problem_25" title="2020 AMC 10B Problems/Problem 25">25</a>
+</td></tr>
+<tr>
+<td colspan="3" style="text-align:center;"><b><a href="/wiki/index.php/AMC_10_Problems_and_Solutions" title="AMC 10 Problems and Solutions"> All AMC 10 Problems and Solutions</a></b>
+</td></tr></tbody></table>
+<p>These problems are copyrighted &#169; by the <a rel="nofollow" class="external text" href="https://www.maa.org">Mathematical Association of America</a>, as part of the <a rel="nofollow" class="external text" href="https://maa.org/student-programs/amc/">American Mathematics Competitions</a>. <a href="/wiki/index.php/File:AMC_logo.png" class="image"><img alt="AMC logo.png" src="https://wiki-images.artofproblemsolving.com//thumb/8/8b/AMC_logo.png/50px-AMC_logo.png" width="50" height="43" style="vertical-align: middle" srcset="https://wiki-images.artofproblemsolving.com//thumb/8/8b/AMC_logo.png/75px-AMC_logo.png 1.5x, https://wiki-images.artofproblemsolving.com//8/8b/AMC_logo.png 2x" /></a>
+</p>
+<div style="clear:both;"></div>
+
+<!-- 
+NewPP limit report
+Cached time: 20250524153710
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.113 seconds
+Real time usage: 1.126 seconds
+Preprocessor visited node count: 2048/1000000
+Preprocessor generated node count: 5063/1000000
+Post‐expand include size: 4987/2097152 bytes
+Template argument size: 333/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 37660/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  883.844      1 -total
+ 11.24%   99.344      1 Template:AMC10_box
+  2.61%   23.063      1 Template:AMC10_Problems
+  0.18%    1.608      1 Template:MAA_Notice
+-->
+</div>
+<!-- Saved in parser cache with key wiki-wiki_:pcache:idhash:17816-0!canonical and timestamp 20250524153709 and revision id 238405
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_10B_Problems&amp;oldid=238405">https://artofproblemsolving.com/wiki/index.php?title=2020_AMC_10B_Problems&amp;oldid=238405</a>"</div>
+
+
+									<div class="catlinks"><div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/index.php/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/index.php/Category:AMC_10_Problems" title="Category:AMC 10 Problems">AMC 10 Problems</a></li></ul></div></div></div>
+				
+
+							</div>
+		</div>
+	</div>
+</div>
+
+<!-- search:off -->
+	<div class="clearfix"></div>
+
+	
+	<div id="main-footer" class="no-print">
+		<div class="footer-container">
+			<div class="footer-topRow">
+											<a href="https://artofproblemsolving.com/online">
+							<img class="footer-mainLogo"
+							src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+						</a>
+										<div class="footer-wasc">
+						<span>
+							Art of Problem Solving is an
+							<br class="wasc-break"/>
+							<span class="footer-accredited">ACS WASC Accredited School</span>
+						</span>
+						<img class="footer-wascLogo"
+						src="https://artofproblemsolving.com/assets/images/logos/wasc.png"/>
+					</div>
+			</div>
+			<div class="footer-links">
+				<div class="footer-col">
+					<div class="footer-colHeader">aops programs</div>
+					<div><a class="link" href="https://artofproblemsolving.comonline">AoPS Online</a></div>
+					<div><a class="link" href="https://beastacademy.com">Beast Academy</a></div>
+					<div><a class="link" href="https://aopsacademy.org">AoPS Academy</a></div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader">About</div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/about">About AoPS</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/staff">Our Team</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/history">Our History</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/careers">Jobs</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/blog">AoPS Blog</a></div>
+				</div>
+
+				<div class="footer-col">
+					<div class="footer-colHeader" style="left:-1px;">Site Info</div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/tos">Terms</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/company/privacy">Privacy</a></div>
+					<div><a class="link" href="https://artofproblemsolving.com/contact">Contact Us</a></div>
+				</div>
+
+				<div class="footer-col social">
+					<div class="footer-colHeader">follow us</div>
+					<div class="footer-social">
+													<a class="link" target="_blank" href="https://www.facebook.com/artofproblemsolving">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/facebook.svg" class="sm-icon"/>
+							</a>
+							<a class="link" target="_blank" href="http://twitter.com/AoPSNews">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/twitter.svg" class="sm-icon"/>
+							</a>
+							<a class="link" target="_blank" href="https://www.pinterest.com/artofproblemsolving/pins/">
+								<img src="https://artofproblemsolving.com/assets/images/socialmedia/pinterest.svg" class="sm-icon"/>
+							</a>
+											</div>
+				</div>
+									<div class="footer-col subscribe">
+						<div class="footer-colHeader">
+							Subscribe for news and updates
+						</div>
+						<form method="post" action="/mailinglist">
+							<input type="email" class="footer-email" placeholder="Enter e-mail" name="subscribe-email">
+							<input type="hidden" name="new-books" value="on">
+							<input type="hidden" name="classes" value="on">
+							<input type="hidden" name="mathjams" value="on">
+							<input type="submit" class="footer-submit" value="">
+							<div class="footer-submit-arrow">
+								<svg x="0px" y="0px" viewBox="0 0 289 289" enable-background="new 0 0 289 289">
+									<g>
+										<path class="arrow-fill" d="M121.5,220.5c-2.6,0-5.1-1-7.1-2.9c-3.9-3.9-3.9-10.2,0-14.1l58.9-58.9l-58.9-58.9c-3.9-3.9-3.9-10.2,0-14.1c3.9-3.9,10.2-3.9,14.1,0l66,66c3.9,3.9,3.9,10.2,0,14.1l-66,66C126.6,219.5,124.1,220.5,121.5,220.5z"/>
+									</g>
+								</svg>
+							</div>
+						</form>
+					</div>
+							</div>
+			<div class="copyright">
+				<span>&copy; 2025 AoPS Incorporated
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="small-footer-wrapper">
+		<div class="footer-container">
+							<a href="https://artofproblemsolving.com/online">
+					<img class="footer-mainLogo"
+					src="https://artofproblemsolving.com/assets/images/logos/aops-online-footer.svg"/>
+				</a>
+						<div class="copyright">
+				&copy; 2025 Art of Problem Solving
+				<div class="copyright-links">
+					<a href="https://artofproblemsolving.com/company">About Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/contact">Contact Us</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/tos">Terms</a>
+					&nbsp;•&nbsp;
+					<a href="https://artofproblemsolving.com/company/privacy">Privacy</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<form id="registration-form" method="post" action="/user/register.php">
+	<input type="hidden" name="username" value="">
+	<input type="hidden" name="password" value="">
+	<input type="hidden" name="from-login" value="true">
+	</form>
+<div id="print-footer" class="printer">Copyright &copy; 2025 Art of Problem Solving</div>
+
+
+
+<div id="epicfail" class="aops-html-modal-epic-fail" style="display: none">
+	<div class="aops-html-modal-inner-epic-fail">
+		<div class="aops-html-modal-main-epic-fail">
+			<p>Something appears to not have loaded correctly.</p>
+		</div>
+		<div class="aops-html-modal-bottom-epic-fail">
+			<p><a onclick="location.reload(true);return false">Click to refresh</a>.</p>
+		</div>
+	</div>
+</div>
+<link rel="stylesheet" href="https://artofproblemsolving.com/assets/css/epic-fail.css">
+
+
+
+
+
+<!-- /search:off -->
+
+
+<!-- copied from contact page index, with edits -->
+<script id="footer-tpl-email-dialog" type="text/x-handlebars-template">
+	<div id="mail-dialog">
+		<h1>Email Art of Problem Solving</h1>
+		<p>
+			<input type="text" id="email" name="email" placeholder="Your email address">
+			<input type="text" id="subject" name="subject" placeholder="Subject of message">
+			<textarea id="message" name="message" placeholder="Enter your message"></textarea>
+			<div style="padding:5px 30px">
+				<input type="checkbox" id="email-copy" name="email_copy">
+				<label for="email-copy" id="email-copy-label">Send a copy to my email address.</label>
+			</div>
+			<div style="padding:5px 30px 20px">
+				<input id="footer-submit-btn" type="submit" class="btn btn-primary" value="Send">
+				<input id="footer-cancel-btn" type="submit" class="btn btn-default" value="Cancel">
+			</div>
+		</p>
+		<p id="email-error"></p>
+	</div>
+</script>
+
+
+<script id="footer-tpl-email-confirm" type="text/x-handlebars-template">
+	<div id="mail-dialog-confirm">
+		<h2>Email Sent</h2>
+		<p>Thank you for your email. We will respond to it soon.</p>
+	</div>
+</script>
+
+<!-- bing -->
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5105596"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5105596&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+</body>
+<!-- Cached 20250524160217 -->
+</html>
+
